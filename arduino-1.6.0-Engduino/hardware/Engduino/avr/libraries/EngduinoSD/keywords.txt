@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map EngduinoSD
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EngduinoSD	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+write	KEYWORD2
+writeln	KEYWORD2
+open	KEYWORD2
+close	KEYWORD2
+isAttached	KEYWORD2
+isInitialized	KEYWORD2
+available	KEYWORD2
+read	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

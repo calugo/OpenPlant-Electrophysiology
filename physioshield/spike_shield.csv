@@ -1,0 +1,19 @@
+RefDes,Value,Name,Quantity,,Manifact. Part,Farnell page,unit price (ex VAT),,Manifact. Part,cpc page,unit price (ex VAT)
+C1,10u,CAP_0805,3,,MCGPR50V106M5X11,http://uk.farnell.com/multicomp/mcgpr50v106m5x11/cap-alu-elec-10uf-50v-rad/dp/9451382 ,0.0347,,MCGPR50V106M5X11,http://cpc.farnell.com/multicomp/mcgpr50v106m5x11/capacitor-85c-50v-10uf/dp/CA04766?ost=MCGPR50V106M5X11&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories ,0.02
+C4,560p,CAP_0805,1,,D561K20Y5PH63L2R,http://uk.farnell.com/vishay-bc-components/d561k20y5ph63l2r/cap-cer-y5p-560pf-100v-rad/dp/1835017 ,0.0568,,,http://cpc.farnell.com/vishay-bc-components/d561k20y5ph63l2r/capacitor-disc-100v- 560pf/dp/CA07994?ost=D561K20Y5PH63L2R&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories,0.05
+C5,10n,CAP100,1,,MC0805Y103M500A5.08MM,http://uk.farnell.com/multicomp/mc0805y103m500a5-08mm/cap-mlcc-y5v-10nf-50v-rad/dp/2309024  ,0.0592,,MCDR25103X7RK0100,http://cpc.farnell.com/unbranded/mcdr25103x7rk0100/capacitor-x7r-10nf-100v/dp/CA05510 ,0.08
+J1,,JUMPER_3,1,,,,,,,,
+J2,,JUMPER_3,1,,,,,,,,
+J3,,PJRAN1X1U01AUX,1,,,,,,,,
+J4,,PJRAN1X1U01AUX,1,,,,,,,,
+R1,,RES_0805,1,,,,,,,,
+R2,390,RES_0805,1,,MCF 0.25W 390R,http://uk.farnell.com/multicomp/mcf-0-25w-390r/resistor-0-25w-5-390r/dp/9339477 ,0.0356,,MCF 0.25W 390R,http://cpc.farnell.com/unbranded/mcf-0-25w-390r/resistor-0-25w-5-390r-pk-100/dp/RE03798 ,0.0053
+R5,2.2M,RES_0805,1,,,,,,,,
+R6,100k,RES_0805,1,,,,,,,,
+R7,1k,RES_0805,1,,,,,,,,
+R8,5k,EVN5ESX50B,1,,Bourns 3296W-1-502LF,http://uk.farnell.com/bourns/3296w-1-502lf/trimmer-25-turn-5k/dp/9353291?ost=BOURNS++3296W-1-502LF&selectedCategoryId=&categoryName=All+Categories&categoryNameResp=All+Categories ,2.48,,,http://cpc.farnell.com/bourns/3296w-1-502lf/trimmer-25-turn-5k/dp/RE06692 ,1.03
+U1,,AD623ARZ-R7,1,,,,,,,,
+U2,,TLC2272CD,1,,,,,,,,
+U4,,CON_HEADER_2X05-PTH,1,,,,,,,,
+U5,,LED-5MM,1,,,,,,,,
+U6,,TLE2426*LP,1,,,,,,,,

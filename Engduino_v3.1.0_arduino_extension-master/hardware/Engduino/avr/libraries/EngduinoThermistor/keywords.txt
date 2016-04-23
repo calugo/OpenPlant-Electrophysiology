@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring Map EngduinoThermistor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+EngduinoThermistor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin           KEYWORD2
+end             KEYWORD2
+temperature     KEYWORD2
+temperatureRaw  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

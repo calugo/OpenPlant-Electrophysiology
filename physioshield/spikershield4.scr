@@ -1,0 +1,3771 @@
+# PCAD layers:
+#Layer = 'Top Assy' 10 NonSignal
+#Layer = 'Top Silk' 6 NonSignal
+#Layer = 'Top Paste' 8 NonSignal
+#Layer = 'Top Mask' 4 NonSignal
+#Layer = 'Top' 1 Signal
+#Layer = 'Bottom' 2 Signal
+#Layer = 'Bot Mask' 5 NonSignal
+#Layer = 'Bot Paste' 9 NonSignal
+#Layer = 'Bot Silk' 7 NonSignal
+#Layer = 'Bot Assy' 11 NonSignal
+#Layer = 'Board' 3 NonSignal
+#Layer = 'extra components' 13 NonSignal
+#
+# Library header:
+OPEN 'C:/Users/Marco/Dropbox/Electronics/circuits/DipTrace/Projects/spikershield4.lbr';
+SET WIRE_BEND 2;
+SET OPTIMIZING OFF;
+#
+#PadStyleDef "cont0"
+#HoleDiameter = 0.9
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont1"
+#HoleDiameter = 0.9
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.6 shapeHeight = 1.6
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.6 shapeHeight = 1.6
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont2"
+#HoleDiameter = 0.95
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.5 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.5 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont3"
+#HoleDiameter = 0.7113
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.27 shapeHeight = 1.27
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.27 shapeHeight = 1.27
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont4"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont5"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont6"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont7"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont8"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont9"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont10"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont11"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont12"
+#HoleDiameter = 0.9653
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.524 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.524 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont13"
+#HoleDiameter = 0.9653
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont14"
+#HoleDiameter = 0.9653
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont15"
+#HoleDiameter = 1.3
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 2 shapeHeight = 4.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 2 shapeHeight = 4.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont16"
+#HoleDiameter = 1
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 4.2 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 4.2 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont17"
+#HoleDiameter = 1
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 4.2 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 4.2 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont18"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont19"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont20"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont21"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont22"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont23"
+#HoleDiameter = 1.016
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont24"
+#HoleDiameter = 1
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont25"
+#HoleDiameter = 1
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont26"
+#HoleDiameter = 1
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.778 shapeHeight = 1.778
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.778 shapeHeight = 1.778
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont27"
+#HoleDiameter = 1
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont28"
+#HoleDiameter = 1
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont29"
+#HoleDiameter = 1
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont30"
+#HoleDiameter = 0.9
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont31"
+#HoleDiameter = 0.9653
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.524 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.524 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont32"
+#HoleDiameter = 0.9652
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.778 shapeHeight = 1.778
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.778 shapeHeight = 1.778
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont33"
+#HoleDiameter = 0.9652
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.778 shapeHeight = 1.778
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.778 shapeHeight = 1.778
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont34"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.7 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.7 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont35"
+#HoleDiameter = 0.9653
+#  PadShape: layerNumRef = 1 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#  PadShape: layerNumRef = 2 padShapeType = Ellipse shapeWidth = 1.7 shapeHeight = 1.7
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont36"
+#HoleDiameter = 0.9
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.5 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.5 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont37"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont38"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont39"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont40"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont41"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont42"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont43"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont44"
+#HoleDiameter = 0.9
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.5 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.5 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont45"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont46"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont47"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont48"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont49"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont50"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont51"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.5 shapeHeight = 1.524
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont52"
+#HoleDiameter = 0.9
+#  PadShape: layerNumRef = 1 padShapeType = Rect shapeWidth = 1.5 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Rect shapeWidth = 1.5 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont53"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont54"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont55"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont56"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont57"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont58"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont59"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont60"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont61"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont62"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont63"
+#HoleDiameter = 0.965
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1.524 shapeHeight = 1.5
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont64"
+#HoleDiameter = 0.7
+#polygonPad
+#polygonPad
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont65"
+#HoleDiameter = 0.7
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1 shapeHeight = 2
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1 shapeHeight = 2
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont66"
+#HoleDiameter = 0.7
+#  PadShape: layerNumRef = 1 padShapeType = Oval shapeWidth = 1 shapeHeight = 2
+#  PadShape: layerNumRef = 2 padShapeType = Oval shapeWidth = 1 shapeHeight = 2
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont67"
+#HoleDiameter = 3.302
+#  PadShape: layerNumRef = 1 padShapeType = MtHole shapeWidth = 3.9624 shapeHeight = 3.9624
+#  PadShape: layerNumRef = 2 padShapeType = MtHole shapeWidth = 3.9624 shapeHeight = 3.9624
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont68"
+#HoleDiameter = 3.302
+#  PadShape: layerNumRef = 1 padShapeType = MtHole shapeWidth = 3.9624 shapeHeight = 3.9624
+#  PadShape: layerNumRef = 2 padShapeType = MtHole shapeWidth = 3.9624 shapeHeight = 3.9624
+#skips because of layer.
+#skips because of layer.
+#PadStyleDef "cont69"
+#HoleDiameter = 3.302
+#  PadShape: layerNumRef = 1 padShapeType = MtHole shapeWidth = 3.9624 shapeHeight = 3.9624
+#  PadShape: layerNumRef = 2 padShapeType = MtHole shapeWidth = 3.9624 shapeHeight = 3.9624
+#skips because of layer.
+#skips because of layer.
+#ViaStyleDef "ViaStyle1"
+#HoleDiameter = 0.6604
+#  ViaShape: layerNumRef = 1 viaShapeType = Ellipse shapeWidth = 1.524 shapeHeight = 1.524
+#  ViaShape: layerNumRef = 2 viaShapeType = Ellipse shapeWidth = 1.524 shapeHeight = 1.524
+#ViaStyleDef "ViaStyle3"
+#HoleDiameter = 0.9652
+#  ViaShape: layerNumRef = 1 viaShapeType = Ellipse shapeWidth = 1.778 shapeHeight = 1.778
+#  ViaShape: layerNumRef = 2 viaShapeType = Ellipse shapeWidth = 1.778 shapeHeight = 1.778
+# Packages:
+#
+# Package: CAP500AP_0 OriginalName = CAP500AP VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'CAP500AP_0Primary.PAC';
+DESCRIPTION 'Original name <b>CAP500AP</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont0"
+CHANGE DRILL 0.9;
+PAD 1.7 ROUND R0 '1' (6.325 0);
+#padStyleRef = "cont1"
+CHANGE DRILL 0.9;
+PAD 1.6 SQUARE R0 '2' (-6.375 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-3.8372 0) (-2.5701 0);
+WIRE 0.254 (-4.4628 1.27) (4.4126 1.27);
+WIRE 0.254 (-3.1972 -0.635) (-3.1972 0.635);
+WIRE 0.254 (-4.4628 -1.27) (4.4126 -1.27);
+WIRE 0.254 (4.4126 -1.27) (4.4126 1.27);
+WIRE 0.254 (-4.4628 -1.27) (-4.4628 1.27);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-7.175 1.27);
+CHANGE LAYER 21;
+#
+# Package: CAP100RP_1 OriginalName = CAP100RP VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'CAP100RP_1Primary.PAC';
+DESCRIPTION 'Original name <b>CAP100RP</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont1"
+CHANGE DRILL 0.9;
+PAD 1.6 SQUARE R0 '1' (-0.7403 0);
+#padStyleRef = "cont0"
+CHANGE DRILL 0.9;
+PAD 1.7 ROUND R0 '2' (1.7997 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-2.7693 -0.3002) (-2.7693 0.3002);
+WIRE 0.254 (-3.0695 0) (-2.4697 0);
+CIRCLE 0.254 (0.53040000 0.00000000) (3.07040000 0.00000000);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-3.0695 2.54);
+CHANGE LAYER 21;
+#
+# Package: LED_2 OriginalName = LED VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'LED_2Primary.PAC';
+DESCRIPTION 'Original name <b>LED</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont2"
+CHANGE DRILL 0.95;
+PAD 1.5 ROUND R0 '1' (0.9523 0);
+#padStyleRef = "cont3"
+CHANGE DRILL 0.7113;
+PAD 1.27 SQUARE R0 '2' (-1.5877 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-2.8575 -1.9034) (-2.8575 1.9034);
+ARC CCW 0.254 (-2.85226843 -1.91046179) (2.21826843 1.91046179) (-2.85226843 1.91046179);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-2.8575 3.1745);
+CHANGE LAYER 21;
+#
+# Package: comp_3 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_3Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont67"
+CHANGE DRILL 3.302;
+HOLE 3.302 '1' (0 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-1.9812 1.9812);
+CHANGE LAYER 21;
+#
+# Package: comp_4 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_4Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont68"
+CHANGE DRILL 3.302;
+HOLE 3.302 '1' (0 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-1.9812 1.9812);
+CHANGE LAYER 21;
+#
+# Package: comp_5 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_5Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont69"
+CHANGE DRILL 3.302;
+HOLE 3.302 '1' (0 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-1.9812 1.9812);
+CHANGE LAYER 21;
+#
+# Package: 1X08_6 OriginalName = 1X08 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT '1X08_6Primary.PAC';
+DESCRIPTION 'Original name <b>1X08</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont4"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '1' (-8.89 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-9.652000 0.761300)
+  (-9.606300 1.022000)
+  (-9.474200 1.251300)
+  (-9.271600 1.421600)
+  (-9.023000 1.512300)
+  (-8.758300 1.512500)
+  (-8.509600 1.422200)
+  (-8.306700 1.252300)
+  (-8.174200 1.023200)
+  (-8.128000 0.762700)
+  (-8.128000 -0.761300)
+  (-8.173700 -1.022000)
+  (-8.305800 -1.251300)
+  (-8.508400 -1.421600)
+  (-8.757000 -1.512300)
+  (-9.021700 -1.512500)
+  (-9.270400 -1.422200)
+  (-9.473300 -1.252300)
+  (-9.605800 -1.023200)
+  (-9.652000 -0.762700)
+  (-9.652000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-9.652000 0.761300)
+  (-9.606300 1.022000)
+  (-9.474200 1.251300)
+  (-9.271600 1.421600)
+  (-9.023000 1.512300)
+  (-8.758300 1.512500)
+  (-8.509600 1.422200)
+  (-8.306700 1.252300)
+  (-8.174200 1.023200)
+  (-8.128000 0.762700)
+  (-8.128000 -0.761300)
+  (-8.173700 -1.022000)
+  (-8.305800 -1.251300)
+  (-8.508400 -1.421600)
+  (-8.757000 -1.512300)
+  (-9.021700 -1.512500)
+  (-9.270400 -1.422200)
+  (-9.473300 -1.252300)
+  (-9.605800 -1.023200)
+  (-9.652000 -0.762700)
+  (-9.652000 0.761300);
+#padStyleRef = "cont5"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '2' (-6.35 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-7.112000 0.761300)
+  (-7.066300 1.022000)
+  (-6.934200 1.251300)
+  (-6.731600 1.421600)
+  (-6.483000 1.512300)
+  (-6.218300 1.512500)
+  (-5.969600 1.422200)
+  (-5.766700 1.252300)
+  (-5.634200 1.023200)
+  (-5.588000 0.762700)
+  (-5.588000 -0.761300)
+  (-5.633700 -1.022000)
+  (-5.765800 -1.251300)
+  (-5.968400 -1.421600)
+  (-6.217000 -1.512300)
+  (-6.481700 -1.512500)
+  (-6.730400 -1.422200)
+  (-6.933300 -1.252300)
+  (-7.065800 -1.023200)
+  (-7.112000 -0.762700)
+  (-7.112000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-7.112000 0.761300)
+  (-7.066300 1.022000)
+  (-6.934200 1.251300)
+  (-6.731600 1.421600)
+  (-6.483000 1.512300)
+  (-6.218300 1.512500)
+  (-5.969600 1.422200)
+  (-5.766700 1.252300)
+  (-5.634200 1.023200)
+  (-5.588000 0.762700)
+  (-5.588000 -0.761300)
+  (-5.633700 -1.022000)
+  (-5.765800 -1.251300)
+  (-5.968400 -1.421600)
+  (-6.217000 -1.512300)
+  (-6.481700 -1.512500)
+  (-6.730400 -1.422200)
+  (-6.933300 -1.252300)
+  (-7.065800 -1.023200)
+  (-7.112000 -0.762700)
+  (-7.112000 0.761300);
+#padStyleRef = "cont6"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '3' (-3.81 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-4.572000 0.761300)
+  (-4.526300 1.022000)
+  (-4.394200 1.251300)
+  (-4.191600 1.421600)
+  (-3.943000 1.512300)
+  (-3.678300 1.512500)
+  (-3.429600 1.422200)
+  (-3.226700 1.252300)
+  (-3.094200 1.023200)
+  (-3.048000 0.762700)
+  (-3.048000 -0.761300)
+  (-3.093700 -1.022000)
+  (-3.225800 -1.251300)
+  (-3.428400 -1.421600)
+  (-3.677000 -1.512300)
+  (-3.941700 -1.512500)
+  (-4.190400 -1.422200)
+  (-4.393300 -1.252300)
+  (-4.525800 -1.023200)
+  (-4.572000 -0.762700)
+  (-4.572000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-4.572000 0.761300)
+  (-4.526300 1.022000)
+  (-4.394200 1.251300)
+  (-4.191600 1.421600)
+  (-3.943000 1.512300)
+  (-3.678300 1.512500)
+  (-3.429600 1.422200)
+  (-3.226700 1.252300)
+  (-3.094200 1.023200)
+  (-3.048000 0.762700)
+  (-3.048000 -0.761300)
+  (-3.093700 -1.022000)
+  (-3.225800 -1.251300)
+  (-3.428400 -1.421600)
+  (-3.677000 -1.512300)
+  (-3.941700 -1.512500)
+  (-4.190400 -1.422200)
+  (-4.393300 -1.252300)
+  (-4.525800 -1.023200)
+  (-4.572000 -0.762700)
+  (-4.572000 0.761300);
+#padStyleRef = "cont7"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '4' (-1.27 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-2.032000 0.761300)
+  (-1.986300 1.022000)
+  (-1.854200 1.251300)
+  (-1.651600 1.421600)
+  (-1.403000 1.512300)
+  (-1.138300 1.512500)
+  (-0.889600 1.422200)
+  (-0.686700 1.252300)
+  (-0.554200 1.023200)
+  (-0.508000 0.762700)
+  (-0.508000 -0.761300)
+  (-0.553700 -1.022000)
+  (-0.685800 -1.251300)
+  (-0.888400 -1.421600)
+  (-1.137000 -1.512300)
+  (-1.401700 -1.512500)
+  (-1.650400 -1.422200)
+  (-1.853300 -1.252300)
+  (-1.985800 -1.023200)
+  (-2.032000 -0.762700)
+  (-2.032000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-2.032000 0.761300)
+  (-1.986300 1.022000)
+  (-1.854200 1.251300)
+  (-1.651600 1.421600)
+  (-1.403000 1.512300)
+  (-1.138300 1.512500)
+  (-0.889600 1.422200)
+  (-0.686700 1.252300)
+  (-0.554200 1.023200)
+  (-0.508000 0.762700)
+  (-0.508000 -0.761300)
+  (-0.553700 -1.022000)
+  (-0.685800 -1.251300)
+  (-0.888400 -1.421600)
+  (-1.137000 -1.512300)
+  (-1.401700 -1.512500)
+  (-1.650400 -1.422200)
+  (-1.853300 -1.252300)
+  (-1.985800 -1.023200)
+  (-2.032000 -0.762700)
+  (-2.032000 0.761300);
+#padStyleRef = "cont8"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '5' (1.27 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.508000 0.761300)
+  (0.553700 1.022000)
+  (0.685800 1.251300)
+  (0.888400 1.421600)
+  (1.137000 1.512300)
+  (1.401700 1.512500)
+  (1.650400 1.422200)
+  (1.853300 1.252300)
+  (1.985800 1.023200)
+  (2.032000 0.762700)
+  (2.032000 -0.761300)
+  (1.986300 -1.022000)
+  (1.854200 -1.251300)
+  (1.651600 -1.421600)
+  (1.403000 -1.512300)
+  (1.138300 -1.512500)
+  (0.889600 -1.422200)
+  (0.686700 -1.252300)
+  (0.554200 -1.023200)
+  (0.508000 -0.762700)
+  (0.508000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.508000 0.761300)
+  (0.553700 1.022000)
+  (0.685800 1.251300)
+  (0.888400 1.421600)
+  (1.137000 1.512300)
+  (1.401700 1.512500)
+  (1.650400 1.422200)
+  (1.853300 1.252300)
+  (1.985800 1.023200)
+  (2.032000 0.762700)
+  (2.032000 -0.761300)
+  (1.986300 -1.022000)
+  (1.854200 -1.251300)
+  (1.651600 -1.421600)
+  (1.403000 -1.512300)
+  (1.138300 -1.512500)
+  (0.889600 -1.422200)
+  (0.686700 -1.252300)
+  (0.554200 -1.023200)
+  (0.508000 -0.762700)
+  (0.508000 0.761300);
+#padStyleRef = "cont9"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '6' (3.81 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (3.048000 0.761300)
+  (3.093700 1.022000)
+  (3.225800 1.251300)
+  (3.428400 1.421600)
+  (3.677000 1.512300)
+  (3.941700 1.512500)
+  (4.190400 1.422200)
+  (4.393300 1.252300)
+  (4.525800 1.023200)
+  (4.572000 0.762700)
+  (4.572000 -0.761300)
+  (4.526300 -1.022000)
+  (4.394200 -1.251300)
+  (4.191600 -1.421600)
+  (3.943000 -1.512300)
+  (3.678300 -1.512500)
+  (3.429600 -1.422200)
+  (3.226700 -1.252300)
+  (3.094200 -1.023200)
+  (3.048000 -0.762700)
+  (3.048000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (3.048000 0.761300)
+  (3.093700 1.022000)
+  (3.225800 1.251300)
+  (3.428400 1.421600)
+  (3.677000 1.512300)
+  (3.941700 1.512500)
+  (4.190400 1.422200)
+  (4.393300 1.252300)
+  (4.525800 1.023200)
+  (4.572000 0.762700)
+  (4.572000 -0.761300)
+  (4.526300 -1.022000)
+  (4.394200 -1.251300)
+  (4.191600 -1.421600)
+  (3.943000 -1.512300)
+  (3.678300 -1.512500)
+  (3.429600 -1.422200)
+  (3.226700 -1.252300)
+  (3.094200 -1.023200)
+  (3.048000 -0.762700)
+  (3.048000 0.761300);
+#padStyleRef = "cont10"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '7' (6.35 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (5.588000 0.761300)
+  (5.633700 1.022000)
+  (5.765800 1.251300)
+  (5.968400 1.421600)
+  (6.217000 1.512300)
+  (6.481700 1.512500)
+  (6.730400 1.422200)
+  (6.933300 1.252300)
+  (7.065800 1.023200)
+  (7.112000 0.762700)
+  (7.112000 -0.761300)
+  (7.066300 -1.022000)
+  (6.934200 -1.251300)
+  (6.731600 -1.421600)
+  (6.483000 -1.512300)
+  (6.218300 -1.512500)
+  (5.969600 -1.422200)
+  (5.766700 -1.252300)
+  (5.634200 -1.023200)
+  (5.588000 -0.762700)
+  (5.588000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (5.588000 0.761300)
+  (5.633700 1.022000)
+  (5.765800 1.251300)
+  (5.968400 1.421600)
+  (6.217000 1.512300)
+  (6.481700 1.512500)
+  (6.730400 1.422200)
+  (6.933300 1.252300)
+  (7.065800 1.023200)
+  (7.112000 0.762700)
+  (7.112000 -0.761300)
+  (7.066300 -1.022000)
+  (6.934200 -1.251300)
+  (6.731600 -1.421600)
+  (6.483000 -1.512300)
+  (6.218300 -1.512500)
+  (5.969600 -1.422200)
+  (5.766700 -1.252300)
+  (5.634200 -1.023200)
+  (5.588000 -0.762700)
+  (5.588000 0.761300);
+#padStyleRef = "cont11"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '8' (8.89 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (8.128000 0.761300)
+  (8.173700 1.022000)
+  (8.305800 1.251300)
+  (8.508400 1.421600)
+  (8.757000 1.512300)
+  (9.021700 1.512500)
+  (9.270400 1.422200)
+  (9.473300 1.252300)
+  (9.605800 1.023200)
+  (9.652000 0.762700)
+  (9.652000 -0.761300)
+  (9.606300 -1.022000)
+  (9.474200 -1.251300)
+  (9.271600 -1.421600)
+  (9.023000 -1.512300)
+  (8.758300 -1.512500)
+  (8.509600 -1.422200)
+  (8.306700 -1.252300)
+  (8.174200 -1.023200)
+  (8.128000 -0.762700)
+  (8.128000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (8.128000 0.761300)
+  (8.173700 1.022000)
+  (8.305800 1.251300)
+  (8.508400 1.421600)
+  (8.757000 1.512300)
+  (9.021700 1.512500)
+  (9.270400 1.422200)
+  (9.473300 1.252300)
+  (9.605800 1.023200)
+  (9.652000 0.762700)
+  (9.652000 -0.761300)
+  (9.606300 -1.022000)
+  (9.474200 -1.251300)
+  (9.271600 -1.421600)
+  (9.023000 -1.512300)
+  (8.758300 -1.512500)
+  (8.509600 -1.422200)
+  (8.306700 -1.252300)
+  (8.174200 -1.023200)
+  (8.128000 -0.762700)
+  (8.128000 0.761300);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.1524 (5.716 1.2702) (6.986 1.2702);
+WIRE 0.1524 (6.986 1.2702) (7.62 0.635);
+WIRE 0.1524 (7.62 0.635) (7.62 -0.635);
+WIRE 0.1524 (7.62 -0.635) (6.986 -1.2702);
+WIRE 0.1524 (2.54 0.635) (3.176 1.2702);
+WIRE 0.1524 (3.176 1.2702) (4.446 1.2702);
+WIRE 0.1524 (4.446 1.2702) (5.08 0.635);
+WIRE 0.1524 (5.08 0.635) (5.08 -0.635);
+WIRE 0.1524 (5.08 -0.635) (4.446 -1.2702);
+WIRE 0.1524 (4.446 -1.2702) (3.176 -1.2702);
+WIRE 0.1524 (3.176 -1.2702) (2.54 -0.635);
+WIRE 0.1524 (5.716 1.2702) (5.08 0.635);
+WIRE 0.1524 (5.08 -0.635) (5.716 -1.2702);
+WIRE 0.1524 (6.986 -1.2702) (5.716 -1.2702);
+WIRE 0.1524 (-1.906 1.2702) (-0.634 1.2702);
+WIRE 0.1524 (-0.634 1.2702) (0 0.635);
+WIRE 0.1524 (0 0.635) (0 -0.635);
+WIRE 0.1524 (0 -0.635) (-0.634 -1.2702);
+WIRE 0.1524 (0 0.635) (0.636 1.2702);
+WIRE 0.1524 (0.636 1.2702) (1.906 1.2702);
+WIRE 0.1524 (1.906 1.2702) (2.54 0.635);
+WIRE 0.1524 (2.54 0.635) (2.54 -0.635);
+WIRE 0.1524 (2.54 -0.635) (1.906 -1.2702);
+WIRE 0.1524 (1.906 -1.2702) (0.636 -1.2702);
+WIRE 0.1524 (0.636 -1.2702) (0 -0.635);
+WIRE 0.1524 (-5.08 0.635) (-4.446 1.2702);
+WIRE 0.1524 (-4.446 1.2702) (-3.176 1.2702);
+WIRE 0.1524 (-3.176 1.2702) (-2.54 0.635);
+WIRE 0.1524 (-2.54 0.635) (-2.54 -0.635);
+WIRE 0.1524 (-2.54 -0.635) (-3.176 -1.2702);
+WIRE 0.1524 (-3.176 -1.2702) (-4.446 -1.2702);
+WIRE 0.1524 (-4.446 -1.2702) (-5.08 -0.635);
+WIRE 0.1524 (-1.906 1.2702) (-2.54 0.635);
+WIRE 0.1524 (-2.54 -0.635) (-1.906 -1.2702);
+WIRE 0.1524 (-0.634 -1.2702) (-1.906 -1.2702);
+WIRE 0.1524 (-9.526 1.2702) (-8.256 1.2702);
+WIRE 0.1524 (-8.256 1.2702) (-7.62 0.635);
+WIRE 0.1524 (-7.62 0.635) (-7.62 -0.635);
+WIRE 0.1524 (-7.62 -0.635) (-8.256 -1.2702);
+WIRE 0.1524 (-7.62 0.635) (-6.986 1.2702);
+WIRE 0.1524 (-6.986 1.2702) (-5.716 1.2702);
+WIRE 0.1524 (-5.716 1.2702) (-5.08 0.635);
+WIRE 0.1524 (-5.08 0.635) (-5.08 -0.635);
+WIRE 0.1524 (-5.08 -0.635) (-5.716 -1.2702);
+WIRE 0.1524 (-5.716 -1.2702) (-6.986 -1.2702);
+WIRE 0.1524 (-6.986 -1.2702) (-7.62 -0.635);
+WIRE 0.1524 (-10.16 0.635) (-10.16 -0.635);
+WIRE 0.1524 (-9.526 1.2702) (-10.16 0.635);
+WIRE 0.1524 (-10.16 -0.635) (-9.526 -1.2702);
+WIRE 0.1524 (-8.256 -1.2702) (-9.526 -1.2702);
+WIRE 0.1524 (8.256 1.2702) (9.526 1.2702);
+WIRE 0.1524 (9.526 1.2702) (10.16 0.635);
+WIRE 0.1524 (10.16 0.635) (10.16 -0.635);
+WIRE 0.1524 (10.16 -0.635) (9.526 -1.2702);
+WIRE 0.1524 (8.256 1.2702) (7.62 0.635);
+WIRE 0.1524 (7.62 -0.635) (8.256 -1.2702);
+WIRE 0.1524 (9.526 -1.2702) (8.256 -1.2702);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-10.16 1.5125);
+CHANGE LAYER 21;
+# LayerContents
+# layerNumRef = 10
+CHANGE LAYER 21;
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (6.604 0.2535)
+  (6.096 0.2535)
+  (6.096 -0.2538)
+  (6.604 -0.2538)
+  (6.604 0.2535)
+  (6.604 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (4.064 0.2535)
+  (3.556 0.2535)
+  (3.556 -0.2538)
+  (4.064 -0.2538)
+  (4.064 0.2535)
+  (4.064 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (1.524 0.2535)
+  (1.016 0.2535)
+  (1.016 -0.2538)
+  (1.524 -0.2538)
+  (1.524 0.2535)
+  (1.524 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-1.016 0.2535)
+  (-1.524 0.2535)
+  (-1.524 -0.2538)
+  (-1.016 -0.2538)
+  (-1.016 0.2535)
+  (-1.016 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-3.556 0.2535)
+  (-4.064 0.2535)
+  (-4.064 -0.2538)
+  (-3.556 -0.2538)
+  (-3.556 0.2535)
+  (-3.556 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-6.096 0.2535)
+  (-6.604 0.2535)
+  (-6.604 -0.2538)
+  (-6.096 -0.2538)
+  (-6.096 0.2535)
+  (-6.096 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-8.636 0.2535)
+  (-9.144 0.2535)
+  (-9.144 -0.2538)
+  (-8.636 -0.2538)
+  (-8.636 0.2535)
+  (-8.636 0.2535);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (9.144 0.2535)
+  (8.636 0.2535)
+  (8.636 -0.2538)
+  (9.144 -0.2538)
+  (9.144 0.2535)
+  (9.144 0.2535);
+#
+# Package: JUMPER_3_7 OriginalName = JUMPER_3 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'JUMPER_3_7Primary.PAC';
+DESCRIPTION 'Original name <b>JUMPER_3</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont12"
+CHANGE DRILL 0.9653;
+PAD 1.524 SQUARE R0 '1' (-2.54 0);
+#padStyleRef = "cont13"
+CHANGE DRILL 0.9653;
+PAD 1.7 ROUND R0 '2' (0 0);
+#padStyleRef = "cont14"
+CHANGE DRILL 0.9653;
+PAD 1.7 ROUND R0 '3' (2.54 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-3.81 -0.508) (-3.81 0.508);
+WIRE 0.254 (3.81 -0.508) (3.81 0.508);
+WIRE 0.254 (-3.1775 1.27) (3.1775 1.27);
+WIRE 0.254 (-3.1775 -1.27) (3.1775 -1.27);
+WIRE 0.254 (-3.81 -0.635) (-3.1775 -1.27);
+WIRE 0.254 (-3.81 0.635) (-3.1775 1.27);
+WIRE 0.254 (3.1775 1.27) (3.81 0.635);
+WIRE 0.254 (3.1775 -1.27) (3.81 -0.635);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-3.81 1.27);
+CHANGE LAYER 21;
+#
+# Package: RCA_jack_8 OriginalName = RCA_jack VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'RCA_jack_8Primary.PAC';
+DESCRIPTION 'Original name <b>RCA_jack</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont15"
+CHANGE DRILL 1.3;
+PAD 2.000000 LONG R90.000000 '1' (-0.3648 0);
+#padStyleRef = "cont16"
+CHANGE DRILL 1;
+PAD 1.700000 LONG R0 '2' (7.325 3.75);
+#padStyleRef = "cont17"
+CHANGE DRILL 1;
+PAD 1.700000 LONG R0 '3' (7.325 -3.75);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-0.3752 5.1) (9.875 5.1);
+WIRE 0.254 (9.875 5.1) (9.875 -5.1);
+WIRE 0.254 (9.875 -5.1) (-0.3752 -5.1);
+WIRE 0.254 (-0.3752 -5.1) (-0.3752 -4.1496);
+WIRE 0.254 (-0.3752 -4.1496) (-9.875 -4.1496);
+WIRE 0.254 (-9.875 -4.1496) (-9.875 4.1496);
+WIRE 0.254 (-9.875 4.1496) (-0.3752 4.1496);
+WIRE 0.254 (-0.3752 4.1496) (-0.3752 5.1);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-9.875 6);
+CHANGE LAYER 21;
+# LayerContents
+# layerNumRef = 10
+CHANGE LAYER 21;
+WIRE 0.254 (-2.3759 6) (-2.3759 -6);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT 'BOARD EDGE' SR90.0 (-1.8249 -0.2742);
+#
+# Package: 1X06_9 OriginalName = 1X06 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT '1X06_9Primary.PAC';
+DESCRIPTION 'Original name <b>1X06</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont18"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '1' (-6.35 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-7.112000 0.761300)
+  (-7.066300 1.022000)
+  (-6.934200 1.251300)
+  (-6.731600 1.421600)
+  (-6.483000 1.512300)
+  (-6.218300 1.512500)
+  (-5.969600 1.422200)
+  (-5.766700 1.252300)
+  (-5.634200 1.023200)
+  (-5.588000 0.762700)
+  (-5.588000 -0.761300)
+  (-5.633700 -1.022000)
+  (-5.765800 -1.251300)
+  (-5.968400 -1.421600)
+  (-6.217000 -1.512300)
+  (-6.481700 -1.512500)
+  (-6.730400 -1.422200)
+  (-6.933300 -1.252300)
+  (-7.065800 -1.023200)
+  (-7.112000 -0.762700)
+  (-7.112000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-7.112000 0.761300)
+  (-7.066300 1.022000)
+  (-6.934200 1.251300)
+  (-6.731600 1.421600)
+  (-6.483000 1.512300)
+  (-6.218300 1.512500)
+  (-5.969600 1.422200)
+  (-5.766700 1.252300)
+  (-5.634200 1.023200)
+  (-5.588000 0.762700)
+  (-5.588000 -0.761300)
+  (-5.633700 -1.022000)
+  (-5.765800 -1.251300)
+  (-5.968400 -1.421600)
+  (-6.217000 -1.512300)
+  (-6.481700 -1.512500)
+  (-6.730400 -1.422200)
+  (-6.933300 -1.252300)
+  (-7.065800 -1.023200)
+  (-7.112000 -0.762700)
+  (-7.112000 0.761300);
+#padStyleRef = "cont19"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '2' (-3.81 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-4.572000 0.761300)
+  (-4.526300 1.022000)
+  (-4.394200 1.251300)
+  (-4.191600 1.421600)
+  (-3.943000 1.512300)
+  (-3.678300 1.512500)
+  (-3.429600 1.422200)
+  (-3.226700 1.252300)
+  (-3.094200 1.023200)
+  (-3.048000 0.762700)
+  (-3.048000 -0.761300)
+  (-3.093700 -1.022000)
+  (-3.225800 -1.251300)
+  (-3.428400 -1.421600)
+  (-3.677000 -1.512300)
+  (-3.941700 -1.512500)
+  (-4.190400 -1.422200)
+  (-4.393300 -1.252300)
+  (-4.525800 -1.023200)
+  (-4.572000 -0.762700)
+  (-4.572000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-4.572000 0.761300)
+  (-4.526300 1.022000)
+  (-4.394200 1.251300)
+  (-4.191600 1.421600)
+  (-3.943000 1.512300)
+  (-3.678300 1.512500)
+  (-3.429600 1.422200)
+  (-3.226700 1.252300)
+  (-3.094200 1.023200)
+  (-3.048000 0.762700)
+  (-3.048000 -0.761300)
+  (-3.093700 -1.022000)
+  (-3.225800 -1.251300)
+  (-3.428400 -1.421600)
+  (-3.677000 -1.512300)
+  (-3.941700 -1.512500)
+  (-4.190400 -1.422200)
+  (-4.393300 -1.252300)
+  (-4.525800 -1.023200)
+  (-4.572000 -0.762700)
+  (-4.572000 0.761300);
+#padStyleRef = "cont20"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '3' (-1.27 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-2.032000 0.761300)
+  (-1.986300 1.022000)
+  (-1.854200 1.251300)
+  (-1.651600 1.421600)
+  (-1.403000 1.512300)
+  (-1.138300 1.512500)
+  (-0.889600 1.422200)
+  (-0.686700 1.252300)
+  (-0.554200 1.023200)
+  (-0.508000 0.762700)
+  (-0.508000 -0.761300)
+  (-0.553700 -1.022000)
+  (-0.685800 -1.251300)
+  (-0.888400 -1.421600)
+  (-1.137000 -1.512300)
+  (-1.401700 -1.512500)
+  (-1.650400 -1.422200)
+  (-1.853300 -1.252300)
+  (-1.985800 -1.023200)
+  (-2.032000 -0.762700)
+  (-2.032000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-2.032000 0.761300)
+  (-1.986300 1.022000)
+  (-1.854200 1.251300)
+  (-1.651600 1.421600)
+  (-1.403000 1.512300)
+  (-1.138300 1.512500)
+  (-0.889600 1.422200)
+  (-0.686700 1.252300)
+  (-0.554200 1.023200)
+  (-0.508000 0.762700)
+  (-0.508000 -0.761300)
+  (-0.553700 -1.022000)
+  (-0.685800 -1.251300)
+  (-0.888400 -1.421600)
+  (-1.137000 -1.512300)
+  (-1.401700 -1.512500)
+  (-1.650400 -1.422200)
+  (-1.853300 -1.252300)
+  (-1.985800 -1.023200)
+  (-2.032000 -0.762700)
+  (-2.032000 0.761300);
+#padStyleRef = "cont21"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '4' (1.27 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.508000 0.761300)
+  (0.553700 1.022000)
+  (0.685800 1.251300)
+  (0.888400 1.421600)
+  (1.137000 1.512300)
+  (1.401700 1.512500)
+  (1.650400 1.422200)
+  (1.853300 1.252300)
+  (1.985800 1.023200)
+  (2.032000 0.762700)
+  (2.032000 -0.761300)
+  (1.986300 -1.022000)
+  (1.854200 -1.251300)
+  (1.651600 -1.421600)
+  (1.403000 -1.512300)
+  (1.138300 -1.512500)
+  (0.889600 -1.422200)
+  (0.686700 -1.252300)
+  (0.554200 -1.023200)
+  (0.508000 -0.762700)
+  (0.508000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.508000 0.761300)
+  (0.553700 1.022000)
+  (0.685800 1.251300)
+  (0.888400 1.421600)
+  (1.137000 1.512300)
+  (1.401700 1.512500)
+  (1.650400 1.422200)
+  (1.853300 1.252300)
+  (1.985800 1.023200)
+  (2.032000 0.762700)
+  (2.032000 -0.761300)
+  (1.986300 -1.022000)
+  (1.854200 -1.251300)
+  (1.651600 -1.421600)
+  (1.403000 -1.512300)
+  (1.138300 -1.512500)
+  (0.889600 -1.422200)
+  (0.686700 -1.252300)
+  (0.554200 -1.023200)
+  (0.508000 -0.762700)
+  (0.508000 0.761300);
+#padStyleRef = "cont22"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '5' (3.81 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (3.048000 0.761300)
+  (3.093700 1.022000)
+  (3.225800 1.251300)
+  (3.428400 1.421600)
+  (3.677000 1.512300)
+  (3.941700 1.512500)
+  (4.190400 1.422200)
+  (4.393300 1.252300)
+  (4.525800 1.023200)
+  (4.572000 0.762700)
+  (4.572000 -0.761300)
+  (4.526300 -1.022000)
+  (4.394200 -1.251300)
+  (4.191600 -1.421600)
+  (3.943000 -1.512300)
+  (3.678300 -1.512500)
+  (3.429600 -1.422200)
+  (3.226700 -1.252300)
+  (3.094200 -1.023200)
+  (3.048000 -0.762700)
+  (3.048000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (3.048000 0.761300)
+  (3.093700 1.022000)
+  (3.225800 1.251300)
+  (3.428400 1.421600)
+  (3.677000 1.512300)
+  (3.941700 1.512500)
+  (4.190400 1.422200)
+  (4.393300 1.252300)
+  (4.525800 1.023200)
+  (4.572000 0.762700)
+  (4.572000 -0.761300)
+  (4.526300 -1.022000)
+  (4.394200 -1.251300)
+  (4.191600 -1.421600)
+  (3.943000 -1.512300)
+  (3.678300 -1.512500)
+  (3.429600 -1.422200)
+  (3.226700 -1.252300)
+  (3.094200 -1.023200)
+  (3.048000 -0.762700)
+  (3.048000 0.761300);
+#padStyleRef = "cont23"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '6' (6.35 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (5.588000 0.761300)
+  (5.633700 1.022000)
+  (5.765800 1.251300)
+  (5.968400 1.421600)
+  (6.217000 1.512300)
+  (6.481700 1.512500)
+  (6.730400 1.422200)
+  (6.933300 1.252300)
+  (7.065800 1.023200)
+  (7.112000 0.762700)
+  (7.112000 -0.761300)
+  (7.066300 -1.022000)
+  (6.934200 -1.251300)
+  (6.731600 -1.421600)
+  (6.483000 -1.512300)
+  (6.218300 -1.512500)
+  (5.969600 -1.422200)
+  (5.766700 -1.252300)
+  (5.634200 -1.023200)
+  (5.588000 -0.762700)
+  (5.588000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (5.588000 0.761300)
+  (5.633700 1.022000)
+  (5.765800 1.251300)
+  (5.968400 1.421600)
+  (6.217000 1.512300)
+  (6.481700 1.512500)
+  (6.730400 1.422200)
+  (6.933300 1.252300)
+  (7.065800 1.023200)
+  (7.112000 0.762700)
+  (7.112000 -0.761300)
+  (7.066300 -1.022000)
+  (6.934200 -1.251300)
+  (6.731600 -1.421600)
+  (6.483000 -1.512300)
+  (6.218300 -1.512500)
+  (5.969600 -1.422200)
+  (5.766700 -1.252300)
+  (5.634200 -1.023200)
+  (5.588000 -0.762700)
+  (5.588000 0.761300);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.1524 (0.6355 1.2702) (1.905 1.2702);
+WIRE 0.1524 (1.905 1.2702) (2.5405 0.635);
+WIRE 0.1524 (2.5405 0.635) (2.5405 -0.635);
+WIRE 0.1524 (2.5405 -0.635) (1.905 -1.2702);
+WIRE 0.1524 (2.5405 0.635) (3.1745 1.2702);
+WIRE 0.1524 (3.1745 1.2702) (4.4455 1.2702);
+WIRE 0.1524 (4.4455 1.2702) (5.0795 0.635);
+WIRE 0.1524 (5.0795 0.635) (5.0795 -0.635);
+WIRE 0.1524 (5.0795 -0.635) (4.4455 -1.2702);
+WIRE 0.1524 (4.4455 -1.2702) (3.1745 -1.2702);
+WIRE 0.1524 (3.1745 -1.2702) (2.5405 -0.635);
+WIRE 0.1524 (-2.5405 0.635) (-1.905 1.2702);
+WIRE 0.1524 (-1.905 1.2702) (-0.6355 1.2702);
+WIRE 0.1524 (-0.6355 1.2702) (0 0.635);
+WIRE 0.1524 (0 0.635) (0 -0.635);
+WIRE 0.1524 (0 -0.635) (-0.6355 -1.2702);
+WIRE 0.1524 (-0.6355 -1.2702) (-1.905 -1.2702);
+WIRE 0.1524 (-1.905 -1.2702) (-2.5405 -0.635);
+WIRE 0.1524 (0.6355 1.2702) (0 0.635);
+WIRE 0.1524 (0 -0.635) (0.6355 -1.2702);
+WIRE 0.1524 (1.905 -1.2702) (0.6355 -1.2702);
+WIRE 0.1524 (-6.9845 1.2702) (-5.715 1.2702);
+WIRE 0.1524 (-5.715 1.2702) (-5.0795 0.635);
+WIRE 0.1524 (-5.0795 0.635) (-5.0795 -0.635);
+WIRE 0.1524 (-5.0795 -0.635) (-5.715 -1.2702);
+WIRE 0.1524 (-5.0795 0.635) (-4.4455 1.2702);
+WIRE 0.1524 (-4.4455 1.2702) (-3.1745 1.2702);
+WIRE 0.1524 (-3.1745 1.2702) (-2.5405 0.635);
+WIRE 0.1524 (-2.5405 0.635) (-2.5405 -0.635);
+WIRE 0.1524 (-2.5405 -0.635) (-3.1745 -1.2702);
+WIRE 0.1524 (-3.1745 -1.2702) (-4.4455 -1.2702);
+WIRE 0.1524 (-4.4455 -1.2702) (-5.0795 -0.635);
+WIRE 0.1524 (-7.62 0.635) (-7.62 -0.635);
+WIRE 0.1524 (-6.9845 1.2702) (-7.62 0.635);
+WIRE 0.1524 (-7.62 -0.635) (-6.9845 -1.2702);
+WIRE 0.1524 (-5.715 -1.2702) (-6.9845 -1.2702);
+WIRE 0.1524 (5.715 1.2702) (6.9845 1.2702);
+WIRE 0.1524 (6.9845 1.2702) (7.62 0.635);
+WIRE 0.1524 (7.62 0.635) (7.62 -0.635);
+WIRE 0.1524 (7.62 -0.635) (6.9845 -1.2702);
+WIRE 0.1524 (5.715 1.2702) (5.0795 0.635);
+WIRE 0.1524 (5.0795 -0.635) (5.715 -1.2702);
+WIRE 0.1524 (6.9845 -1.2702) (5.715 -1.2702);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-7.62 1.5125);
+CHANGE LAYER 21;
+# LayerContents
+# layerNumRef = 10
+CHANGE LAYER 21;
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (4.0645 0.2538)
+  (3.557 0.2538)
+  (3.557 -0.2544)
+  (4.0645 -0.2544)
+  (4.0645 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (1.524 0.2538)
+  (1.0165 0.2538)
+  (1.0165 -0.2544)
+  (1.524 -0.2544)
+  (1.524 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-1.0165 0.2538)
+  (-1.524 0.2538)
+  (-1.524 -0.2544)
+  (-1.0165 -0.2544)
+  (-1.0165 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-3.5555 0.2538)
+  (-4.063 0.2538)
+  (-4.063 -0.2544)
+  (-3.5555 -0.2544)
+  (-3.5555 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-6.096 0.2538)
+  (-6.6035 0.2538)
+  (-6.6035 -0.2544)
+  (-6.096 -0.2544)
+  (-6.096 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (6.6035 0.2538)
+  (6.096 0.2538)
+  (6.096 -0.2544)
+  (6.6035 -0.2544)
+  (6.6035 0.2538);
+#
+# Package: comp_10 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_10Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont24"
+CHANGE DRILL 1;
+PAD 0.821300 SQUARE R0 '1' (0 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.8213 0.8213);
+CHANGE LAYER 21;
+#
+# Package: comp_11 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_11Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont25"
+CHANGE DRILL 1;
+PAD 0.821300 SQUARE R0 '1' (0 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.8213 0.8213);
+CHANGE LAYER 21;
+#
+# Package: comp_12 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_12Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont26"
+CHANGE DRILL 1;
+PAD 1.778 SQUARE R0 '1' (0 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.889 0.889);
+CHANGE LAYER 21;
+#
+# Package: comp_13 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_13Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont27"
+CHANGE DRILL 1;
+PAD 0.821300 SQUARE R0 '1' (0 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.8213 0.8213);
+CHANGE LAYER 21;
+#
+# Package: comp_14 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_14Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont28"
+CHANGE DRILL 1;
+PAD 0.821300 SQUARE R0 '1' (0 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.8213 0.8213);
+CHANGE LAYER 21;
+#
+# Package: comp_15 OriginalName = comp VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'comp_15Primary.PAC';
+DESCRIPTION 'Original name <b>comp</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont29"
+CHANGE DRILL 1;
+PAD 0.821300 SQUARE R0 '1' (0 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.821300 -0.340200)
+  (0.340200 -0.821300)
+  (-0.340200 -0.821300)
+  (-0.821300 -0.340200)
+  (-0.821300 0.340200)
+  (-0.340200 0.821300)
+  (0.340200 0.821300)
+  (0.821300 0.340200)
+  (0.821300 -0.340200);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.8213 0.8213);
+CHANGE LAYER 21;
+#
+# Package: Pad_16 OriginalName = Pad VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'Pad_16Primary.PAC';
+DESCRIPTION 'Original name <b>Pad</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont30"
+CHANGE DRILL 0.9;
+PAD 1.7 ROUND R0 '1' (0 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-0.85 0.85);
+CHANGE LAYER 21;
+#
+# Package: 1X06_17 OriginalName = 1X06 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT '1X06_17Primary.PAC';
+DESCRIPTION 'Original name <b>1X06</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont18"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '1' (-6.35 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-7.112000 0.761300)
+  (-7.066300 1.022000)
+  (-6.934200 1.251300)
+  (-6.731600 1.421600)
+  (-6.483000 1.512300)
+  (-6.218300 1.512500)
+  (-5.969600 1.422200)
+  (-5.766700 1.252300)
+  (-5.634200 1.023200)
+  (-5.588000 0.762700)
+  (-5.588000 -0.761300)
+  (-5.633700 -1.022000)
+  (-5.765800 -1.251300)
+  (-5.968400 -1.421600)
+  (-6.217000 -1.512300)
+  (-6.481700 -1.512500)
+  (-6.730400 -1.422200)
+  (-6.933300 -1.252300)
+  (-7.065800 -1.023200)
+  (-7.112000 -0.762700)
+  (-7.112000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-7.112000 0.761300)
+  (-7.066300 1.022000)
+  (-6.934200 1.251300)
+  (-6.731600 1.421600)
+  (-6.483000 1.512300)
+  (-6.218300 1.512500)
+  (-5.969600 1.422200)
+  (-5.766700 1.252300)
+  (-5.634200 1.023200)
+  (-5.588000 0.762700)
+  (-5.588000 -0.761300)
+  (-5.633700 -1.022000)
+  (-5.765800 -1.251300)
+  (-5.968400 -1.421600)
+  (-6.217000 -1.512300)
+  (-6.481700 -1.512500)
+  (-6.730400 -1.422200)
+  (-6.933300 -1.252300)
+  (-7.065800 -1.023200)
+  (-7.112000 -0.762700)
+  (-7.112000 0.761300);
+#padStyleRef = "cont19"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '2' (-3.81 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-4.572000 0.761300)
+  (-4.526300 1.022000)
+  (-4.394200 1.251300)
+  (-4.191600 1.421600)
+  (-3.943000 1.512300)
+  (-3.678300 1.512500)
+  (-3.429600 1.422200)
+  (-3.226700 1.252300)
+  (-3.094200 1.023200)
+  (-3.048000 0.762700)
+  (-3.048000 -0.761300)
+  (-3.093700 -1.022000)
+  (-3.225800 -1.251300)
+  (-3.428400 -1.421600)
+  (-3.677000 -1.512300)
+  (-3.941700 -1.512500)
+  (-4.190400 -1.422200)
+  (-4.393300 -1.252300)
+  (-4.525800 -1.023200)
+  (-4.572000 -0.762700)
+  (-4.572000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-4.572000 0.761300)
+  (-4.526300 1.022000)
+  (-4.394200 1.251300)
+  (-4.191600 1.421600)
+  (-3.943000 1.512300)
+  (-3.678300 1.512500)
+  (-3.429600 1.422200)
+  (-3.226700 1.252300)
+  (-3.094200 1.023200)
+  (-3.048000 0.762700)
+  (-3.048000 -0.761300)
+  (-3.093700 -1.022000)
+  (-3.225800 -1.251300)
+  (-3.428400 -1.421600)
+  (-3.677000 -1.512300)
+  (-3.941700 -1.512500)
+  (-4.190400 -1.422200)
+  (-4.393300 -1.252300)
+  (-4.525800 -1.023200)
+  (-4.572000 -0.762700)
+  (-4.572000 0.761300);
+#padStyleRef = "cont20"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '3' (-1.27 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-2.032000 0.761300)
+  (-1.986300 1.022000)
+  (-1.854200 1.251300)
+  (-1.651600 1.421600)
+  (-1.403000 1.512300)
+  (-1.138300 1.512500)
+  (-0.889600 1.422200)
+  (-0.686700 1.252300)
+  (-0.554200 1.023200)
+  (-0.508000 0.762700)
+  (-0.508000 -0.761300)
+  (-0.553700 -1.022000)
+  (-0.685800 -1.251300)
+  (-0.888400 -1.421600)
+  (-1.137000 -1.512300)
+  (-1.401700 -1.512500)
+  (-1.650400 -1.422200)
+  (-1.853300 -1.252300)
+  (-1.985800 -1.023200)
+  (-2.032000 -0.762700)
+  (-2.032000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-2.032000 0.761300)
+  (-1.986300 1.022000)
+  (-1.854200 1.251300)
+  (-1.651600 1.421600)
+  (-1.403000 1.512300)
+  (-1.138300 1.512500)
+  (-0.889600 1.422200)
+  (-0.686700 1.252300)
+  (-0.554200 1.023200)
+  (-0.508000 0.762700)
+  (-0.508000 -0.761300)
+  (-0.553700 -1.022000)
+  (-0.685800 -1.251300)
+  (-0.888400 -1.421600)
+  (-1.137000 -1.512300)
+  (-1.401700 -1.512500)
+  (-1.650400 -1.422200)
+  (-1.853300 -1.252300)
+  (-1.985800 -1.023200)
+  (-2.032000 -0.762700)
+  (-2.032000 0.761300);
+#padStyleRef = "cont21"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '4' (1.27 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.508000 0.761300)
+  (0.553700 1.022000)
+  (0.685800 1.251300)
+  (0.888400 1.421600)
+  (1.137000 1.512300)
+  (1.401700 1.512500)
+  (1.650400 1.422200)
+  (1.853300 1.252300)
+  (1.985800 1.023200)
+  (2.032000 0.762700)
+  (2.032000 -0.761300)
+  (1.986300 -1.022000)
+  (1.854200 -1.251300)
+  (1.651600 -1.421600)
+  (1.403000 -1.512300)
+  (1.138300 -1.512500)
+  (0.889600 -1.422200)
+  (0.686700 -1.252300)
+  (0.554200 -1.023200)
+  (0.508000 -0.762700)
+  (0.508000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (0.508000 0.761300)
+  (0.553700 1.022000)
+  (0.685800 1.251300)
+  (0.888400 1.421600)
+  (1.137000 1.512300)
+  (1.401700 1.512500)
+  (1.650400 1.422200)
+  (1.853300 1.252300)
+  (1.985800 1.023200)
+  (2.032000 0.762700)
+  (2.032000 -0.761300)
+  (1.986300 -1.022000)
+  (1.854200 -1.251300)
+  (1.651600 -1.421600)
+  (1.403000 -1.512300)
+  (1.138300 -1.512500)
+  (0.889600 -1.422200)
+  (0.686700 -1.252300)
+  (0.554200 -1.023200)
+  (0.508000 -0.762700)
+  (0.508000 0.761300);
+#padStyleRef = "cont22"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '5' (3.81 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (3.048000 0.761300)
+  (3.093700 1.022000)
+  (3.225800 1.251300)
+  (3.428400 1.421600)
+  (3.677000 1.512300)
+  (3.941700 1.512500)
+  (4.190400 1.422200)
+  (4.393300 1.252300)
+  (4.525800 1.023200)
+  (4.572000 0.762700)
+  (4.572000 -0.761300)
+  (4.526300 -1.022000)
+  (4.394200 -1.251300)
+  (4.191600 -1.421600)
+  (3.943000 -1.512300)
+  (3.678300 -1.512500)
+  (3.429600 -1.422200)
+  (3.226700 -1.252300)
+  (3.094200 -1.023200)
+  (3.048000 -0.762700)
+  (3.048000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (3.048000 0.761300)
+  (3.093700 1.022000)
+  (3.225800 1.251300)
+  (3.428400 1.421600)
+  (3.677000 1.512300)
+  (3.941700 1.512500)
+  (4.190400 1.422200)
+  (4.393300 1.252300)
+  (4.525800 1.023200)
+  (4.572000 0.762700)
+  (4.572000 -0.761300)
+  (4.526300 -1.022000)
+  (4.394200 -1.251300)
+  (4.191600 -1.421600)
+  (3.943000 -1.512300)
+  (3.678300 -1.512500)
+  (3.429600 -1.422200)
+  (3.226700 -1.252300)
+  (3.094200 -1.023200)
+  (3.048000 -0.762700)
+  (3.048000 0.761300);
+#padStyleRef = "cont23"
+CHANGE DRILL 1.016;
+PAD 0.762000 SQUARE R0 '6' (6.35 0);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (5.588000 0.761300)
+  (5.633700 1.022000)
+  (5.765800 1.251300)
+  (5.968400 1.421600)
+  (6.217000 1.512300)
+  (6.481700 1.512500)
+  (6.730400 1.422200)
+  (6.933300 1.252300)
+  (7.065800 1.023200)
+  (7.112000 0.762700)
+  (7.112000 -0.761300)
+  (7.066300 -1.022000)
+  (6.934200 -1.251300)
+  (6.731600 -1.421600)
+  (6.483000 -1.512300)
+  (6.218300 -1.512500)
+  (5.969600 -1.422200)
+  (5.766700 -1.252300)
+  (5.634200 -1.023200)
+  (5.588000 -0.762700)
+  (5.588000 0.761300);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (5.588000 0.761300)
+  (5.633700 1.022000)
+  (5.765800 1.251300)
+  (5.968400 1.421600)
+  (6.217000 1.512300)
+  (6.481700 1.512500)
+  (6.730400 1.422200)
+  (6.933300 1.252300)
+  (7.065800 1.023200)
+  (7.112000 0.762700)
+  (7.112000 -0.761300)
+  (7.066300 -1.022000)
+  (6.934200 -1.251300)
+  (6.731600 -1.421600)
+  (6.483000 -1.512300)
+  (6.218300 -1.512500)
+  (5.969600 -1.422200)
+  (5.766700 -1.252300)
+  (5.634200 -1.023200)
+  (5.588000 -0.762700)
+  (5.588000 0.761300);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.1524 (0.6355 1.2702) (1.905 1.2702);
+WIRE 0.1524 (1.905 1.2702) (2.5405 0.635);
+WIRE 0.1524 (2.5405 0.635) (2.5405 -0.635);
+WIRE 0.1524 (2.5405 -0.635) (1.905 -1.2702);
+WIRE 0.1524 (2.5405 0.635) (3.1745 1.2702);
+WIRE 0.1524 (3.1745 1.2702) (4.4455 1.2702);
+WIRE 0.1524 (4.4455 1.2702) (5.0795 0.635);
+WIRE 0.1524 (5.0795 0.635) (5.0795 -0.635);
+WIRE 0.1524 (5.0795 -0.635) (4.4455 -1.2702);
+WIRE 0.1524 (4.4455 -1.2702) (3.1745 -1.2702);
+WIRE 0.1524 (3.1745 -1.2702) (2.5405 -0.635);
+WIRE 0.1524 (-2.5405 0.635) (-1.905 1.2702);
+WIRE 0.1524 (-1.905 1.2702) (-0.6355 1.2702);
+WIRE 0.1524 (-0.6355 1.2702) (0 0.635);
+WIRE 0.1524 (0 0.635) (0 -0.635);
+WIRE 0.1524 (0 -0.635) (-0.6355 -1.2702);
+WIRE 0.1524 (-0.6355 -1.2702) (-1.905 -1.2702);
+WIRE 0.1524 (-1.905 -1.2702) (-2.5405 -0.635);
+WIRE 0.1524 (0.6355 1.2702) (0 0.635);
+WIRE 0.1524 (0 -0.635) (0.6355 -1.2702);
+WIRE 0.1524 (1.905 -1.2702) (0.6355 -1.2702);
+WIRE 0.1524 (-6.9845 1.2702) (-5.715 1.2702);
+WIRE 0.1524 (-5.715 1.2702) (-5.0795 0.635);
+WIRE 0.1524 (-5.0795 0.635) (-5.0795 -0.635);
+WIRE 0.1524 (-5.0795 -0.635) (-5.715 -1.2702);
+WIRE 0.1524 (-5.0795 0.635) (-4.4455 1.2702);
+WIRE 0.1524 (-4.4455 1.2702) (-3.1745 1.2702);
+WIRE 0.1524 (-3.1745 1.2702) (-2.5405 0.635);
+WIRE 0.1524 (-2.5405 0.635) (-2.5405 -0.635);
+WIRE 0.1524 (-2.5405 -0.635) (-3.1745 -1.2702);
+WIRE 0.1524 (-3.1745 -1.2702) (-4.4455 -1.2702);
+WIRE 0.1524 (-4.4455 -1.2702) (-5.0795 -0.635);
+WIRE 0.1524 (-7.62 0.635) (-7.62 -0.635);
+WIRE 0.1524 (-6.9845 1.2702) (-7.62 0.635);
+WIRE 0.1524 (-7.62 -0.635) (-6.9845 -1.2702);
+WIRE 0.1524 (-5.715 -1.2702) (-6.9845 -1.2702);
+WIRE 0.1524 (5.715 1.2702) (6.9845 1.2702);
+WIRE 0.1524 (6.9845 1.2702) (7.62 0.635);
+WIRE 0.1524 (7.62 0.635) (7.62 -0.635);
+WIRE 0.1524 (7.62 -0.635) (6.9845 -1.2702);
+WIRE 0.1524 (5.715 1.2702) (5.0795 0.635);
+WIRE 0.1524 (5.0795 -0.635) (5.715 -1.2702);
+WIRE 0.1524 (6.9845 -1.2702) (5.715 -1.2702);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-7.62 1.5125);
+CHANGE LAYER 21;
+# LayerContents
+# layerNumRef = 10
+CHANGE LAYER 21;
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (4.0645 0.2538)
+  (3.557 0.2538)
+  (3.557 -0.2544)
+  (4.0645 -0.2544)
+  (4.0645 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (1.524 0.2538)
+  (1.0165 0.2538)
+  (1.0165 -0.2544)
+  (1.524 -0.2544)
+  (1.524 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-1.0165 0.2538)
+  (-1.524 0.2538)
+  (-1.524 -0.2544)
+  (-1.0165 -0.2544)
+  (-1.0165 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-3.5555 0.2538)
+  (-4.063 0.2538)
+  (-4.063 -0.2544)
+  (-3.5555 -0.2544)
+  (-3.5555 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (-6.096 0.2538)
+  (-6.6035 0.2538)
+  (-6.6035 -0.2544)
+  (-6.096 -0.2544)
+  (-6.096 0.2538);
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (6.6035 0.2538)
+  (6.096 0.2538)
+  (6.096 -0.2544)
+  (6.6035 -0.2544)
+  (6.6035 0.2538);
+#
+# Package: POT3T_18 OriginalName = POT3T VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'POT3T_18Primary.PAC';
+DESCRIPTION 'Original name <b>POT3T</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont31"
+CHANGE DRILL 0.9653;
+PAD 1.524 SQUARE R0 '1' (-1.27 2.54);
+#padStyleRef = "cont32"
+CHANGE DRILL 0.9652;
+PAD 1.778 ROUND R0 '2' (-1.27 0);
+#padStyleRef = "cont33"
+CHANGE DRILL 0.9652;
+PAD 1.778 ROUND R0 '3' (-1.27 -2.54);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (0.381 3.1737) (2.159 3.1737);
+WIRE 0.254 (-2.54 4.445) (2.54 4.445);
+WIRE 0.254 (2.54 -4.445) (2.54 4.445);
+WIRE 0.254 (-2.54 -4.445) (2.54 -4.445);
+WIRE 0.254 (-2.54 -4.445) (-2.54 4.445);
+CIRCLE 0.254 (1.27000000 3.17370000) (2.15900000 3.17370000);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-2.54 4.445);
+CHANGE LAYER 21;
+#
+# Package: RES400_19 OriginalName = RES400 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'RES400_19Primary.PAC';
+DESCRIPTION 'Original name <b>RES400</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont13"
+CHANGE DRILL 0.9653;
+PAD 1.7 ROUND R0 '1' (5.08 0);
+#padStyleRef = "cont34"
+CHANGE DRILL 0.965;
+PAD 1.7 ROUND R0 '2' (-5.08 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-2.5357 1.27) (2.5357 1.27);
+WIRE 0.254 (2.5357 -1.27) (2.5357 1.27);
+WIRE 0.254 (-2.5357 -1.27) (2.5357 -1.27);
+WIRE 0.254 (-2.5357 -1.27) (-2.5357 1.27);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-5.93 1.27);
+CHANGE LAYER 21;
+#
+# Package: RES500_20 OriginalName = RES500 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'RES500_20Primary.PAC';
+DESCRIPTION 'Original name <b>RES500</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont13"
+CHANGE DRILL 0.9653;
+PAD 1.7 ROUND R0 '1' (6.35 0);
+#padStyleRef = "cont34"
+CHANGE DRILL 0.965;
+PAD 1.7 ROUND R0 '2' (-6.35 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-3.8117 1.27) (3.8117 1.27);
+WIRE 0.254 (3.8117 -1.27) (3.8117 1.27);
+WIRE 0.254 (-3.8117 -1.27) (3.8117 -1.27);
+WIRE 0.254 (-3.8117 -1.27) (-3.8117 1.27);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-7.2 1.27);
+CHANGE LAYER 21;
+#
+# Package: RES500_21 OriginalName = RES500 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'RES500_21Primary.PAC';
+DESCRIPTION 'Original name <b>RES500</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont13"
+CHANGE DRILL 0.9653;
+PAD 1.7 ROUND R0 '1' (6.35 0);
+#padStyleRef = "cont35"
+CHANGE DRILL 0.9653;
+PAD 1.7 ROUND R0 '2' (-6.35 0);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-3.8117 1.27) (3.8117 1.27);
+WIRE 0.254 (3.8117 -1.27) (3.8117 1.27);
+WIRE 0.254 (-3.8117 -1.27) (3.8117 -1.27);
+WIRE 0.254 (-3.8117 -1.27) (-3.8117 1.27);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-7.2 1.27);
+CHANGE LAYER 21;
+#
+# Package: AD623AN_22 OriginalName = AD623AN VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'AD623AN_22Primary.PAC';
+DESCRIPTION 'Original name <b>AD623AN</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont36"
+CHANGE DRILL 0.9;
+PAD 1.5 SQUARE R0 '1' (-3.81 3.81);
+#padStyleRef = "cont37"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '2' (-3.81 1.27);
+#padStyleRef = "cont38"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '3' (-3.81 -1.27);
+#padStyleRef = "cont39"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '4' (-3.81 -3.81);
+#padStyleRef = "cont40"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '5' (3.81 -3.81);
+#padStyleRef = "cont41"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '6' (3.81 -1.27);
+#padStyleRef = "cont42"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '7' (3.81 1.27);
+#padStyleRef = "cont43"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '8' (3.81 3.81);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (2.6001 5) (2.6001 -5);
+WIRE 0.254 (-2.6001 -5) (2.6001 -5);
+WIRE 0.254 (-2.6001 5) (-2.6001 -5);
+WIRE 0.254 (-2.6001 5) (-0.6001 5);
+WIRE 0.254 (2.6001 5) (0.6001 5);
+ARC CCW 0.254 (-0.60010000 5.00010000) (0.60010000 5.00010000) (0.60010000 5.00010000);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-4.56 5);
+CHANGE LAYER 21;
+#
+# Package: AD623AN_23 OriginalName = AD623AN VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'AD623AN_23Primary.PAC';
+DESCRIPTION 'Original name <b>AD623AN</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont44"
+CHANGE DRILL 0.9;
+PAD 1.5 SQUARE R0 '1' (-3.81 3.81);
+#padStyleRef = "cont45"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '2' (-3.81 1.27);
+#padStyleRef = "cont46"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '3' (-3.81 -1.27);
+#padStyleRef = "cont47"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '4' (-3.81 -3.81);
+#padStyleRef = "cont48"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '5' (3.81 -3.81);
+#padStyleRef = "cont49"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '6' (3.81 -1.27);
+#padStyleRef = "cont50"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '7' (3.81 1.27);
+#padStyleRef = "cont51"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R90.000000 '8' (3.81 3.81);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (2.6001 5) (2.6001 -5);
+WIRE 0.254 (-2.6001 -5) (2.6001 -5);
+WIRE 0.254 (-2.6001 5) (-2.6001 -5);
+WIRE 0.254 (-2.6001 5) (-0.6001 5);
+WIRE 0.254 (2.6001 5) (0.6001 5);
+ARC CCW 0.254 (-0.60010000 5.00010000) (0.60010000 5.00010000) (0.60010000 5.00010000);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-4.56 5);
+CHANGE LAYER 21;
+#
+# Package: HDR-2x6_24 OriginalName = HDR-2x6 VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'HDR-2x6_24Primary.PAC';
+DESCRIPTION 'Original name <b>HDR-2x6</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont52"
+CHANGE DRILL 0.9;
+PAD 1.5 SQUARE R0 '1' (-6.35 1.27);
+#padStyleRef = "cont53"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '2' (-6.35 -1.27);
+#padStyleRef = "cont54"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '3' (-3.81 1.27);
+#padStyleRef = "cont55"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '4' (-3.81 -1.27);
+#padStyleRef = "cont56"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '5' (-1.27 1.27);
+#padStyleRef = "cont57"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '6' (-1.27 -1.27);
+#padStyleRef = "cont58"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '7' (1.27 1.27);
+#padStyleRef = "cont59"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '8' (1.27 -1.27);
+#padStyleRef = "cont60"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '9' (3.81 1.27);
+#padStyleRef = "cont61"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '10' (3.81 -1.27);
+#padStyleRef = "cont62"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '11' (6.35 1.27);
+#padStyleRef = "cont63"
+CHANGE DRILL 0.965;
+PAD 1.500000 LONG R0 '12' (6.35 -1.27);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+WIRE 0.254 (-7.62 2.54) (7.62 2.54);
+WIRE 0.254 (7.62 2.54) (7.62 -2.54);
+WIRE 0.254 (-7.62 -2.54) (7.62 -2.54);
+WIRE 0.254 (-7.62 2.54) (-7.62 -2.54);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-7.62 2.54);
+CHANGE LAYER 21;
+#
+# Package: TLE2426*LP_25 OriginalName = TLE2426*LP VariantName = Primary PatternDefaultVariantName = Primary
+EDIT 'TLE2426*LP_25Primary.PAC';
+DESCRIPTION 'Original name <b>TLE2426*LP</b><p>';
+GRID mm;
+CHANGE FONT VECTOR;
+#padStyleRef = "cont64"
+CHANGE DRILL 0.7;
+PAD 0.500000 SQUARE R0 '1' (-1.27 -0.7751);
+CHANGE LAYER 1;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-1.770000 -1.525100)
+  (-1.520000 -1.775100)
+  (-1.020000 -1.775100)
+  (-0.770000 -1.525100)
+  (-0.770000 -0.025100)
+  (-1.020000 0.224900)
+  (-1.520000 0.224900)
+  (-1.770000 -0.025100)
+  (-1.770000 -1.525100);
+CHANGE LAYER 16;
+# PadShapeStyleShapeType == 3
+POLYGON 0
+  (-1.770000 -1.525100)
+  (-1.520000 -1.775100)
+  (-1.020000 -1.775100)
+  (-0.770000 -1.525100)
+  (-0.770000 -0.025100)
+  (-1.020000 0.224900)
+  (-1.520000 0.224900)
+  (-1.770000 -0.025100)
+  (-1.770000 -1.525100);
+#padStyleRef = "cont65"
+CHANGE DRILL 0.7;
+PAD 1.000000 LONG R90.000000 '2' (0 -0.7751);
+#padStyleRef = "cont66"
+CHANGE DRILL 0.7;
+PAD 1.000000 LONG R90.000000 '3' (1.27 -0.7751);
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+ARC CCW 0.254 (1.93130182 -2.11295506) (-1.93130182 1.24475506) (-1.93130182 -2.11295506);
+WIRE 0.254 (1.9208 -2.1249) (-1.9208 -2.1249);
+CHANGE ALIGN CENTER;
+CHANGE LAYER 25;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+TEXT '>NAME' SR0 (-2.559 2.1249);
+CHANGE LAYER 21;
+# Symbols:
+# Devices:
+#
+# Device: CAP500AP_0 OriginalName = CAP500AP
+EDIT 'CAP500AP_0.DEV';
+GRID mm;
+PACKAGE 'CAP500AP_0Primary';
+PREFIX 'U';
+#
+# Device: CAP100RP_1 OriginalName = CAP100RP
+EDIT 'CAP100RP_1.DEV';
+GRID mm;
+PACKAGE 'CAP100RP_1Primary';
+PREFIX 'U';
+#
+# Device: LED_2 OriginalName = LED
+EDIT 'LED_2.DEV';
+GRID mm;
+PACKAGE 'LED_2Primary';
+PREFIX 'U';
+#
+# Device: comp_3 OriginalName = comp
+EDIT 'comp_3.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_4 OriginalName = comp_1
+EDIT 'comp_4.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_5 OriginalName = comp_2
+EDIT 'comp_5.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: 1X08_6 OriginalName = 1X08
+EDIT '1X08_6.DEV';
+GRID mm;
+PACKAGE '1X08_6Primary';
+PREFIX 'U';
+#
+# Device: JUMPER_3_7 OriginalName = JUMPER_3
+EDIT 'JUMPER_3_7.DEV';
+GRID mm;
+PACKAGE 'JUMPER_3_7Primary';
+PREFIX 'U';
+#
+# Device: RCA_jack_8 OriginalName = RCA_jack
+EDIT 'RCA_jack_8.DEV';
+GRID mm;
+PACKAGE 'RCA_jack_8Primary';
+PREFIX 'U';
+#
+# Device: 1X06_9 OriginalName = 1X06
+EDIT '1X06_9.DEV';
+GRID mm;
+PACKAGE '1X06_9Primary';
+PREFIX 'U';
+#
+# Device: comp_10 OriginalName = comp_3
+EDIT 'comp_10.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_11 OriginalName = comp_4
+EDIT 'comp_11.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_12 OriginalName = comp_5
+EDIT 'comp_12.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_13 OriginalName = comp_6
+EDIT 'comp_13.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_14 OriginalName = comp_7
+EDIT 'comp_14.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: comp_15 OriginalName = comp_8
+EDIT 'comp_15.DEV';
+GRID mm;
+PACKAGE 'comp_3Primary';
+PREFIX 'U';
+#
+# Device: Pad_16 OriginalName = Pad
+EDIT 'Pad_16.DEV';
+GRID mm;
+PACKAGE 'Pad_16Primary';
+PREFIX 'U';
+#
+# Device: 1X06_17 OriginalName = 1X06_1
+EDIT '1X06_17.DEV';
+GRID mm;
+PACKAGE '1X06_9Primary';
+PREFIX 'U';
+#
+# Device: POT3T_18 OriginalName = POT3T
+EDIT 'POT3T_18.DEV';
+GRID mm;
+PACKAGE 'POT3T_18Primary';
+PREFIX 'U';
+#
+# Device: RES400_19 OriginalName = RES400
+EDIT 'RES400_19.DEV';
+GRID mm;
+PACKAGE 'RES400_19Primary';
+PREFIX 'U';
+#
+# Device: RES500_20 OriginalName = RES500
+EDIT 'RES500_20.DEV';
+GRID mm;
+PACKAGE 'RES500_20Primary';
+PREFIX 'U';
+#
+# Device: RES500_21 OriginalName = RES500_1
+EDIT 'RES500_21.DEV';
+GRID mm;
+PACKAGE 'RES500_20Primary';
+PREFIX 'U';
+#
+# Device: AD623AN_22 OriginalName = AD623AN
+EDIT 'AD623AN_22.DEV';
+GRID mm;
+PACKAGE 'AD623AN_22Primary';
+PREFIX 'U';
+#
+# Device: AD623AN_23 OriginalName = AD623AN_1
+EDIT 'AD623AN_23.DEV';
+GRID mm;
+PACKAGE 'AD623AN_22Primary';
+PREFIX 'U';
+#
+# Device: HDR-2x6_24 OriginalName = HDR-2x6
+EDIT 'HDR-2x6_24.DEV';
+GRID mm;
+PACKAGE 'HDR-2x6_24Primary';
+PREFIX 'U';
+#
+# Device: TLE2426*LP_25 OriginalName = TLE2426*LP
+EDIT 'TLE2426*LP_25.DEV';
+GRID mm;
+PACKAGE 'TLE2426*LP_25Primary';
+PREFIX 'U';
+# Dummy devices: 0
+WRITE;
+CLOSE;
+# ***** Board *****
+EDIT 'C:/Users/Marco/Dropbox/Electronics/circuits/DipTrace/Projects/spikershield4.pcb.brd';
+DRC LOAD 'C:/Users/Marco/Dropbox/Electronics/circuits/DipTrace/Projects/spikershield4.dru';
+SET WIRE_BEND 2;
+USE -* 'C:/Users/Marco/Dropbox/Electronics/circuits/DipTrace/Projects/spikershield4.lbr';
+GRID mm;
+SET OPTIMIZING ON;
+SET CONFIRM YES;
+CHANGE FONT VECTOR;
+#patternRef = "CAP500AP_0"
+ADD 'CAP500AP_0Primary' 'C3' R0.0 (98.6144 68.58);
+VALUE 'C3' '10uF';
+SMASH 'C3';
+MOVE 'C3>NAME' (98.614400 68.580000);
+ROTATE =SR0 'C3>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (98.614400 68.580000);
+CHANGE RATIO 12 (98.614400 68.580000);
+CHANGE DISPLAY OFF (98.614400 68.580000);
+#patternRef = "CAP500AP_0"
+ADD 'CAP500AP_0Primary' 'C4' R0.0 (98.6144 62.865);
+VALUE 'C4' '360pF';
+SMASH 'C4';
+MOVE 'C4>NAME' (98.614400 62.865000);
+ROTATE =SR0 'C4>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (98.614400 62.865000);
+CHANGE RATIO 12 (98.614400 62.865000);
+CHANGE DISPLAY OFF (98.614400 62.865000);
+#patternRef = "CAP100RP_1"
+ADD 'CAP100RP_1Primary' 'C5' R180.0 (78.7991 68.58);
+SMASH 'C5';
+MOVE 'C5>NAME' (78.799100 68.580000);
+ROTATE =SR0 'C5>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (78.799100 68.580000);
+CHANGE RATIO 12 (78.799100 68.580000);
+CHANGE DISPLAY OFF (78.799100 68.580000);
+#patternRef = "CAP500AP_0"
+ADD 'CAP500AP_0Primary' 'C6' R0.0 (101.7894 58.1025);
+VALUE 'C6' '1uF';
+SMASH 'C6';
+MOVE 'C6>NAME' (101.789400 58.102500);
+ROTATE =SR0 'C6>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (101.789400 58.102500);
+CHANGE RATIO 12 (101.789400 58.102500);
+CHANGE DISPLAY OFF (101.789400 58.102500);
+#patternRef = "CAP500AP_0"
+ADD 'CAP500AP_0Primary' 'C7' R0.0 (101.7894 54.9275);
+VALUE 'C7' '10nF';
+SMASH 'C7';
+MOVE 'C7>NAME' (101.789400 54.927500);
+ROTATE =SR0 'C7>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (101.789400 54.927500);
+CHANGE RATIO 12 (101.789400 54.927500);
+CHANGE DISPLAY OFF (101.789400 54.927500);
+#patternRef = "LED_2"
+ADD 'LED_2Primary' 'D1' R0.0 (79.5396 39.0525);
+SMASH 'D1';
+MOVE 'D1>NAME' (79.539600 39.052500);
+ROTATE =SR0 'D1>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (79.539600 39.052500);
+CHANGE RATIO 12 (79.539600 39.052500);
+CHANGE DISPLAY OFF (79.539600 39.052500);
+#patternRef = "comp_3"
+ADD 'comp_3Primary' 'HOLE1' R0.0 (130.979 43.184);
+SMASH 'HOLE1';
+MOVE 'HOLE1>NAME' (130.979000 43.184000);
+ROTATE =SR0 'HOLE1>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (130.979000 43.184000);
+CHANGE RATIO 12 (130.979000 43.184000);
+CHANGE DISPLAY OFF (130.979000 43.184000);
+#patternRef = "comp_4"
+ADD 'comp_4Primary' 'HOLE2' R0.0 (80.179 86.364);
+SMASH 'HOLE2';
+MOVE 'HOLE2>NAME' (80.179000 86.364000);
+ROTATE =SR0 'HOLE2>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (80.179000 86.364000);
+CHANGE RATIO 12 (80.179000 86.364000);
+CHANGE DISPLAY OFF (80.179000 86.364000);
+#patternRef = "comp_5"
+ADD 'comp_5Primary' 'HOLE3' R0.0 (130.979 71.1269);
+SMASH 'HOLE3';
+MOVE 'HOLE3>NAME' (130.979000 71.126900);
+ROTATE =SR0 'HOLE3>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (130.979000 71.126900);
+CHANGE RATIO 12 (130.979000 71.126900);
+CHANGE DISPLAY OFF (130.979000 71.126900);
+#patternRef = "1X08_6"
+ADD '1X08_6Primary' 'J1' MR540.0 (119.5444 86.36);
+SMASH 'J1';
+MOVE 'J1>NAME' (119.544400 86.360000);
+ROTATE =SR0 'J1>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (119.544400 86.360000);
+CHANGE RATIO 12 (119.544400 86.360000);
+CHANGE DISPLAY OFF (119.544400 86.360000);
+#patternRef = "JUMPER_3_7"
+ADD 'JUMPER_3_7Primary' 'J2' R180.0 (114.4644 69.85);
+SMASH 'J2';
+MOVE 'J2>NAME' (114.464400 69.850000);
+ROTATE =SR0 'J2>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (114.464400 69.850000);
+CHANGE RATIO 12 (114.464400 69.850000);
+CHANGE DISPLAY OFF (114.464400 69.850000);
+#patternRef = "RCA jack_8"
+ADD 'RCA_jack_8Primary' 'J3' R180.0 (131.2446 54.61);
+SMASH 'J3';
+MOVE 'J3>NAME' (131.244600 54.610000);
+ROTATE =SR0 'J3>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (131.244600 54.610000);
+CHANGE RATIO 12 (131.244600 54.610000);
+CHANGE DISPLAY OFF (131.244600 54.610000);
+#patternRef = "RCA jack_8"
+ADD 'RCA_jack_8Primary' 'J4' R0.0 (76.5494 60.325);
+SMASH 'J4';
+MOVE 'J4>NAME' (76.549400 60.325000);
+ROTATE =SR0 'J4>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (76.549400 60.325000);
+CHANGE RATIO 12 (76.549400 60.325000);
+CHANGE DISPLAY OFF (76.549400 60.325000);
+#patternRef = "JUMPER_3_7"
+ADD 'JUMPER_3_7Primary' 'J5' R270.0 (122.7266 65.4121);
+SMASH 'J5';
+MOVE 'J5>NAME' (122.726600 65.412100);
+ROTATE =SR0 'J5>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (122.726600 65.412100);
+CHANGE RATIO 12 (122.726600 65.412100);
+CHANGE DISPLAY OFF (122.726600 65.412100);
+#patternRef = "1X08_6"
+ADD '1X08_6Primary' 'J6' MR540.0 (97.9544 86.36);
+SMASH 'J6';
+MOVE 'J6>NAME' (97.954400 86.360000);
+ROTATE =SR0 'J6>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (97.954400 86.360000);
+CHANGE RATIO 12 (97.954400 86.360000);
+CHANGE DISPLAY OFF (97.954400 86.360000);
+#patternRef = "1X08_6"
+ADD '1X08_6Primary' 'J7' R180.0 (97.9665 83.3476);
+SMASH 'J7';
+MOVE 'J7>NAME' (97.966500 83.347600);
+ROTATE =SR0 'J7>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (97.966500 83.347600);
+CHANGE RATIO 12 (97.966500 83.347600);
+CHANGE DISPLAY OFF (97.966500 83.347600);
+#patternRef = "1X06_9"
+ADD '1X06_9Primary' 'J8' MR0.0 (122.101 38.1038);
+SMASH 'J8';
+MOVE 'J8>NAME' (122.101000 38.103800);
+ROTATE =SR0 'J8>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (122.101000 38.103800);
+CHANGE RATIO 12 (122.101000 38.103800);
+CHANGE DISPLAY OFF (122.101000 38.103800);
+#patternRef = "1X06_9"
+ADD '1X06_9Primary' 'J9' MR0.0 (104.321 38.1038);
+SMASH 'J9';
+MOVE 'J9>NAME' (104.321000 38.103800);
+ROTATE =SR0 'J9>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (104.321000 38.103800);
+CHANGE RATIO 12 (104.321000 38.103800);
+CHANGE DISPLAY OFF (104.321000 38.103800);
+#patternRef = "JUMPER_3_7"
+ADD 'JUMPER_3_7Primary' 'J11' R180.0 (86.5244 68.58);
+SMASH 'J11';
+MOVE 'J11>NAME' (86.524400 68.580000);
+ROTATE =SR0 'J11>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (86.524400 68.580000);
+CHANGE RATIO 12 (86.524400 68.580000);
+CHANGE DISPLAY OFF (86.524400 68.580000);
+#patternRef = "1X08_6"
+ADD '1X08_6Primary' 'J12' R180.0 (119.5444 83.3437);
+SMASH 'J12';
+MOVE 'J12>NAME' (119.544400 83.343700);
+ROTATE =SR0 'J12>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (119.544400 83.343700);
+CHANGE RATIO 12 (119.544400 83.343700);
+CHANGE DISPLAY OFF (119.544400 83.343700);
+#patternRef = "1X06_9"
+ADD '1X06_9Primary' 'J13' R0.0 (122.101 41.12);
+SMASH 'J13';
+MOVE 'J13>NAME' (122.101000 41.120000);
+ROTATE =SR0 'J13>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (122.101000 41.120000);
+CHANGE RATIO 12 (122.101000 41.120000);
+CHANGE DISPLAY OFF (122.101000 41.120000);
+#patternRef = "comp_10"
+ADD 'comp_10Primary' 'PAD1' R0.0 (131.2669 63.5091);
+SMASH 'PAD1';
+MOVE 'PAD1>NAME' (131.266900 63.509100);
+ROTATE =SR0 'PAD1>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (131.266900 63.509100);
+CHANGE RATIO 12 (131.266900 63.509100);
+CHANGE DISPLAY OFF (131.266900 63.509100);
+#patternRef = "comp_11"
+ADD 'comp_11Primary' 'PAD2' R0.0 (128.7269 63.5091);
+SMASH 'PAD2';
+MOVE 'PAD2>NAME' (128.726900 63.509100);
+ROTATE =SR0 'PAD2>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (128.726900 63.509100);
+CHANGE RATIO 12 (128.726900 63.509100);
+CHANGE DISPLAY OFF (128.726900 63.509100);
+#patternRef = "comp_12"
+ADD 'comp_12Primary' 'PAD3' R0.0 (128.7269 66.0491);
+SMASH 'PAD3';
+MOVE 'PAD3>NAME' (128.726900 66.049100);
+ROTATE =SR0 'PAD3>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (128.726900 66.049100);
+CHANGE RATIO 12 (128.726900 66.049100);
+CHANGE DISPLAY OFF (128.726900 66.049100);
+#patternRef = "comp_13"
+ADD 'comp_13Primary' 'PAD4' R0.0 (131.2669 66.0491);
+SMASH 'PAD4';
+MOVE 'PAD4>NAME' (131.266900 66.049100);
+ROTATE =SR0 'PAD4>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (131.266900 66.049100);
+CHANGE RATIO 12 (131.266900 66.049100);
+CHANGE DISPLAY OFF (131.266900 66.049100);
+#patternRef = "comp_14"
+ADD 'comp_14Primary' 'PAD5' R0.0 (131.2669 60.9691);
+SMASH 'PAD5';
+MOVE 'PAD5>NAME' (131.266900 60.969100);
+ROTATE =SR0 'PAD5>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (131.266900 60.969100);
+CHANGE RATIO 12 (131.266900 60.969100);
+CHANGE DISPLAY OFF (131.266900 60.969100);
+#patternRef = "comp_15"
+ADD 'comp_15Primary' 'PAD6' R0.0 (128.7269 60.9691);
+SMASH 'PAD6';
+MOVE 'PAD6>NAME' (128.726900 60.969100);
+ROTATE =SR0 'PAD6>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (128.726900 60.969100);
+CHANGE RATIO 12 (128.726900 60.969100);
+CHANGE DISPLAY OFF (128.726900 60.969100);
+#patternRef = "Pad_16"
+ADD 'Pad_16Primary' 'Pad19' MR0.0 (106.5269 50.4825);
+SMASH 'Pad19';
+MOVE 'Pad19>NAME' (106.526900 50.482500);
+ROTATE =SR0 'Pad19>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (106.526900 50.482500);
+CHANGE RATIO 12 (106.526900 50.482500);
+CHANGE DISPLAY OFF (106.526900 50.482500);
+#patternRef = "Pad_16"
+ADD 'Pad_16Primary' 'Pad20' MR0.0 (106.5269 44.1325);
+SMASH 'Pad20';
+MOVE 'Pad20>NAME' (106.526900 44.132500);
+ROTATE =SR0 'Pad20>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (106.526900 44.132500);
+CHANGE RATIO 12 (106.526900 44.132500);
+CHANGE DISPLAY OFF (106.526900 44.132500);
+#patternRef = "Pad_16"
+ADD 'Pad_16Primary' 'Pad21' MR0.0 (109.7019 50.4825);
+SMASH 'Pad21';
+MOVE 'Pad21>NAME' (109.701900 50.482500);
+ROTATE =SR0 'Pad21>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (109.701900 50.482500);
+CHANGE RATIO 12 (109.701900 50.482500);
+CHANGE DISPLAY OFF (109.701900 50.482500);
+#patternRef = "Pad_16"
+ADD 'Pad_16Primary' 'Pad22' MR0.0 (109.7019 44.1325);
+SMASH 'Pad22';
+MOVE 'Pad22>NAME' (109.701900 44.132500);
+ROTATE =SR0 'Pad22>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (109.701900 44.132500);
+CHANGE RATIO 12 (109.701900 44.132500);
+CHANGE DISPLAY OFF (109.701900 44.132500);
+#patternRef = "Pad_16"
+ADD 'Pad_16Primary' 'Pad23' R0.0 (98.5894 62.865);
+SMASH 'Pad23';
+MOVE 'Pad23>NAME' (98.589400 62.865000);
+ROTATE =SR0 'Pad23>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (98.589400 62.865000);
+CHANGE RATIO 12 (98.589400 62.865000);
+CHANGE DISPLAY OFF (98.589400 62.865000);
+#patternRef = "1X06_17"
+ADD '1X06_17Primary' 'POWER1' R0.0 (104.321 41.12);
+SMASH 'POWER1';
+MOVE 'POWER1>NAME' (104.321000 41.120000);
+ROTATE =SR0 'POWER1>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (104.321000 41.120000);
+CHANGE RATIO 12 (104.321000 41.120000);
+CHANGE DISPLAY OFF (104.321000 41.120000);
+#patternRef = "POT3T_18"
+ADD 'POT3T_18Primary' 'R1' R270.0 (114.4644 54.1338);
+SMASH 'R1';
+MOVE 'R1>NAME' (114.464400 54.133800);
+ROTATE =SR0 'R1>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (114.464400 54.133800);
+CHANGE RATIO 12 (114.464400 54.133800);
+CHANGE DISPLAY OFF (114.464400 54.133800);
+#patternRef = "RES400_19"
+ADD 'RES400_19Primary' 'R2' R0.0 (89.3819 39.0525);
+VALUE 'R2' '390';
+SMASH 'R2';
+MOVE 'R2>NAME' (89.381900 39.052500);
+ROTATE =SR0 'R2>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (89.381900 39.052500);
+CHANGE RATIO 12 (89.381900 39.052500);
+CHANGE DISPLAY OFF (89.381900 39.052500);
+#patternRef = "RES500_20"
+ADD 'RES500_20Primary' 'R5' R0.0 (98.5894 65.7225);
+VALUE 'R5' '2.2M';
+SMASH 'R5';
+MOVE 'R5>NAME' (98.589400 65.722500);
+ROTATE =SR0 'R5>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (98.589400 65.722500);
+CHANGE RATIO 12 (98.589400 65.722500);
+CHANGE DISPLAY OFF (98.589400 65.722500);
+#patternRef = "RES500_21"
+ADD 'RES500_21Primary' 'R6' R0.0 (98.5894 71.4375);
+VALUE 'R6' '100k';
+SMASH 'R6';
+MOVE 'R6>NAME' (98.589400 71.437500);
+ROTATE =SR0 'R6>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (98.589400 71.437500);
+CHANGE RATIO 12 (98.589400 71.437500);
+CHANGE DISPLAY OFF (98.589400 71.437500);
+#patternRef = "RES400_19"
+ADD 'RES400_19Primary' 'R7' R270.0 (79.5394 48.5775);
+VALUE 'R7' '1k';
+SMASH 'R7';
+MOVE 'R7>NAME' (79.539400 48.577500);
+ROTATE =SR0 'R7>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (79.539400 48.577500);
+CHANGE RATIO 12 (79.539400 48.577500);
+CHANGE DISPLAY OFF (79.539400 48.577500);
+#patternRef = "POT3T_18"
+ADD 'POT3T_18Primary' 'R8' R270.0 (99.8594 46.6725);
+VALUE 'R8' '5k';
+SMASH 'R8';
+MOVE 'R8>NAME' (99.859400 46.672500);
+ROTATE =SR0 'R8>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (99.859400 46.672500);
+CHANGE RATIO 12 (99.859400 46.672500);
+CHANGE DISPLAY OFF (99.859400 46.672500);
+#patternRef = "AD623AN_22"
+ADD 'AD623AN_22Primary' 'U1' R180.0 (114.1469 62.5475);
+CHANGE DISPLAY OFF;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+ATTRIBUTE 'U1' 'Datasheet' 'http://www.analog.com/static/imported-files/data_sheets/AD623.pdf' SR0 (114.146900 62.547500);
+SMASH 'U1';
+MOVE 'U1>NAME' (113.275100 69.838100);
+ROTATE =SR0.0 'U1>NAME';
+# warning: unknown justify parameter value = upperleft
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (113.275100 69.838100);
+CHANGE RATIO 12 (113.275100 69.838100);
+CHANGE DISPLAY VALUE (113.275100 69.838100);
+#patternRef = "AD623AN_23"
+ADD 'AD623AN_23Primary' 'U2' R0.0 (86.8419 49.53);
+CHANGE DISPLAY OFF;
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 2.54;
+CHANGE RATIO 10;
+ATTRIBUTE 'U2' 'Datasheet' 'http://www.analog.com/static/imported-files/data_sheets/AD623.pdf' SR0 (86.841900 49.530000);
+SMASH 'U2';
+MOVE 'U2>NAME' (85.697100 56.820600);
+ROTATE =SR0.0 'U2>NAME';
+# warning: unknown justify parameter value = upperleft
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (85.697100 56.820600);
+CHANGE RATIO 12 (85.697100 56.820600);
+CHANGE DISPLAY VALUE (85.697100 56.820600);
+#patternRef = "HDR-2x6_24"
+ADD 'HDR-2x6_24Primary' 'U4' R0.0 (120.8208 45.8837);
+SMASH 'U4';
+MOVE 'U4>NAME' (120.820800 45.883700);
+ROTATE =SR0 'U4>NAME';
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (120.820800 45.883700);
+CHANGE RATIO 12 (120.820800 45.883700);
+CHANGE DISPLAY OFF (120.820800 45.883700);
+#patternRef = "TLE2426*LP_25"
+ADD 'TLE2426*LP_25Primary' 'U6' R0.0 (103.0344 51.8926);
+SMASH 'U6';
+MOVE 'U6>NAME' (101.920400 56.308100);
+ROTATE =SR0.0 'U6>NAME';
+# warning: unknown justify parameter value = upperleft
+CHANGE ALIGN BOTTOM LEFT;
+CHANGE SIZE 1.6667 (101.920400 56.308100);
+CHANGE RATIO 12 (101.920400 56.308100);
+CHANGE DISPLAY VALUE (101.920400 56.308100);
+SIGNAL Net_0 C6 2;
+SIGNAL Net_0 C7 2;
+SIGNAL Net_0 D1 2;
+SIGNAL Net_0 J2 1;
+SIGNAL Net_0 J3 1;
+SIGNAL Net_0 J4 1;
+SIGNAL Net_0 J5 1;
+SIGNAL Net_0 J9 2;
+SIGNAL Net_0 J9 3;
+SIGNAL Net_0 Pad21 1;
+SIGNAL Net_0 Pad22 1;
+SIGNAL Net_0 POWER1 4;
+SIGNAL Net_0 POWER1 5;
+SIGNAL Net_0 U1 4;
+SIGNAL Net_0 U2 4;
+SIGNAL Net_0 U6 2;
+SIGNAL Net_1 J2 2;
+SIGNAL Net_1 U1 3;
+SIGNAL Net_2 D1 1;
+SIGNAL Net_2 R2 2;
+SIGNAL Net_3 J2 3;
+SIGNAL Net_3 U1 5;
+SIGNAL Net_3 U2 3;
+SIGNAL Net_3 U2 5;
+SIGNAL Net_3 U6 1;
+SIGNAL Net_4 R1 1;
+SIGNAL Net_4 R1 2;
+SIGNAL Net_4 R1 3;
+SIGNAL Net_4 U1 1;
+SIGNAL Net_4 U1 8;
+SIGNAL Net_5 R8 3;
+SIGNAL Net_5 U2 7;
+SIGNAL Net_6 R7 1;
+SIGNAL Net_6 R8 1;
+SIGNAL Net_6 R8 2;
+SIGNAL Net_6 U2 6;
+SIGNAL Net_6 U4 1;
+SIGNAL Net_6 U4 3;
+SIGNAL Net_6 U4 5;
+SIGNAL Net_6 U4 7;
+SIGNAL Net_6 U4 9;
+SIGNAL Net_6 U4 11;
+SIGNAL Net_7 J3 2;
+SIGNAL Net_7 J3 3;
+SIGNAL Net_7 J5 3;
+SIGNAL Net_8 J5 2;
+SIGNAL Net_8 U1 2;
+SIGNAL Net_9 C3 1;
+SIGNAL Net_9 U1 6;
+SIGNAL Net_10 C6 1;
+SIGNAL Net_10 C7 1;
+SIGNAL Net_10 J9 4;
+SIGNAL Net_10 Pad19 1;
+SIGNAL Net_10 Pad20 1;
+SIGNAL Net_10 POWER1 3;
+SIGNAL Net_10 R2 1;
+SIGNAL Net_10 U1 7;
+SIGNAL Net_10 U2 8;
+SIGNAL Net_10 U6 3;
+SIGNAL Net_11 C4 1;
+SIGNAL Net_11 Pad23 1;
+SIGNAL Net_11 R5 1;
+SIGNAL Net_11 R6 1;
+SIGNAL Net_11 U2 2;
+SIGNAL Net_12 J1 6;
+SIGNAL Net_12 J12 3;
+SIGNAL Net_13 J8 6;
+SIGNAL Net_13 J13 1;
+SIGNAL Net_13 U4 2;
+SIGNAL Net_14 J6 2;
+SIGNAL Net_14 J7 7;
+SIGNAL Net_15 J8 5;
+SIGNAL Net_15 J13 2;
+SIGNAL Net_15 U4 4;
+SIGNAL Net_16 J8 4;
+SIGNAL Net_16 J13 3;
+SIGNAL Net_16 U4 6;
+SIGNAL Net_17 J8 3;
+SIGNAL Net_17 J13 4;
+SIGNAL Net_17 U4 8;
+SIGNAL Net_18 J8 2;
+SIGNAL Net_18 J13 5;
+SIGNAL Net_18 U4 10;
+SIGNAL Net_19 J9 6;
+SIGNAL Net_19 POWER1 1;
+SIGNAL Net_20 J9 5;
+SIGNAL Net_20 POWER1 2;
+SIGNAL Net_21 J9 1;
+SIGNAL Net_21 POWER1 6;
+SIGNAL Net_22 J8 1;
+SIGNAL Net_22 J13 6;
+SIGNAL Net_22 U4 12;
+SIGNAL Net_23 J4 2;
+SIGNAL Net_23 J11 2;
+SIGNAL Net_24 C4 2;
+SIGNAL Net_24 C5 2;
+SIGNAL Net_24 J11 1;
+SIGNAL Net_24 R5 2;
+SIGNAL Net_24 R7 2;
+SIGNAL Net_24 U2 1;
+SIGNAL Net_25 J1 8;
+SIGNAL Net_25 J12 1;
+SIGNAL Net_26 J1 7;
+SIGNAL Net_26 J12 2;
+SIGNAL Net_27 C3 2;
+SIGNAL Net_27 R6 2;
+SIGNAL Net_28 J1 5;
+SIGNAL Net_28 J12 4;
+SIGNAL Net_29 J1 4;
+SIGNAL Net_29 J12 5;
+SIGNAL Net_30 J1 3;
+SIGNAL Net_30 J12 6;
+SIGNAL Net_31 J1 2;
+SIGNAL Net_31 J12 7;
+SIGNAL Net_32 J1 1;
+SIGNAL Net_32 J12 8;
+SIGNAL Net_33 J6 8;
+SIGNAL Net_33 J7 1;
+SIGNAL Net_34 J6 7;
+SIGNAL Net_34 J7 2;
+SIGNAL Net_35 J6 6;
+SIGNAL Net_35 J7 3;
+SIGNAL Net_36 J6 5;
+SIGNAL Net_36 J7 4;
+SIGNAL Net_37 J6 4;
+SIGNAL Net_37 J7 5;
+SIGNAL Net_38 J6 3;
+SIGNAL Net_38 J7 6;
+SIGNAL Net_39 C5 1;
+SIGNAL Net_39 J11 3;
+SIGNAL Net_40 J6 1;
+SIGNAL Net_40 J7 8;
+# LayerContents
+# layerNumRef = 1
+CHANGE LAYER 1;
+WIRE 'Net_0' 0.5842 (109.7019 44.1325) (109.7019 50.4825);
+WIRE 'Net_10' 0.5842 (106.5269 44.1325) (106.5269 50.4825);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 3.3333;
+CHANGE RATIO 12;
+TEXT 'TOP - REMEMBER TO MIRROR' SR0 (105.3065 96.3304);
+# LayerContents
+# layerNumRef = 2
+CHANGE LAYER 16;
+WIRE 'Net_0' 0.5842 (131.6094 54.61) (131.6094 55.245);
+WIRE 'Net_0' 0.5842 (131.6094 55.245) (126.5294 60.325);
+WIRE 'Net_0' 0.5842 (126.5294 60.325) (126.5294 64.1493);
+WIRE 'Net_0' 0.5842 (126.5294 64.1493) (122.7266 67.9521);
+WIRE 'Net_0' 0.5842 (122.7266 67.9521) (119.5516 67.9521);
+WIRE 'Net_0' 0.5842 (119.5516 67.9521) (117.9569 66.3575);
+WIRE 'Net_0' 0.5842 (117.9569 66.3575) (117.9569 68.8975);
+WIRE 'Net_0' 0.5842 (117.9569 68.8975) (117.0044 69.85);
+WIRE 'Net_0' 0.5842 (83.0319 45.72) (76.3644 45.72);
+WIRE 'Net_0' 0.5842 (76.3644 45.72) (76.3644 40.64);
+WIRE 'Net_0' 0.5842 (76.3644 40.64) (77.9519 39.0525);
+WIRE 'Net_0' 0.5842 (76.3644 45.72) (76.3644 60.1452);
+WIRE 'Net_0' 0.5842 (76.3644 60.1452) (76.1846 60.325);
+WIRE 'Net_0' 0.5842 (76.1846 60.325) (76.1846 64.6323);
+WIRE 'Net_0' 0.5842 (76.1846 64.6323) (75.4119 65.405);
+WIRE 'Net_0' 0.5842 (75.4119 65.405) (75.4119 71.12);
+WIRE 'Net_0' 0.5842 (75.4119 71.12) (77.3169 73.025);
+WIRE 'Net_0' 0.5842 (77.3169 73.025) (113.8294 73.025);
+WIRE 'Net_0' 0.5842 (113.8294 73.025) (117.0044 69.85);
+WIRE 'Net_0' 0.5842 (105.591 41.12) (108.131 41.12);
+WIRE 'Net_0' 0.5842 (105.591 38.1038) (105.591 41.12);
+WIRE 'Net_0' 0.5842 (108.131 38.1038) (108.131 41.12);
+WIRE 'Net_0' 0.5842 (108.131 41.12) (108.131 44.1325);
+WIRE 'Net_0' 0.5842 (108.131 44.1325) (108.131 45.3859);
+WIRE 'Net_0' 0.5842 (108.131 45.3859) (107.4794 46.0375);
+WIRE 'Net_0' 0.5842 (107.4794 46.0375) (103.0344 46.0375);
+WIRE 'Net_0' 0.5842 (103.0344 46.0375) (101.6057 44.6088);
+WIRE 'Net_0' 0.5842 (101.6057 44.6088) (95.2557 44.6088);
+WIRE 'Net_0' 0.5842 (95.2557 44.6088) (92.5569 41.91);
+WIRE 'Net_0' 0.5842 (92.5569 41.91) (80.8094 41.91);
+WIRE 'Net_0' 0.5842 (80.8094 41.91) (77.9519 39.0525);
+WIRE 'Net_0' 0.5842 (109.7019 44.1325) (108.131 44.1325);
+WIRE 'Net_0' 0.5842 (95.4144 54.9275) (95.4144 58.1025);
+WIRE 'Net_0' 0.5842 (95.4144 54.9275) (95.4144 56.515);
+WIRE 'Net_0' 0.5842 (95.4144 56.515) (103.0344 56.515);
+WIRE 'Net_0' 0.5842 (103.0344 56.515) (103.0344 51.1175);
+WIRE 'Net_0' 0.5842 (103.0344 51.1175) (103.0344 49.8475);
+WIRE 'Net_0' 0.5842 (103.0344 49.8475) (103.9869 48.895);
+WIRE 'Net_0' 0.5842 (103.9869 48.895) (108.4319 48.895);
+WIRE 'Net_0' 0.5842 (108.4319 48.895) (109.7019 50.165);
+WIRE 'Net_0' 0.5842 (109.7019 50.165) (109.7019 50.4825);
+WIRE 'Net_1' 0.5842 (114.4644 69.85) (114.4644 69.6913);
+WIRE 'Net_1' 0.5842 (114.4644 69.6913) (116.0519 68.1038);
+WIRE 'Net_1' 0.5842 (116.0519 68.1038) (116.0519 65.7225);
+WIRE 'Net_1' 0.5842 (116.0519 65.7225) (117.9569 63.8175);
+WIRE 'Net_2' 0.5842 (80.4919 39.0525) (84.3019 39.0525);
+WIRE 'Net_3' 0.5842 (111.9244 69.85) (114.3057 67.4687);
+WIRE 'Net_3' 0.5842 (114.3057 67.4687) (114.3057 63.0238);
+WIRE 'Net_3' 0.5842 (114.3057 63.0238) (113.8294 62.5475);
+WIRE 'Net_3' 0.5842 (113.8294 62.5475) (107.4794 62.5475);
+WIRE 'Net_3' 0.5842 (107.4794 62.5475) (107.4794 65.0875);
+WIRE 'Net_3' 0.5842 (107.4794 65.0875) (108.7494 66.3575);
+WIRE 'Net_3' 0.5842 (108.7494 66.3575) (110.3369 66.3575);
+WIRE 'Net_3' 0.5842 (107.4794 62.5475) (105.4157 60.4838);
+WIRE 'Net_3' 0.5842 (105.4157 60.4838) (92.0807 60.4838);
+WIRE 'Net_3' 0.5842 (92.0807 60.4838) (89.5407 57.9438);
+WIRE 'Net_3' 0.5842 (89.5407 57.9438) (89.5407 55.0862);
+WIRE 'Net_3' 0.5842 (89.5407 55.0862) (87.8472 53.3928);
+WIRE 'Net_3' 0.5842 (87.8472 53.3928) (84.9369 50.4825);
+WIRE 'Net_3' 0.5842 (84.9369 50.4825) (83.0319 48.5775);
+WIRE 'Net_3' 0.5842 (83.0319 48.5775) (83.0319 48.26);
+WIRE 'Net_3' 0.5842 (90.6519 45.72) (89.6994 45.72);
+WIRE 'Net_3' 0.5842 (89.6994 45.72) (84.9369 50.4825);
+WIRE 'Net_3' 0.5842 (101.7644 51.1175) (93.5094 51.1175);
+WIRE 'Net_3' 0.5842 (93.5094 51.1175) (92.5569 52.07);
+WIRE 'Net_3' 0.5842 (92.5569 52.07) (89.17 52.07);
+WIRE 'Net_3' 0.5842 (89.17 52.07) (87.8472 53.3928);
+WIRE 'Net_4' 0.5842 (111.9244 55.4038) (110.3369 55.4038);
+WIRE 'Net_4' 0.5842 (110.3369 55.4038) (114.4644 55.4038);
+WIRE 'Net_4' 0.5842 (110.3369 55.4038) (110.3369 58.7375);
+WIRE 'Net_4' 0.5842 (117.0044 55.4038) (117.0044 57.785);
+WIRE 'Net_4' 0.5842 (117.0044 57.785) (117.9569 58.7375);
+WIRE 'Net_5' 0.5842 (97.3194 47.9425) (93.5094 47.9425);
+WIRE 'Net_5' 0.5842 (93.5094 47.9425) (90.6519 50.8);
+WIRE 'Net_6' 0.5842 (124.6308 47.1537) (122.0908 47.1537);
+WIRE 'Net_6' 0.5842 (117.0108 47.1537) (114.4708 47.1537);
+WIRE 'Net_6' 0.5842 (119.5508 47.1537) (117.0108 47.1537);
+WIRE 'Net_6' 0.5842 (122.0908 47.1537) (119.5508 47.1537);
+WIRE 'Net_6' 0.5842 (99.8594 47.9425) (102.3994 47.9425);
+WIRE 'Net_6' 0.5842 (102.3994 47.9425) (114.4708 47.9425);
+WIRE 'Net_6' 0.5842 (114.4708 47.9425) (114.4708 47.1537);
+WIRE 'Net_6' 0.5842 (79.5394 43.4975) (92.0807 43.4975);
+WIRE 'Net_6' 0.5842 (92.0807 43.4975) (92.0807 45.72);
+WIRE 'Net_6' 0.5842 (92.0807 45.72) (92.0807 46.8312);
+WIRE 'Net_6' 0.5842 (92.0807 46.8312) (90.6519 48.26);
+WIRE 'Net_6' 0.5842 (124.6308 47.1537) (127.1708 47.1537);
+WIRE 'Net_6' 0.5842 (99.8594 47.9425) (99.8594 45.72);
+WIRE 'Net_6' 0.5842 (99.8594 45.72) (92.0807 45.72);
+WIRE 'Net_7' 0.5842 (122.7266 62.8721) (122.7266 58.8891);
+WIRE 'Net_7' 0.5842 (122.7266 58.8891) (123.2557 58.36);
+WIRE 'Net_7' 0.5842 (123.2557 58.36) (123.9196 58.36);
+WIRE 'Net_7' 0.5842 (123.9196 58.36) (123.9196 50.86);
+WIRE 'Net_8' 0.5842 (117.9569 61.2775) (118.592 61.2775);
+WIRE 'Net_8' 0.5842 (118.592 61.2775) (122.7266 65.4121);
+WIRE 'Net_9' 0.5842 (110.3369 63.8175) (110.9719 63.8175);
+WIRE 'Net_9' 0.5842 (110.9719 63.8175) (112.5594 65.405);
+WIRE 'Net_9' 0.5842 (112.5594 65.405) (112.5594 66.9925);
+WIRE 'Net_9' 0.5842 (112.5594 66.9925) (110.9719 68.58);
+WIRE 'Net_9' 0.5842 (110.9719 68.58) (104.9394 68.58);
+WIRE 'Net_10' 0.5842 (108.1144 54.9275) (108.1144 58.1025);
+WIRE 'Net_10' 0.5842 (104.3044 51.1175) (106.5269 51.1175);
+WIRE 'Net_10' 0.5842 (106.5269 51.1175) (106.5269 52.3875);
+WIRE 'Net_10' 0.5842 (106.5269 52.3875) (108.1144 53.975);
+WIRE 'Net_10' 0.5842 (108.1144 53.975) (108.1144 54.9275);
+WIRE 'Net_10' 0.5842 (110.3369 61.2775) (109.7019 61.2775);
+WIRE 'Net_10' 0.5842 (109.7019 61.2775) (108.1144 59.69);
+WIRE 'Net_10' 0.5842 (108.1144 59.69) (108.1144 58.1025);
+WIRE 'Net_10' 0.5842 (106.5269 50.4825) (106.5269 51.1175);
+WIRE 'Net_10' 0.5842 (90.6519 53.34) (90.6519 56.9913);
+WIRE 'Net_10' 0.5842 (90.6519 56.9913) (93.1919 59.5313);
+WIRE 'Net_10' 0.5842 (93.1919 59.5313) (103.1932 59.5313);
+WIRE 'Net_10' 0.5842 (103.1932 59.5313) (104.3044 58.42);
+WIRE 'Net_10' 0.5842 (104.3044 58.42) (104.3044 51.1175);
+WIRE 'Net_10' 0.5842 (103.051 41.12) (103.051 43.3388);
+WIRE 'Net_10' 0.5842 (103.051 43.3388) (95.5732 43.3388);
+WIRE 'Net_10' 0.5842 (95.5732 43.3388) (94.4619 42.2275);
+WIRE 'Net_10' 0.5842 (94.4619 42.2275) (94.4619 39.0525);
+WIRE 'Net_10' 0.5842 (103.051 41.12) (103.051 42.2441);
+WIRE 'Net_10' 0.5842 (103.051 42.2441) (104.6219 43.815);
+WIRE 'Net_10' 0.5842 (104.6219 43.815) (106.5269 43.815);
+WIRE 'Net_10' 0.5842 (106.5269 43.815) (106.5269 44.1325);
+WIRE 'Net_10' 0.5842 (103.051 38.1038) (103.051 41.12);
+WIRE 'Net_11' 0.5842 (104.9394 65.7225) (99.5419 65.7225);
+WIRE 'Net_11' 0.5842 (99.5419 65.7225) (99.2244 65.7225);
+WIRE 'Net_11' 0.5842 (99.2244 65.7225) (99.2244 66.9925);
+WIRE 'Net_11' 0.5842 (99.2244 66.9925) (103.6694 71.4375);
+WIRE 'Net_11' 0.5842 (103.6694 71.4375) (104.9394 71.4375);
+WIRE 'Net_11' 0.5842 (83.0319 50.8) (83.6669 50.8);
+WIRE 'Net_11' 0.5842 (83.6669 50.8) (88.1119 55.245);
+WIRE 'Net_11' 0.5842 (88.1119 55.245) (88.1119 58.42);
+WIRE 'Net_11' 0.5842 (88.1119 58.42) (91.1282 61.4363);
+WIRE 'Net_11' 0.5842 (91.1282 61.4363) (95.2557 61.4363);
+WIRE 'Net_11' 0.5842 (95.2557 61.4363) (99.5419 65.7225);
+WIRE 'Net_11' 0.5842 (104.9394 62.865) (104.9394 65.7225);
+WIRE 'Net_11' 0.5842 (98.5894 62.865) (104.9394 62.865);
+WIRE 'Net_12' 0.5842 (123.3544 83.3437) (123.3544 86.36);
+WIRE 'Net_13' 0.5842 (114.4708 44.6137) (114.4708 42.3799);
+WIRE 'Net_13' 0.5842 (114.4708 42.3799) (115.7307 41.12);
+WIRE 'Net_13' 0.5842 (115.7307 41.12) (115.751 41.12);
+WIRE 'Net_13' 0.5842 (115.751 38.1038) (115.751 41.12);
+WIRE 'Net_14' 0.5842 (91.6165 83.3476) (91.6165 86.3479);
+WIRE 'Net_14' 0.5842 (91.6165 86.3479) (91.6044 86.36);
+WIRE 'Net_15' 0.5842 (117.0108 44.6137) (117.0108 42.5387);
+WIRE 'Net_15' 0.5842 (117.0108 42.5387) (118.1157 41.4338);
+WIRE 'Net_15' 0.5842 (118.1157 41.4338) (118.1157 41.12);
+WIRE 'Net_15' 0.5842 (118.1157 41.12) (118.291 41.12);
+WIRE 'Net_15' 0.5842 (118.291 38.1038) (118.291 41.12);
+WIRE 'Net_16' 0.5842 (119.5508 44.6137) (119.5508 42.5386);
+WIRE 'Net_16' 0.5842 (119.5508 42.5386) (120.831 41.2583);
+WIRE 'Net_16' 0.5842 (120.831 41.2583) (120.831 41.12);
+WIRE 'Net_16' 0.5842 (120.831 38.1038) (120.831 41.12);
+WIRE 'Net_17' 0.5842 (122.0908 44.6137) (122.0908 42.6974);
+WIRE 'Net_17' 0.5842 (122.0908 42.6974) (123.1957 41.5925);
+WIRE 'Net_17' 0.5842 (123.1957 41.5925) (123.1957 41.12);
+WIRE 'Net_17' 0.5842 (123.1957 41.12) (123.371 41.12);
+WIRE 'Net_17' 0.5842 (123.371 38.1038) (123.371 41.12);
+WIRE 'Net_18' 0.5842 (124.6308 44.6137) (124.6308 42.5387);
+WIRE 'Net_18' 0.5842 (124.6308 42.5387) (125.911 41.2584);
+WIRE 'Net_18' 0.5842 (125.911 41.2584) (125.911 41.12);
+WIRE 'Net_18' 0.5842 (125.911 38.1038) (125.911 41.12);
+WIRE 'Net_19' 0.5842 (97.971 38.1038) (97.971 41.12);
+WIRE 'Net_20' 0.5842 (100.511 38.1038) (100.511 41.12);
+WIRE 'Net_21' 0.5842 (110.671 38.1038) (110.671 41.12);
+WIRE 'Net_22' 0.5842 (127.1708 44.6137) (127.1708 42.6974);
+WIRE 'Net_22' 0.5842 (127.1708 42.6974) (128.2757 41.5925);
+WIRE 'Net_22' 0.5842 (128.2757 41.5925) (128.2757 41.12);
+WIRE 'Net_22' 0.5842 (128.2757 41.12) (128.451 41.12);
+WIRE 'Net_22' 0.5842 (128.451 38.1038) (128.451 41.12);
+WIRE 'Net_23' 0.5842 (83.8744 64.075) (83.8744 65.93);
+WIRE 'Net_23' 0.5842 (83.8744 65.93) (86.5244 68.58);
+WIRE 'Net_24' 0.5842 (92.2394 62.865) (92.2394 65.7225);
+WIRE 'Net_24' 0.5842 (92.2394 65.7225) (91.9219 65.7225);
+WIRE 'Net_24' 0.5842 (91.9219 65.7225) (89.0644 68.58);
+WIRE 'Net_24' 0.5842 (83.0319 53.34) (84.4607 53.34);
+WIRE 'Net_24' 0.5842 (84.4607 53.34) (87.0007 55.88);
+WIRE 'Net_24' 0.5842 (87.0007 55.88) (87.0007 62.3887);
+WIRE 'Net_24' 0.5842 (87.0007 62.3887) (88.1119 63.5);
+WIRE 'Net_24' 0.5842 (88.1119 63.5) (88.1119 67.6275);
+WIRE 'Net_24' 0.5842 (88.1119 67.6275) (89.0644 68.58);
+WIRE 'Net_24' 0.5842 (83.0319 53.34) (79.8569 53.34);
+WIRE 'Net_24' 0.5842 (79.8569 53.34) (79.5394 53.6575);
+WIRE 'Net_24' 0.5842 (89.0644 68.58) (89.0644 69.5325);
+WIRE 'Net_24' 0.5842 (89.0644 69.5325) (88.1119 70.485);
+WIRE 'Net_24' 0.5842 (88.1119 70.485) (77.6344 70.485);
+WIRE 'Net_24' 0.5842 (77.6344 70.485) (76.9994 69.85);
+WIRE 'Net_24' 0.5842 (76.9994 69.85) (76.9994 68.58);
+WIRE 'Net_25' 0.5842 (128.4344 83.3437) (128.4344 86.36);
+WIRE 'Net_26' 0.5842 (125.8944 83.3437) (125.8944 86.36);
+WIRE 'Net_27' 0.5842 (92.2394 71.4375) (92.2394 68.58);
+WIRE 'Net_28' 0.5842 (120.8144 83.3437) (120.8144 86.36);
+WIRE 'Net_29' 0.5842 (118.2744 83.3437) (118.2744 86.36);
+WIRE 'Net_30' 0.5842 (115.7344 83.3437) (115.7344 86.36);
+WIRE 'Net_31' 0.5842 (113.1944 83.3437) (113.1944 86.36);
+WIRE 'Net_32' 0.5842 (110.6544 83.3437) (110.6544 86.36);
+WIRE 'Net_33' 0.5842 (106.8565 83.3476) (106.8565 86.3479);
+WIRE 'Net_33' 0.5842 (106.8565 86.3479) (106.8444 86.36);
+WIRE 'Net_34' 0.5842 (104.3165 83.3476) (104.3165 86.3479);
+WIRE 'Net_34' 0.5842 (104.3165 86.3479) (104.3044 86.36);
+WIRE 'Net_35' 0.5842 (101.7765 83.3476) (101.7765 86.3479);
+WIRE 'Net_35' 0.5842 (101.7765 86.3479) (101.7644 86.36);
+WIRE 'Net_36' 0.5842 (99.2365 83.3476) (99.2365 86.3479);
+WIRE 'Net_36' 0.5842 (99.2365 86.3479) (99.2244 86.36);
+WIRE 'Net_37' 0.5842 (96.6965 83.3476) (96.6965 86.3479);
+WIRE 'Net_37' 0.5842 (96.6965 86.3479) (96.6844 86.36);
+WIRE 'Net_38' 0.5842 (94.1565 83.3476) (94.1565 86.3479);
+WIRE 'Net_38' 0.5842 (94.1565 86.3479) (94.1444 86.36);
+WIRE 'Net_39' 0.5842 (83.9844 68.58) (81.4444 68.58);
+WIRE 'Net_39' 0.5842 (81.4444 68.58) (79.5394 68.58);
+WIRE 'Net_40' 0.5842 (89.0765 83.3476) (89.0765 86.3479);
+WIRE 'Net_40' 0.5842 (89.0765 86.3479) (89.0644 86.36);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 12;
+TEXT 'spikershield 0.3b   ' MSR0 (91.2264 78.8547);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 12;
+TEXT 'OpenPlant 20151202' MSR0 (91.2886 75.5209);
+CHANGE Pour cutout;
+CHANGE THERMALS OFF;
+POLYGON 10mil
+  (77.3169 80.8038)
+  (99.5419 80.8038)
+  (99.5419 73.8187)
+  (77.3169 73.8187)
+  (77.3169 80.8038);
+CHANGE Pour solid;
+CHANGE SPACING 1.27;
+CHANGE THERMALS ON;
+CHANGE POUR SOLID;
+CHANGE SPACING 1.27;
+# CopperPour95
+POLYGON 0.635
+  (130.3394 81.915)
+  (74.4594 81.915)
+  (74.4594 38.1)
+  (76.3644 36.195)
+  (96.3669 36.195)
+  (96.3669 42.545)
+  (128.1169 42.545)
+  (132.8794 46.99)
+  (132.8794 73.3425)
+  (130.3394 76.2)
+  (130.3394 81.915);
+CHANGE THERMALS OFF;
+# LayerContents
+# layerNumRef = 6
+CHANGE LAYER 21;
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'To ext' SR0 (82.1456 61.8456);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 12;
+TEXT 'spikershield 0.3b' SR0 (83.3951 79.1722);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 12;
+TEXT 'OpenPlant 20151202' SR0 (83.3511 77.2672);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'GND' SR90.0 (105.2428 35.7018);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'GND' SR90.0 (107.7842 35.7018);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '+5V' SR90.0 (102.7013 35.8231);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'RST' SR90.0 (97.626 35.6777);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'VIN' SR90.0 (110.3256 35.3857);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '+3.3V' SR90.0 (100.1674 35.109);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '0' SR90.0 (115.3439 35.942);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '1' SR90.0 (117.9423 35.882);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '2' SR90.0 (120.4837 36.1005);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '3' SR90.0 (123.0252 36.1005);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '4' SR90.0 (125.5666 36.1246);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '5' SR90.0 (128.108 36.1005);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'Analog In' SR180.0 (128.9321 42.9469);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'GND' SR270.0 (92.0173 83.8808);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '13' SR270.0 (94.5587 84.547);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '12' SR270.0 (97.1001 84.547);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '11' SR270.0 (99.6341 84.7655);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'AREF' SR270.0 (89.4759 83.4814);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '10' SR270.0 (102.1755 84.547);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '9' SR270.0 (104.7169 84.7764);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '8' SR270.0 (107.2583 84.7528);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '7' SR270.0 (111.0705 84.7522);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '6' SR270.0 (113.6043 84.7769);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '5' SR270.0 (116.1458 84.7522);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '4' SR270.0 (118.6872 84.7281);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '3' SR270.0 (121.2286 84.7522);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT '2' SR270.0 (123.77 84.7522);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'TX' SR270.0 (126.3039 84.3286);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.3333;
+CHANGE RATIO 6;
+TEXT 'RX' SR270.0 (128.8454 84.3286);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'IN' SR0 (126.8795 53.4304);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'ADC' SR0 (81.8926 59.153);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'Signal' SR0 (126.4701 56.1295);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.6667;
+CHANGE RATIO 12;
+TEXT 'ADC channel select' SR0 (120.5066 49.5386);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.6667;
+CHANGE RATIO 12;
+TEXT 'AC' SR0 (83.9162 70.9721);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 1.6667;
+CHANGE RATIO 12;
+TEXT 'DC' SR0 (88.1419 71.1308);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'in' SR0 (125.573 62.9567);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'gnd' SR0 (126.6093 68.0367);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'gnd' SR0 (117.0844 72.4817);
+CHANGE ALIGN CENTER CENTER;
+CHANGE SIZE 2;
+CHANGE RATIO 12;
+TEXT 'Vc/2' SR0 (110.4661 72.4817);
+# LayerContents
+# layerNumRef = 10
+CHANGE LAYER 21;
+WIRE 0.254 (73.8257 86.365) (73.8257 79.4041);
+WIRE 0.254 (73.8257 79.4041) (73.8257 67.2053);
+WIRE 0.254 (73.8257 67.2053) (73.8257 38.103);
+WIRE 0.254 (73.8257 38.103) (76.3671 35.564);
+WIRE 0.254 (130.9776 35.564) (130.9776 38.103);
+WIRE 0.254 (130.9776 38.103) (133.519 40.642);
+WIRE 0.127 (96.6864 39.3685) (96.6864 36.8295);
+WIRE 0.127 (96.6864 36.8295) (111.9274 36.8295);
+WIRE 0.127 (111.9274 36.8295) (111.9274 39.3685);
+WIRE 0.127 (111.9274 39.3685) (96.6864 39.3685);
+WIRE 0.127 (114.4613 36.8295) (114.4613 39.3685);
+WIRE 0.127 (114.4613 39.3685) (129.7023 39.3685);
+WIRE 0.127 (129.7023 39.3685) (129.7023 36.8295);
+WIRE 0.127 (129.7023 36.8295) (114.4613 36.8295);
+WIRE 0.254 (129.7069 88.904) (76.3671 88.904);
+WIRE 0.254 (76.3671 88.904) (73.8257 86.365);
+WIRE 0.254 (133.519 40.642) (133.519 73.6647);
+WIRE 0.254 (133.519 73.6647) (130.9776 76.2037);
+WIRE 0.254 (130.9776 76.2037) (130.9776 87.6345);
+WIRE 0.254 (130.9776 87.6345) (129.7069 88.904);
+WIRE 0.254 (76.3671 35.564) (130.9776 35.564);
+WIRE 0.254 (58.329 79.4041) (58.329 67.2053);
+WIRE 0.254 (63.5322 48.7016) (63.5322 39.7032);
+WIRE 0.254 (58.329 79.4041) (73.8257 79.4041);
+WIRE 0.254 (58.329 67.2053) (73.8257 67.2053);
+WIRE 0.254 (63.5322 48.7016) (73.7279 48.7016);
+WIRE 0.254 (63.5322 39.7032) (73.7279 39.7032);
+# LayerContents
+# layerNumRef = 3
+CHANGE LAYER 20;
+WIRE 0.14 (76.3644 88.9) (73.8244 86.36);
+WIRE 0.14 (73.8244 86.36) (73.8244 38.1);
+WIRE 0.14 (73.8244 38.1) (76.6819 35.56);
+WIRE 0.14 (76.6819 35.56) (130.9744 35.56);
+WIRE 0.14 (130.9744 35.56) (130.9744 38.2588);
+WIRE 0.14 (130.9744 38.2588) (133.5144 40.4813);
+WIRE 0.14 (133.5144 40.4813) (133.5144 73.5012);
+WIRE 0.14 (133.5144 73.5012) (130.9744 76.2);
+WIRE 0.14 (130.9744 76.2) (130.9744 87.63);
+WIRE 0.14 (130.9744 87.63) (129.7044 89.0587);
+WIRE 0.14 (129.7044 89.0587) (76.3644 88.9);
+WIRE 0.14 (76.3644 88.9) (76.3644 88.9);
+WINDOW FIT;
+SET CONFIRM OFF;

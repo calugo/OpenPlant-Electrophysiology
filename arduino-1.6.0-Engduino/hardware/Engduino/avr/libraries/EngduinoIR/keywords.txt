@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map EngduinoIR
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EngduinoIR	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+sendBit	KEYWORD2
+send	KEYWORD2
+sendRaw	KEYWORD2
+recv	KEYWORD2
+recvRaw	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+IRBUFSZ	LITERAL1
+RAWBUFSZ	LITERAL1

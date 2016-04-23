@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map EngduinoLEDs
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EngduinoLEDs	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+setLED	KEYWORD2
+setAll	KEYWORD2
+setLEDs	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RED	LITERAL1
+GREEN	LITERAL1
+BLUE	LITERAL1
+YELLOW	LITERAL1
+MAGENTA	LITERAL1
+CYAN	LITERAL1
+WHITE	LITERAL1
+OFF	LITERAL1
+colour	LITERAL1
+MAX_BRIGHTNESS	LITERAL1
