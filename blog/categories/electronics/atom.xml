@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Electronics | Plant Electrophysiology]]></title>
+  <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//"/>
+  <updated>2016-05-10T02:46:37+01:00</updated>
+  <id>http://calugo.github.io//</id>
+  <author>
+    <name><![CDATA[Franken-Plant Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Electronics]]></title>
+    <link href="http://calugo.github.io//blog/2016/04/22/Electronics/"/>
+    <updated>2016-04-22T16:58:32+01:00</updated>
+    <id>http://calugo.github.io//blog/2016/04/22/Electronics</id>
+    <content type="html"><![CDATA[<h2 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h2>
+
+<h2 id="index">Index</h2>
+<ol>
+  <li><a href="#Intro">The OpenPlant Shield</a></li>
+  <li><a href="#Files">Files guide</a></li>
+</ol>
+
+<h2 id="a-idintroa-the-openplant-shield"><a id="Intro"></a> The OpenPlant Shield:</h2>
+<p align="justify">
+In order to provide a cheap alternative to professional-grade plant electrophysiology recorders, in the past years a number of DIY/Open Source approaches have been produced. Some of these approaches are very comprehensive and can easily substitute laboratory-level equipment (e.g. <a href="http://mobilecg.hu">Mobilecg</a>,  <a href="http://openeeg.sourceforge.net">Openeg</a>,  <a href=" http://openbci.com">Openbci</a>, <a href=" http://openeeg.sourceforge.net">Open-ephys</a>) but are far too complicated and expensive for the amateur of the average school, requiring advanced electronic skills to produce and use the equipment.  
+</p>
+<p align="justify">
+Our aim was to produce a simple but good enough system to observe plant depolarization potentials and make it easy enough for a reasonably skilled person to actually make one at home, using easily available electronic components.  In a later stage we also want to extend the system to allow injection of electrical stimuli and study plant reactions and electrical pulses synchronization and oscillations. </p>
+
+<p align="justify">
+ Out of the various Open Source approaches available one seems close in spirit to ours. It is the Plant SpikerShield from  <a href="https://backyardbrains.com/products/plantspikershield"> Backyard Brains </a>, which is in essence a simple front end low-noise amplifier aimed at being interfaced to an Arduino-compatible board which provides the analog to digital conversion and the connection to a PC where the signal is recorded and analysed.</p>
+
+<p align="justify">
+ However we found the SpikerShield´s cost is still too high to allow purchase of multiple devices needed in a school environment - the bundle including an Arduino, the frontend board and a few more support parts cost around $190. The SpikerShield board is also difficult to produce by DIY-ers because it is a double-layer one. Double-layer PCBs are difficult to produce at home, because they require precise alignment of the traces on the two sides of the board, moreover it is not possible to produce traces connecting the two sides and therefore they require many wire bridges.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board1.png" width="700" />
+<p align="justify">
+Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
+</p>
+</div>
+
+<p align="justify">
+  Our take on the SpikerShield was to develop a single-layer board that is easily to produce at home for a total cost of about £20. The more delicate task in producing a PCB is drilling the through holes for the components, which are typically very small (&lt; 1 mm) and need to be drilled precisely in order not to break the drill bit. To help with this we developed a DIY PCB drilling machine, and provide plans for its construction.
+</p>
+
+<p align="justify">
+Some of the possible improvements for the SpikeShield design include increasing the resolution of the system. The original design is based on a simple frontend amplifier based on a <i>classical</i>  operational instrumentation configuration and relies on the analog to digital converters (ADC) of the Arduino board, which are 10bit ADCs.  This means a dynamic range of ~60dB for the ADC, while the S/N ratio in current (cheaply available) instrumentation amplifiers reach easily ~90-100dB, which correspond roughly to 15-16bit resolution.</p>
+
+<p align="justify"> Therefore an ADC with higher resolution could be used with this kind of frontend. ADC resolutions above 16dB would not really be useful because the noise floor of the frontend amplifier would cover the resolution of the ADC. A number of possible Arduino-compatible development boards provide ADCs with up to 16bit resolution (see table board.xlsx) with costs comparable to that of an offical Arduino board, while providing faster processors and in some cases a 12 bit DAC, which enables us to immediately have the possibility to inject signals in the plant.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board2.png" width="700" />
+<p align="justify">
+Fig. 2: Our two-layer board. The board is compatible with both Arduino and Freedom development boards.
+</p>
+</div>
+
+<p align="justify">
+The first batch of PCBs we are delivering can be used as an Arduino shield or directly used with one of the boards mentioned above, for instance
+<a href="https://www.element14.com/community/docs/DOC-65944/l/freedom-development-platform-for-kinetis-k64-k63-and-k24-mcus">Freedom K64, K63, and K24 MCUs </a>
+ which are based on a MK64FN1M0VLL12 MCU running at up to 120MHz with 1Mb of flash memory (for a comparison, an Arduino Uno runs at 16MHz with a flash memory of 32Kb).
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board3.png" width="700" />
+<p align="justify">
+Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom Development board for Kinetis K64, Bottom: Out two-layer board
+</p>
+</div>
+
+<p align="justify">
+ This board offers 2 16bits ADCs and 2 12bit DACs and is programmable in a very similar way to the Arduino board.
+The first deliverable PCB boards have been produced in a double-layer format (because this is the standard format available by professional PCB board fabrication companies) but a single layer version for DIY is also available - along with a &#8220;mini&#8221; version built on perfboard and suitable for use on a fast prototype board (standard 0.1&#8217; spacing) and a surface-mount single layer version. All the designs for the fabrication of these boards are available in DipTrace format (DipTrace is a professional schematics/PCB board software, but a <a href="http://diptrace.com/download-diptrace"> free version </a>  is available for personal use  - which is what we used for the development), Gerber files can be exported for fabrication of professional=quality boards.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board4.png" width="700" />
+<p align="justify">
+Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
+</p>
+</div>
+
+<p>
+Other Another alternative available for PCB editing and more are listed <a href="http://calugo.github.io/OpenPlant-Electrophysiology/asides/links/"> here </a> .
+</p>
+
+<h2 id="a-idfilesa-files-guide"><a id="Files"></a> Files guide:</h2>
+
+<p>The project’s <a href="https://github.com/calugo/OpenPlant-Electrophysiology"> github repository</a> contains a folder called <strong>physioshield</strong> containing the following files/folders each with the information described below:</p>
+
+<p align="left"> <i><strong> boards.xlsx</strong></i> - The available alternative boards.<br />
+
+<i><strong> BOM&#8230;xlsx </strong></i> - Bill of materials for building the board.<br />
+
+<i><strong> spike_shield&#8230;dip </strong></i> - Diptrace PCB design.<br />
+<i><strong>spikershield1.LM4</strong></i>	- The mini version on stripboard. Open with LochMaster. <br />
+<i><strong>Gerber</strong></i> (Folder) - The Gerber files for the fabrication of the two-sided board.
+</p>
+]]></content>
+  </entry>
+  
+</feed>

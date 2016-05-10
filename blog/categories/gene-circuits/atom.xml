@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gene Circuits | Plant Electrophysiology]]></title>
+  <link href="http://calugo.github.io//blog/categories/gene-circuits/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//"/>
+  <updated>2016-05-10T02:46:37+01:00</updated>
+  <id>http://calugo.github.io//</id>
+  <author>
+    <name><![CDATA[Franken-Plant Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Circuits and Excitable Media]]></title>
+    <link href="http://calugo.github.io//blog/2016/04/22/Excitable-Media/"/>
+    <updated>2016-04-22T16:53:29+01:00</updated>
+    <id>http://calugo.github.io//blog/2016/04/22/Excitable-Media</id>
+    <content type="html"><![CDATA[<h3 id="project-primer---more-------circuits-genes-boards-and-synbio">Project primer<!-- more --> -  Circuits: genes, boards and SynBio?.</h3>
+
+<p align="justify">
+In this post we take the opportunity to describe the rationale behind this project.
+</p>
+
+<p align="justify">
+At first it might appear out of place to relate hardware and the making of laboratory equipment to synthetic biology, or to the life sciences in general! However as we shall discuss in a moment such activities are related not only to the those disciplines but to chemistry, engineering and the physical sciences, as they are direct applications of core concepts and ideas of a universal nature at the moment of carrying out research at the foundational level.   
+</p>
+
+<p align="justify">
+The post is not about mathematics it is about circuits and it is also about plants but as we shall see soon enough patterns observed in systems ranging from cells to tissues in muscles such as the  brain and heart and man made devices such as electrical, electronic circuitry and many other natural processes share features which can be compared and understood with the only tool that really &#8220;ties the room together&#8221; which is mathematics, however we to keep this to a bare minimum.
+</p>
+
+<h3 id="chemical-reactions-clocks-and-chaos">Chemical Reactions, Clocks and Chaos.</h3>
+
+<p align="justify">
+Every system which exhibits periodic behaviour is an object which we can call a clock, cardiac pace-maker cells or circaidan cycles for example are well know biological clocks with periods ranging from milliseconds to hours.</p>
+
+<p>The period of a clock is often an intrinsic property of the system. For example, linear springs for which the restitution force  is  proportional to the displacement $x$  are clocks with a natural frequency (the reciprocal of the period) equal to $\omega_o=(k/m)^\frac{1}{2}$. The constant $k$ is a property of the spring’s material and $m$  stands for the mass of the oscillating particle.</p>
+
+<p align="justify">
+The linear spring (aka harmonic oscillator) is a very useful idealisation used to describe several systems, however in more realistic scenarios one needs to take into account dissipation processes such as friction or interactions of a more complicated nature in which linearity is not a good assumption to describe what it is observed empirically.
+</p>
+
+<p align="justify">
+In the case of electrical circuits linear response theory has found uncountable applications and by the means of concepts such as energy its is possible to establish an equivalence between linear mechanical systems and electrical circuits. Electrical oscillators and circuits in general use combinations of resistance $R$, inductance $L$ and capacitance $C$, instead of mass and restitution coefficients to obtain the values the circuit&#8217;s transfer functions, resonant frequencies, etc. which fully characterise the device in question.</p>
+
+<p align="justify">
+The equivalence between mechanical and electrical circuits becomes possible because we posses quantitative frameworks for mechanics (Newton&#8217;s Laws) and electrodynamics (Maxwell&#8217;s equations) which make the mapping in the analytic realm  more or less straightforward.  Clocks and circuits in biology present a more challenging scenario as we are yet to develop a universal framework to dynamically describe the processes occurring at the molecular and regulatory levels, which are all related to non-equilibrium phenomena. It is needless to say that
+Circuits and pathways in the life sciences are at the very core of many research endeavours, such as molecular evolution the development drugs for personalised therapies, crop security just to mention some.
+</p>
+
+<p align="justify">
+ The last few years computers and ready made packages have democratised &#8216;in-silico&#8217; analysis, inference and modelling of such systems to investigators with no programming or mathematical skills by only specifying a set of reactions and the type of interaction. Even our repository contains a little jupyter notebook written in python to recreate  some of the ideas  discussed in this post (OpenPlant-Lorenz.ipynb).   In silico techniques offer a number of advantages such as making the processes of discovery and thorough exploration of several scenarios immediate and systematic and sometimes even automated! not to mention that are always reproducible.</p>
+
+<p align="justify">
+Systematic computational protocols (in theory at least) can also be developed in order to reduce the set of experiments to be carried out to only those cases that are might show promise in testing a hypothesis. Even more, the emergence of synthetic biology (SynBio) techniques allow (again, at least in theory) to design and build circuitry using standard toolkits &#8216;analogous&#8217; to those mentioned before for linear circuits, or as the ones discussed below.
+</p>
+
+<p align="justify">
+Looking at things by drawing strong analogies present an excellent opportunity from a pedagogical point of view. We believe that the ideas mentioned so far and  along the discussion below, together with the emergent field of SynBio can expose the general public of different backgrounds to each of the disciplines of the STEM acronym in one go and under the same umbrella.
+</p>
+
+<p align="justify">
+The possibility of writing equations for circuits allow us also to design them and analyse these prior to implementation, we soon discuss this using a great case-study but before getting to that let us introduce another very interesting equivalence between descriptions which for our purposes of touching biology and synthetic biology are perhaps more valuable than the mechanics analogy.</p>
+
+<p>The last paragraph sketches  <strong>the first take home message</strong> of our post: dynamical physical systems can be linked to equivalent chemical dynamical systems <a href="#Circuits">[1]</a> and in several cases into electrical/electronic circuits.</p>
+
+<p align="justify">
+To illustrate the above &#8216;theorem&#8217; in the next few paragraphs we outline what exactly does the equivalence consist of by using  as a working example the Lorenz system. We choose this for simplicity but the links and experiments described below can and have been done for several other systems which for completeness and to instigate the curious reader we enlist: the membrane action potential in neurons developed by Hodgkin-Huxley, its reduced version by Fitzhugh-Nagumo, the relaxation oscillatory system by Van der Pol, and the chaotic spiral attractor system of Rossler, and many more!
+</p>
+
+<h4 id="the-paradigmatic-lorenz-system-and-chuas-circuit">The paradigmatic Lorenz system and Chua’s circuit</h4>
+
+<p align="justify">
+A search query for the string &#8216;Lorenz system&#8217; returns as of April 2016, about 32 900 000 entries, which for a mathematical object is not bad! The systemá celebrity status is due in part to the beauty and complexity of the trajectories generated when one plots one variable against the others for a certain values and combination of the parameters.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/xyzchaosB.png" width="700" />
+<p align="justify">
+Fig. 1: Trajectory in the <i>phase space</i> defined as the space in which the variables x, y and z are plotted against each other, the trajectory is generated as time changes. This particular trajectory corresponds to parameter values where the system is chaotic (it never closes) showing the classical butterfly-like shape. The figure also shows projections of the trajectory over each of the two dimensional subspaces x-y, x-z  and y-z.
+</p>
+</div>
+
+<p>
+The system was originally intended to model of a three dimensional convective fluid flow and its time evolution equations read as:
+</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+
+\begin {array}{ccl}
+\dot{x}& = & \sigma(y-x)\\
+\dot{y}& = & x(\rho-z)-y\\
+\dot{z}& = & xy-\beta z
+\end {array}
+ %]]&gt;</script>
+
+<p align="justify">
+This elegant system has been studied extensively, it depends of three parameters $\sigma$, $\rho$ and $\beta$ and it can be used not only as a &#8216;weather model&#8217;  but also as a generic model for chemical reactions and as we shall see as a basis for a non-linear tunable circuit. The equivalent reaction network is enlsted below.  Let us imagine three reactive products $X$, $Y$ and $Z$ and let $x$, $y$ and $z$ stand for their respective concentrations.  Assuming a standard &#8220;law of mass action&#8221; interactions then the following reaction scheme is governed by the Lorenz equations:
+</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+
+\begin{array}{rcl}
+& 1&\\
+X+ Y+Z & \longrightarrow &X+2Z\\
+&&\\
+&\frac{\sigma}{[A_1]} &\\
+A_1 +X + Y & \longrightarrow & 2X + Y\\
+&&\\
+& \frac{\rho+c_3}{[A_2]}&\\
+A_2 +X + Y & \longrightarrow & X + 2Y\\
+&&\\
+&c_2 &\\
+X + Z & \longrightarrow & X + P_1\\
+&&\\
+&c_1&\\
+Y + Z & \longrightarrow & 2Y\\
+&&\\
+&\sigma/2 &\\
+2X & \longrightarrow & P_2\\
+&&\\
+&1/2&\\
+2Y & \longrightarrow & P_3\\
+&&\\
+&\beta/2 &\\
+2Z & \longrightarrow & P_4\\
+&&\\
+&\frac{\sigma c_1}{[A_3]}&\\
+A_3 + X & \longrightarrow & 2X\\
+&&\\
+&\sigma c_2 &\\
+X & \longrightarrow &P_5\\
+&&\\
+& c_1(\rho+c_3)&\\
+Y & \longrightarrow & P_6\\
+&&\\
+&c_2/[A_4] &\\
+A_4 + Y & \longrightarrow &2Y\\
+&&\\
+& (c_1c_2+\beta c_3 )/[A_5]&\\
+A_5 + Z & \longrightarrow & 2Z\\
+\end{array}
+ %]]&gt;</script>
+
+<p align="justify">
+The translation into a reaction scheme is slightly elaborate and well beyond this post, we only would like to stress the need to include a number of dummy species $A_i$&#8217;s and $P_i$&#8217;s ($i=1,2,&#8230;$). The former are kept at a constant concentration $[A_i]$ whereas the latter are unreactive products, these are introduced to keep the chemical concentrations always positive. The rate constants $c_1$, $c_2$ and $c_3$ are chosen carefully to remove the mapped system away from the singlar solutions of the original system, for the case of the Lorenz system this happens if $c_1$ and $c_2$ are both larger than $(\beta (\rho-1))^{1/2}$ and $c_3\geq0$.
+</p>
+
+<p align="justify">
+The last paragraphs went a bit out of hand but we think this is necessary in order not to keep key issues hidden from the enthusiastic reader, now let us focus into something slightly more appealling to a Bio-SynBio audience the Lorenz system as a model for say, gene regulation. </p>
+
+<p align="justify">
+As shown in Figs. 2 and 4 there is a range of parameter values in which the system is periodic and the concentrations are out of phase which can be interpreted as an activation-inhibition process which oscillates back and forth forever. However if we recover the parameter values for the chaotic regime we obtain a temporal signals as the ones shown in Fig. 3.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/xyznctB.png" width="700" />
+<p align="justify">
+Fig. 2: Solutions of the Lorenz system as a function of time with a parameter set of values which make the orbits periodic.
+</p>
+</div>
+
+<div style="text-align: center;">
+<img src="/images/xyztB.png" width="700" />
+<p align="justify">
+Fig. 3: Solutions of the Lorenz system as a function of time in the chaotic regime, the parameter values are the same as the ones used to produce the double scroll phase space trajectory (Fig. 1).
+</p>
+</div>
+
+<p align="justify">
+The fact that the same circuit topology leads to very different behaviours is the key in our entire discussion. If we think in biological terms we could say that the change in the expression levels of our very nicely periodic system can undergo a severe transition to a chaotic state due to a simple change in one of the intrinsic parameters of the system cause for instance by a mutation.
+</p>
+<p align="justify">
+The circuit possesses very different &#8216;phenotypes&#8217; despite being described by the same circuitry! We will come back to this later, but first let us take the discussion one step further, into the realm of  designing and building a physical implementation of the system.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/xyznochaosB.png" width="700" />
+<p align="justify">
+Fig. 4: Periodic orbit of the Lorenz system the parameter values are the same as the ones used to produce the temporal courses shown in Fig. 2.
+</p>
+</div>
+
+<h4 id="engineering-chaos-in-autonomous-systems-chuas-circuit">Engineering chaos in autonomous systems: Chua’s circuit.</h4>
+
+<p>Let us return for a moment to our definition of clocks, i.e. every system in which the variables under observation are periodic. Implicitly we have being thinking about <strong>autonomous</strong> clocks which means that they are not powered by an external source of energy which varies with time instead the external input is yet another constant in the system think a battery for instance.</p>
+
+<p>As mentioned earlier, electrical oscillators are built using  <strong>standard passive components</strong> (resistors $R$, capacitors $C$ and inductors $L$).</p>
+
+<p align="justify">
+Simple arrangements of passive elements easily produce self-sustained oscillatory responses. However linearity implies that no matter how we combine such elements, the reponse is always linear and there are no transitions into more complex behaviours. So how do we build a Lorenz-like circuit? or any circuit resembling interesting behaviours such as those  observed in chemistry, ecology and gene regulation?
+</p>
+
+<p align="justify">
+To make the long story short there is a set of necessary and suficient conditions for a circuit to exhibit chaos:</p>
+
+<ul>
+  <li>
+    <p>The system most contain at least one non-linear component.</p>
+  </li>
+  <li>
+    <p>At least one of the components must be non-ohmic or <strong>active</strong>.</p>
+  </li>
+  <li>
+    <p>It should contain at least three elements able to store energy.</p>
+  </li>
+</ul>
+
+<p align="justify">
+The above statement was proven by Leon Chua et al in the mid 1980&#8217;s when they were attempting to build a circuit which could replicate the Lorenz dynamics.
+</p>
+
+<p align="justify">
+Loosely speaking, the solution was found by noticing that chaos can be understood as a mixing process. The solutions to the equations de-correlate to other solutions in the vicinity at an exponential rate and then are pulled back together repeatedly, this phenomena is known as stretching and folding (think of the patterns you observe when you pour coffee into milk and stir).</p>
+
+<p align="justify">
+Theoretically and then experimentally the way of introducing the non-linearity into the system is sketched in Fig. 5, there the addition of the active component is shown alongside the response function devised to implement the stretching-folding mechanisms.</p>
+
+<p>The non-linearity can be constructed by three region piece-wise linear regimes where negative resistance region introduces the active property to the <strong>device</strong>. The rest of the setup is a parallel implementation of a standard $RLC$ oscillator.</p>
+
+<p>Now, it comes the question of how to achieve such response, before addressing it let us mention the following rather important statements.</p>
+
+<ul>
+  <li>
+    <p>The Chua circuit is the simplest setup which satisfies the conditions for Chaos.</p>
+  </li>
+  <li>
+    <p>Every continuous three dimensional odd-symmetric
+ and piece-wise linear dynamical system can be mapped into the circuit.</p>
+  </li>
+  <li>
+    <p>In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..)is∫ exhibited by the circuit.</p>
+  </li>
+</ul>
+
+<p>The above statements are <strong>theorems</strong> and the demonstrations are beyond this rather informal presentation, however bear in mind that this way of inductive thinking and rigour allowed people to achieve all of the remarkable results discussed here.</p>
+
+<div style="text-align: center;">
+<img src="/images/nrchua.png" width="600" />
+<p align="justify">
+Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
+</p>
+</div>
+
+<p align="justify">
+So, how to build a Chua circuit? We know what is required, now we need to go from paper to workbench. The answer is hinted in Figs. 4 and 5, where the schematics of circuits are shown which differ in detail, the first shows the mentioned active element which not surprisingly is called a Chua diode. Fig.  5 shows schematics of how to &#8216;build&#8217; one with yet again standard components.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/chuaXX.png" width="300" />
+<p align="justify">
+Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
+</p>
+</div>
+
+<div align="center">
+<img src="/images/chuapic.png" width="300" />
+<p align="justify">
+Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
+</div>
+
+<p align="justify">
+The diode is basically a couple of operational amplifiers and six resistors, in order to add tunable parameters the resistor in the circuit needs to be a variable resistor (a potentiometer), the circuit can be further modified by replacing the inductor by a synthetic one usin a gyrator circuit replacement. The operational amplifiers are standard TL081 or TL082 which come with both elements packed in the same integrated circuit.
+</p>
+
+<p align="justify">
+Fig. 6 and Movies 1.1-1.2 show our (early) implementation of the circuit, the movies show the transition from a periodic regime into chaos by tinkering with the variable resistor and measuring the voltage in the capacitors $C_1$ and $C_2$.
+</p>
+
+<div align="center">
+<video width="320" height="240" controls="">
+ <source src="/images/chua1.webm" type="video/mp4" />
+ Your browser does not support the video tag.
+</video>
+<p align="justify">
+Movie 1.1: Implementation of the circuit, in the video we show the transition from periodic to a single scroll then to a double scroll, the oscilloscope also show the time traces for $C_1$ and $C_2$ which pretty much resemble the ones obtained solving Lorenz equations.
+</p>
+</div>
+
+<div align="center">
+<video width="320" height="240" controls="">
+ <source src="/images/chua2.webm" type="video/mp4" />
+ Your browser does not support the video tag.
+</video>
+<p align="justify">
+Movie 1.2: The double scroll and the circuit in action!
+</p>
+</div>
+
+<p align="justify">
+So that is it!, that is how one builds a Lorenz-like circuit!, What else then? What about the plants? where does all this fits into plant sciences?, the answer is basically everywhere!. Action potentials triggered by mechanical or chemical stimuli have been studied for a long time as they do exhibit the basic features of an <strong>integrate and fire</strong> oscillator.
+</p>
+
+<p align="justify">These type of oscillators are characterised by a set of features such as:</p>
+
+<ul>
+  <li>
+    <p>All or nothing response to stimuli (unless a threshold is reached)</p>
+  </li>
+  <li>
+    <p>A refractory period (The systems is not able to trigger again unless it has reached its basal level)</p>
+  </li>
+</ul>
+<p>&lt;/p&gt;
+&lt;p align=&#8217;justify&#8217;&gt;
+In many ways certain plants behave like neurons or myocytes!, spiking violently after a sustained perturbation. This have led to a varied number of investigators to attempt to understand such dynamics
+using the techniques described so far.&lt;/p&gt;</p>
+
+<p>Some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review <a href="#plants">[4]</a> for instace.)</p>
+
+<p align="justify"> In our case we are interested in studying several rhythms by coupling certain response plants with electonic circuits which might the trigger some electrical stimuli which then difusses to other plants or on the way back to the plant, we are interested in studying the phenomena called &#8220;synchronisation&#8221;.</p>
+
+<p align="justify">
+Chemical   signal carriers and triggers such as those of calcium are yet to be fully characterised for several  plant processes such as growth and interaction with the environment, and our little electrogram machines might be of use to understand such roles which of course in the much more cost effective realm of plant sciences compared to those of neurons or cardiac cells!</p>
+
+<p>Innovation in the phenotype originates at the molecular level in at least one of the three levels of organisation described by genetics, gene regulation circuits and metabolic networks <a href="#Wagner">[1]</a>.</p>
+
+<p align="justify">
+This classification of genotype classes which belong to levels of organization scales apart immediatley invites to postulate an analogy with similar systems well studied in the engineering and physical sciences where innovation has evolved not as natural process but also by design.
+</p>
+
+<p align="justify">
+A way to be explict in the connections
+we are trying to build is to briefly present a quintessential example of how innovation by design can go back and forth from an idea to a real life implementation.  Our example coincidentally will also touch a deeper connection between the plant systems we are trying to study and contemporary ideas of &#8220;emergence&#8221; and the nature of the &#8220;laws&#8221; of biology.</p>
+
+<p>Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis,as hinted earlier, it allows to test  the interplay of the three levels of organisation in which evolution acts: genetics, gene regulation circuits and metabolic networks <a href="#Wagner">[1]</a>.</p>
+
+<p align="justify">
+With the aid of SynBio perhaps it will become straightforward to edit, engineer and test the robustness and evolvability  of each of those genotype classes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
+</p>
+
+<p>Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits <a href="#chaosI">[2]</a> and <a href="#chaosII">[3]</a> about linearity and non-linearity of circuits and the Chua system.</p>
+
+<h2 id="references">References.</h2>
+
+<ol>
+  <li>
+    <p><a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970"> Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a></p>
+  </li>
+  <li><a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">M. P. Kennedy Three steps to chaos. I. Evolution
+</a></li>
+  <li>
+    <p><a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">M. P. Kennedy Three steps to chaos. II. A Chua’s circuit primer</a></p>
+  </li>
+  <li>
+    <p><a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">Q. Guo et al.J. R. Soc. Interface (2015)
+</a></p>
+  </li>
+  <li><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf"> Andreas Wagner, TIGS, 08, 397-410 (2011)</a></li>
+</ol>
+]]></content>
+  </entry>
+  
+</feed>

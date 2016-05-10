@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 3d Printers | Plant Electrophysiology]]></title>
+  <link href="http://calugo.github.io//blog/categories/3d-printers/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//"/>
+  <updated>2016-05-10T02:46:37+01:00</updated>
+  <id>http://calugo.github.io//</id>
+  <author>
+    <name><![CDATA[Franken-Plant Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[3D Prints and Motors]]></title>
+    <link href="http://calugo.github.io//blog/2016/04/22/3D-prints/"/>
+    <updated>2016-04-22T16:58:32+01:00</updated>
+    <id>http://calugo.github.io//blog/2016/04/22/3D-prints</id>
+    <content type="html"><![CDATA[<h3 id="d-models-to-print-and-motor-options----more---">3D models to print and motor options <!-- more --></h3>
+
+<p align="justify">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+</p>
+]]></content>
+  </entry>
+  
+</feed>

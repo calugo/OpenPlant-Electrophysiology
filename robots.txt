@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://calugo.github.io//sitemap.xml 
