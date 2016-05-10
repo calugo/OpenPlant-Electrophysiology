@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Diy | Plant Electrophysiology]]></title>
-  <link href="http://calugo.github.io//blog/categories/diy/atom.xml" rel="self"/>
-  <link href="http://calugo.github.io//"/>
-  <updated>2016-05-10T02:46:37+01:00</updated>
-  <id>http://calugo.github.io//</id>
+  <link href="http://calugo.github.io//github/blog/categories/diy/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//github/"/>
+  <updated>2016-05-10T03:02:24+01:00</updated>
+  <id>http://calugo.github.io//github/</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Electronics]]></title>
-    <link href="http://calugo.github.io//blog/2016/04/22/Electronics/"/>
+    <link href="http://calugo.github.io//github/blog/2016/04/22/Electronics/"/>
     <updated>2016-04-22T16:58:32+01:00</updated>
-    <id>http://calugo.github.io//blog/2016/04/22/Electronics</id>
+    <id>http://calugo.github.io//github/blog/2016/04/22/Electronics</id>
     <content type="html"><![CDATA[<h2 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h2>
 
 <h2 id="index">Index</h2>
