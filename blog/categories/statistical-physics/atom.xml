@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Statistical Physics | Plant Electrophysiology]]></title>
   <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/categories/statistical-physics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io/OpenPlant-Electrophysiology//"/>
-  <updated>2016-05-10T10:35:26+01:00</updated>
+  <updated>2016-05-10T22:51:24+01:00</updated>
   <id>http://calugo.github.io/OpenPlant-Electrophysiology//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -225,18 +225,14 @@ Simple arrangements of passive elements easily produce self-sustained oscillator
 
 <p align="justify">
 To make the long story short there is a set of necessary and sufficient conditions for a circuit to exhibit chaos:</p>
+<p>
+a) The system most contain at least one non-linear component.</p>
 
-<ul>
-  <li>
-    <p>The system most contain at least one non-linear component.</p>
-  </li>
-  <li>
-    <p>At least one of the components must be non-ohmic or <strong>active</strong>.</p>
-  </li>
-  <li>
-    <p>It should contain at least three elements able to store energy.</p>
-  </li>
-</ul>
+<p>
+b) At least one of the components must be non-ohmic or <strong>active</strong>.</p>
+
+<p>
+c) It should contain at least three elements able to store energy.</p>
 
 <p align="justify">
 The above statement was proven by Leon Chua et al in the mid 1980&#8217;s when they were attempting to build a circuit which could replicate the Lorenz dynamics.
@@ -252,18 +248,15 @@ Theoretically and then experimentally the way of introducing the non-linearity i
 
 <p>Now, it comes the question of how to achieve such response, before addressing it let us mention the following rather important statements.</p>
 
-<ul>
-  <li>
-    <p>The Chua circuit is the simplest setup which satisfies the conditions for Chaos.</p>
-  </li>
-  <li>
-    <p>Every continuous three dimensional odd-symmetric
- and piece-wise linear dynamical system can be mapped into the circuit.</p>
-  </li>
-  <li>
-    <p>In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..)is∫ exhibited by the circuit.</p>
-  </li>
-</ul>
+<p>
+1.- The Chua circuit is the simplest setup which satisfies the conditions for Chaos.
+</p>
+<p>
+2.- Every continuous three dimensional odd-symmetric
+ and piece-wise linear dynamical system can be mapped into the circuit.
+</p>
+<p>
+3.- In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..)is∫ exhibited by the circuit.</p>
 
 <p>The above statements are <strong>theorems</strong> and the demonstrations are beyond this rather informal presentation, however bear in mind that this way of inductive thinking and rigour allowed people to achieve all of the remarkable results discussed here.</p>
 
