@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Arduino | Plant Electrophysiology]]></title>
-  <link href="http://calugo.github.io//github/blog/categories/arduino/atom.xml" rel="self"/>
-  <link href="http://calugo.github.io//github/"/>
-  <updated>2016-05-10T03:31:43+01:00</updated>
-  <id>http://calugo.github.io//github/</id>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/categories/arduino/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//"/>
+  <updated>2016-05-10T03:47:59+01:00</updated>
+  <id>http://calugo.github.io/OpenPlant-Electrophysiology//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Software]]></title>
-    <link href="http://calugo.github.io//github/blog/2014/04/22/Software/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2014/04/22/Software/"/>
     <updated>2014-04-22T00:37:47+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2014/04/22/Software</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2014/04/22/Software</id>
     <content type="html"><![CDATA[<h3 id="serial-port-talks-to-a-browser-and-more-----more---">Serial port talks to a browser and more! … <!-- more --></h3>
 
 <p align="justify">

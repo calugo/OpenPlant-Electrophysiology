@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Complexity | Plant Electrophysiology]]></title>
-  <link href="http://calugo.github.io//github/blog/categories/complexity/atom.xml" rel="self"/>
-  <link href="http://calugo.github.io//github/"/>
-  <updated>2016-05-10T03:31:43+01:00</updated>
-  <id>http://calugo.github.io//github/</id>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/categories/complexity/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//"/>
+  <updated>2016-05-10T03:47:59+01:00</updated>
+  <id>http://calugo.github.io/OpenPlant-Electrophysiology//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiments!]]></title>
-    <link href="http://calugo.github.io//github/blog/2016/04/23/3D-experiments/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/23/3D-experiments/"/>
     <updated>2016-04-23T16:58:32+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2016/04/23/3D-experiments</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/23/3D-experiments</id>
     <content type="html"><![CDATA[<h3 id="franken-plants----more---">Franken-plants! <!-- more --></h3>
 
 <p align="justify">
@@ -41,9 +41,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
   <entry>
     <title type="html"><![CDATA[Circuits and Excitable Media]]></title>
-    <link href="http://calugo.github.io//github/blog/2016/04/22/Excitable-Media/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/Excitable-Media/"/>
     <updated>2016-04-22T16:53:29+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2016/04/22/Excitable-Media</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/Excitable-Media</id>
     <content type="html"><![CDATA[<h3 id="project-primer---more-------circuits-genes-boards-and-synbio">Project primer<!-- more --> -  Circuits: genes, boards and SynBio?.</h3>
 
 <p align="justify">

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Plant Electrophysiology]]></title>
-  <link href="http://calugo.github.io//github/atom.xml" rel="self"/>
-  <link href="http://calugo.github.io//github/"/>
-  <updated>2016-05-10T03:31:43+01:00</updated>
-  <id>http://calugo.github.io//github/</id>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//atom.xml" rel="self"/>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//"/>
+  <updated>2016-05-10T03:47:59+01:00</updated>
+  <id>http://calugo.github.io/OpenPlant-Electrophysiology//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiments!]]></title>
-    <link href="http://calugo.github.io//github/blog/2016/04/23/3D-experiments/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/23/3D-experiments/"/>
     <updated>2016-04-23T16:58:32+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2016/04/23/3D-experiments</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/23/3D-experiments</id>
     <content type="html"><![CDATA[<h3 id="franken-plants----more---">Franken-plants! <!-- more --></h3>
 
 <p align="justify">
@@ -41,9 +41,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
   <entry>
     <title type="html"><![CDATA[Electronics]]></title>
-    <link href="http://calugo.github.io//github/blog/2016/04/22/Electronics/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/Electronics/"/>
     <updated>2016-04-22T16:58:32+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2016/04/22/Electronics</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/Electronics</id>
     <content type="html"><![CDATA[<h2 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h2>
 
 <h2 id="index">Index</h2>
@@ -67,7 +67,7 @@ Our aim was to produce a simple but good enough system to observe plant depolari
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/board1.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/board1.png" width="700" />
 <p align="justify">
 Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
 </p>
@@ -84,7 +84,7 @@ Some of the possible improvements for the SpikeShield design include increasing 
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/board2.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/board2.png" width="700" />
 <p align="justify">
 Fig. 2: Our two-layer board. The board is compatible with both Arduino and Freedom development boards.
 </p>
@@ -97,7 +97,7 @@ The first batch of PCBs we are delivering can be used as an Arduino shield or di
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/board3.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/board3.png" width="700" />
 <p align="justify">
 Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom Development board for Kinetis K64, Bottom: Out two-layer board
 </p>
@@ -109,7 +109,7 @@ The first deliverable PCB boards have been produced in a double-layer format (be
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/board4.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/board4.png" width="700" />
 <p align="justify">
 Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
 </p>
@@ -136,9 +136,9 @@ Other Another alternative available for PCB editing and more are listed <a href=
   
   <entry>
     <title type="html"><![CDATA[3D Prints and Motors]]></title>
-    <link href="http://calugo.github.io//github/blog/2016/04/22/3D-prints/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/3D-prints/"/>
     <updated>2016-04-22T16:58:32+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2016/04/22/3D-prints</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/3D-prints</id>
     <content type="html"><![CDATA[<h3 id="d-models-to-print-and-motor-options----more---">3D models to print and motor options <!-- more --></h3>
 
 <p align="justify">
@@ -151,9 +151,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
   <entry>
     <title type="html"><![CDATA[Circuits and Excitable Media]]></title>
-    <link href="http://calugo.github.io//github/blog/2016/04/22/Excitable-Media/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/Excitable-Media/"/>
     <updated>2016-04-22T16:53:29+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2016/04/22/Excitable-Media</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2016/04/22/Excitable-Media</id>
     <content type="html"><![CDATA[<h3 id="project-primer---more-------circuits-genes-boards-and-synbio">Project primer<!-- more --> -  Circuits: genes, boards and SynBio?.</h3>
 
 <p align="justify">
@@ -214,7 +214,7 @@ A search query for the string &#8216;Lorenz system&#8217; returns as of April 20
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/xyzchaosB.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/xyzchaosB.png" width="700" />
 <p align="justify">
 Fig. 1: Trajectory in the <i>phase space</i> defined as the space in which the variables x, y and z are plotted against each other, the trajectory is generated as time changes. This particular trajectory corresponds to parameter values where the system is chaotic (it never closes) showing the classical butterfly-like shape. The figure also shows projections of the trajectory over each of the two dimensional subspaces x-y, x-z  and y-z.
 </p>
@@ -293,14 +293,14 @@ As shown in Figs. 2 and 4 there is a range of parameter values in which the syst
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/xyznctB.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/xyznctB.png" width="700" />
 <p align="justify">
 Fig. 2: Solutions of the Lorenz system as a function of time with a parameter set of values which make the orbits periodic.
 </p>
 </div>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/xyztB.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/xyztB.png" width="700" />
 <p align="justify">
 Fig. 3: Solutions of the Lorenz system as a function of time in the chaotic regime, the parameter values are the same as the ones used to produce the double scroll phase space trajectory (Fig. 1).
 </p>
@@ -314,7 +314,7 @@ The circuit possesses very different &#8216;phenotypes&#8217; despite being desc
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/xyznochaosB.png" width="700" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/xyznochaosB.png" width="700" />
 <p align="justify">
 Fig. 4: Periodic orbit of the Lorenz system the parameter values are the same as the ones used to produce the temporal courses shown in Fig. 2.
 </p>
@@ -375,7 +375,7 @@ Theoretically and then experimentally the way of introducing the non-linearity i
 <p>The above statements are <strong>theorems</strong> and the demonstrations are beyond this rather informal presentation, however bear in mind that this way of inductive thinking and rigour allowed people to achieve all of the remarkable results discussed here.</p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/nrchua.png" width="600" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/nrchua.png" width="600" />
 <p align="justify">
 Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
 </p>
@@ -386,14 +386,14 @@ So, how to build a Chua circuit? We know what is required, now we need to go fro
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//github/images/chuaXX.png" width="300" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/chuaXX.png" width="300" />
 <p align="justify">
 Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
 </p>
 </div>
 
 <div align="center">
-<img src="http://calugo.github.io//github/images/chuapic.png" width="300" />
+<img src="http://calugo.github.io/OpenPlant-Electrophysiology//images/chuapic.png" width="300" />
 <p align="justify">
 Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
 </div>
@@ -408,7 +408,7 @@ Fig. 6 and Movies 1.1-1.2 show our (early) implementation of the circuit, the mo
 
 <div align="center">
 <video width="320" height="240" controls="">
- <source src="http://calugo.github.io//github/images/chua1.webm" type="video/mp4" />
+ <source src="http://calugo.github.io/OpenPlant-Electrophysiology//images/chua1.webm" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
 <p align="justify">
@@ -418,7 +418,7 @@ Movie 1.1: Implementation of the circuit, in the video we show the transition fr
 
 <div align="center">
 <video width="320" height="240" controls="">
- <source src="http://calugo.github.io//github/images/chua2.webm" type="video/mp4" />
+ <source src="http://calugo.github.io/OpenPlant-Electrophysiology//images/chua2.webm" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
 <p align="justify">
@@ -495,9 +495,9 @@ With the aid of SynBio perhaps it will become straightforward to edit, engineer 
   
   <entry>
     <title type="html"><![CDATA[Software]]></title>
-    <link href="http://calugo.github.io//github/blog/2014/04/22/Software/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2014/04/22/Software/"/>
     <updated>2014-04-22T00:37:47+01:00</updated>
-    <id>http://calugo.github.io//github/blog/2014/04/22/Software</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2014/04/22/Software</id>
     <content type="html"><![CDATA[<h3 id="serial-port-talks-to-a-browser-and-more-----more---">Serial port talks to a browser and more! … <!-- more --></h3>
 
 <p align="justify">
