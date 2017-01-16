@@ -1,11 +1,11 @@
-//psstep v. 0.1 - C. Lugo and M. Aita for OpenPlant 20170113
+//psstep - C. Lugo and M. Aita for OpenPlant 20170116
 
 #include <AccelStepper.h>
 #include <MultiStepper.h>
 #include <Psx.h>                                          // Includes the Psx Library 
                                                           // Any pins can be used since it is done in software
 
-#define VERSION "0.1"
+#define VERSION "0.11"
 #define dataPin 10
 #define cmndPin 11
 #define attPin 12
@@ -126,7 +126,9 @@ void loop()
   data = Psx.read();                                      // Psx.read() initiates the PSX controller and returns
                                                           // the button data
   //Serial.println(data);                                   // Display the returned numeric value
-  if (data & psxSqu){
+  Serial.println(data);                                   // Display the returned numeric value
+  
+  if (data & psxSqu){	// Square
     clockwise=true;  
     Serial.println(data);                            
     Serial.println("squ!");
@@ -134,7 +136,7 @@ void loop()
     stepper.moveTo(targetPositionx);
     lastdata=data;   
   }
-  if (data & psxO){
+  if (data & psxO){		// Circle
     clockwise=false;     
     Serial.println(data);                         
     Serial.println("circ!");
@@ -143,7 +145,7 @@ void loop()
     lastdata=data;   
   }
 
-  if (data & psxX){
+  if (data & psxX){		// X
     clockwise=true;     
     Serial.println(data);                         
     Serial.println("X!");
@@ -151,7 +153,7 @@ void loop()
     stepper2.moveTo(targetPositiony);
     lastdata=data;      
   }
-  if (data & psxTri){
+  if (data & psxTri){	// Triangle
     clockwise=false;   
     Serial.println(data);                           
     Serial.println("tri!");
@@ -161,7 +163,7 @@ void loop()
  
   }
 
-   if (data & psxUp){
+   if (data & psxUp){	// Left Up
     clockwise=true;     
     Serial.println(data);                         
     Serial.println("up!");
@@ -170,7 +172,7 @@ void loop()
     lastdata=data;           
   }
   
-  if (data & psxDown){
+  if (data & psxDown){	// Left down
     clockwise=false;   
     Serial.println(data);                           
     Serial.println("down!");
@@ -179,7 +181,7 @@ void loop()
     lastdata=data;      
   }
 
-   if (data & psxL1){   // save last position and move all to initial position  
+   if (data & psxL1){   // Left button 1: save last position and move all to initial position  
     Serial.println(data);                           
     Serial.println("go home!");
     if(targetPositionx!=initialPositionx | targetPositiony!=initialPositiony |targetPositionz!=initialPositionz)
@@ -202,7 +204,7 @@ void loop()
     }
   }
 
-     if (data & psxL2){   // move all to saved position  
+     if (data & psxL2){   // Left button 2: move all to saved position  
     Serial.println(data);                           
     Serial.println("go back to saved position!");
     Serial.write("Saved position x: "); 
@@ -219,8 +221,9 @@ void loop()
     stepper3.moveTo(targetPositionz); 
   }
 
-    if (data & psxR1){  //double the movement step
-      if (lastdata!=data)
+    if (data & psxR1){  // Right button 1: double the movement step
+      if (lastdata!=data) // if previous control code was not the same - to avoid too fast repeats
+	  //TODO check if a slight delay is better instead. Say 100ms?
       {
     Serial.println(data);                           
     Serial.println("faster!");
@@ -231,7 +234,7 @@ void loop()
       }      
   }
 
-    if (data & psxR2){
+    if (data & psxR2){ // Right button 2: half the movement step
         if (lastdata!=data)
         {
           Serial.println(data);    
