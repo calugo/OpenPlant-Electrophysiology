@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Neurobiology | Plant Electrophysiology]]></title>
+  <link href="http://calugo.github.io//github/blog/categories/neurobiology/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//github/"/>
+  <updated>2017-02-14T04:14:14+00:00</updated>
+  <id>http://calugo.github.io//github/</id>
+  <author>
+    <name><![CDATA[Franken-Plant Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Experiments!]]></title>
+    <link href="http://calugo.github.io//github/blog/2016/02/13/3D-experiments/"/>
+    <updated>2016-02-13T20:20:32+00:00</updated>
+    <id>http://calugo.github.io//github/blog/2016/02/13/3D-experiments</id>
+    <content type="html"><![CDATA[<h3 id="franken-plants----more---">Franken-plants! <!-- more --></h3>
+
+<p align="justify">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+</p>
+<p>Cells are coupled by junctions as:</p>
+
+<script type="math/tex; mode=display">\frac{dVm(r)}{dt}=-\frac{I(r)}{C_m}+\frac{D}{(\Delta r)^2}\sum_{r' \in r_{n.n}}(V_m(r')-V_m(r))</script>
+
+<p>With:</p>
+
+<ul>
+  <li>$\Delta r=0.025[\mu m]$ ,</li>
+  <li>$dt=0.01$  $[ms]$  (so $[D]=[\mu m]^2/[ms]$).</li>
+  <li>$T_{stim}=400$  $[ms]$ (Alternating regime)</li>
+</ul>
+]]></content>
+  </entry>
+  
+</feed>

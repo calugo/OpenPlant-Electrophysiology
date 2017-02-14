@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: C | Plant Electrophysiology]]></title>
+  <link href="http://calugo.github.io//github/blog/categories/c/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//github/"/>
+  <updated>2017-02-14T04:14:14+00:00</updated>
+  <id>http://calugo.github.io//github/</id>
+  <author>
+    <name><![CDATA[Franken-Plant Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Software]]></title>
+    <link href="http://calugo.github.io//github/blog/2017/02/13/Software/"/>
+    <updated>2017-02-13T20:11:47+00:00</updated>
+    <id>http://calugo.github.io//github/blog/2017/02/13/Software</id>
+    <content type="html"><![CDATA[<h3 id="serial-port-talks-to-a-browser-and-more-----more---">Serial port talks to a browser and more! … <!-- more --></h3>
+
+<p align="justify">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+</p>
+]]></content>
+  </entry>
+  
+</feed>

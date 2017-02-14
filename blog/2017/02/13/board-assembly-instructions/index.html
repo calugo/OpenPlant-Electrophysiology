@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Electronics II: Board Assembly Instructions - Plant Electrophysiology</title>
+  <meta name="author" content="Franken-Plant Team">
+
+  
+  <meta name="description" content="Electronics II: Board Assembly Instructions written Feb 13th, 2017 9:10 pm in electronics, open hardware, pcb, plant electrophysiology Board &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Plant Electrophysiology" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+
+</head>
+
+  <body>
+    <a href="/OpenPlant-Electrophysiology/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Electronics II: Board Assembly Instructions</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2017-02-13T21:10:12+00:00"  data-updated="true" itemprop="datePublished dateCreated"><time class='entry-date' datetime='2017-02-13T21:10:12+00:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>9:10 pm</span></time></time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/electronics/'>electronics</a>, <a class='category' href='/blog/categories/open-hardware/'>open hardware</a>, <a class='category' href='/blog/categories/pcb/'>pcb</a>, <a class='category' href='/blog/categories/plant-electrophysiology/'>plant electrophysiology</a>
+  
+</span>
+
+
+        </div>
+        <h2 id="board-assembly-guide----more---">Board Assembly guide! <!-- more --></h2>
+
+<h1 id="electrophysiology-kit">Electrophysiology kit</h1>
+
+<p>Before starting a couple of links!</p>
+
+<p>A pdf version of this document can be found <a href="https://www.dropbox.com/s/ydim10bipd66qv8/Instructions.pdf?dl=0">here</a>.
+The bill of materials can be found  <a href="https://www.dropbox.com/s/s26cmqimlcfhz2i/Physio_BOM.xlsx?dl=0">here</a>.</p>
+
+<h1 id="index">Index</h1>
+<ol>
+  <li><a href="#Schematics">Schematics</a></li>
+  <li><a href="#Kit">What is included in the kit?</a>
+    <ul>
+      <li><a href="#pcb">1.- PCB Board</a></li>
+      <li><a href="#components">2.- Components</a></li>
+      <li><a href="#resistors">2.1.- Resistors</a></li>
+      <li><a href="#trimpots">2.2.- Trimpots</a></li>
+      <li><a href="#capacitors">2.3.- Capacitors</a></li>
+      <li><a href="#ics">2.3.- Integrated Circuits</a></li>
+      <li><a href="#cnyled">2.4.- Connectors and LED </a></li>
+    </ul>
+  </li>
+  <li><a href="#corr">Correction</a></li>
+</ol>
+
+<h2 id="a-idschematicsa-schematics"><a id="Schematics"></a> <strong><em>Schematics.</em></strong></h2>
+<p align="justify">
+The boards are modelled on the commercially available Backyard Brains Plant Spikershield. The
+electrical circuit is practically the same (apart from a little improvement on the Vref, which is now
+provided by a specialized IC, U6 in our schematics). The main difference is actually in the physical
+boards. Our version has a more “standard” Arduino shield form factor, and allows the board to be
+used with Arduinos as well as other microcontroller boards (specifically the Nucleo development
+boards from  <a href="http://www.st.com/en/evaluation-tools/stm32-mcu-
+nucleo.html?querycriteria=productId=LN1847">Stmicroelectronics </a> and the <a href="http://www.nxp.com/products/software-and-tools/hardware-development-tools/freedom-
+development-boards:FREDEVPLA"> Freedom Development Boards </a>
+ from NXP) which provide higher resolution ADCs (12 to 16 bits) and more
+processing power then Arduino, still at a very low price.</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image001.png" width="700" />
+<p align="center">
+<font size="3">Fig. 1: The original Backyard Brains Plant Spikershield.</font>
+</p>
+</div>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image003.png" width="700" />
+<p align="center">
+<font size="3">Fig. 2: Our version of the Plant Spikershield.</font>
+</p>
+</div>
+
+<h2 id="a-idkitawhats-in-the-kit"><a id="Kit"></a><strong><em>What’s in the kit?</em></strong></h2>
+
+<p>The kits we provide contain a number of elements which we describe below alongside a visual guide to put the board together.</p>
+
+<h3 id="a-idpcbapcb-board"><a id="pcb"></a><strong><em>PCB board.</em></strong></h3>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image005.jpg" width="330" />
+<p align="center">
+<font size="3">Front side.</font>
+</p>
+<img src="/images/EPKIT/image008.jpg" width="300" />
+<p align="center">
+<font size="3">Backside (with one error&#8230;.. see below).</font>
+</p>
+<p align="center">
+<font size="3">Fig. 3: Board without components.</font>
+</p>
+</div>
+
+<p>Once you have completed the board it should look like this:</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image009.png" width="700" />
+<p align="center">
+<font size="3">This is what you should get at end!</font>
+</p>
+<img src="/images/EPKIT/image011.png" width="700" />
+<p align="center">
+<font size="3">Pay attention to the orientation of components!.</font>
+</p>
+
+<img src="/images/EPKIT/image013.png" width="700" />
+<p align="center">
+<font size="3">Backside (with one error&#8230;.. see below).</font>
+</p>
+<p align="center">
+<font size="3">Fig. 4: Assembled Board.</font>
+</p>
+</div>
+
+<h3 id="a-idcomponentsacomponents">2.- <a id="components"></a><strong><em>Components:</em></strong></h3>
+
+<h4 id="a-idresistorsa-21--resistors"><a id="resistors"></a> <strong><em>2.1.- Resistors:</em></strong></h4>
+<p align="justify">
+Used to regulate the current in a circuit, their value is measured in Ohm (symbol Ω).
+</p>
+<div style="text-align: center;">
+<img src="/images/EPKIT/image015.jpg" width="300" />
+<img src="/images/EPKIT/image017.jpg" width="270" />
+<p align="center">
+<font size="3">Fig. 5: Resistors.</font>
+</p>
+</div>
+
+<p align="justify">
+Usual values range from units of Ohms to MΩ. In the kit you will find 4 different resistors, of values
+390 Ω, 1KΩ, 100KΩ and 2.2 MΩ. The value of a resistor is usually given using a colour code, as
+described in the following table:
+</p>
+<div style="text-align: center;">
+<img src="/images/EPKIT/image019.jpg" width="700" />
+<p align="center">
+<font size="3">Fig. 6: Resistor value tables (<a href="http://www.fluxmonkey.com/electronoize/fred.htm">http://www.fluxmonkey.com/electronoize/fred.htm</a>).</font>
+</p>
+</div>
+
+<p align="justify">
+Use the table to identify the resistors in your kit, and find their correct location on the board.</p>
+
+<h4 id="a-idtrimpotsa-22--trimpots"><a id="trimpots"></a> <strong><em>2.2.- Trimpots:</em></strong></h4>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image021.png" width="200" />
+<img src="/images/EPKIT/image022.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 7: A trimpot and its electrical symbol.</font>
+</p>
+</div>
+
+<p align="justify">
+Trimpots are variable resistors used for adjusting the characteristics of a circuit. They can take
+different shapes but in our case there is only one that looks like a blue plastic “cube”. Essentially
+they are a resistor where there is an extra contact that can be moves along the resistor (this contact
+goes to the central wire in the picture). The little screw on top of the trimpot allows to change the
+position of the contact, therefore changing the resistance between the central contact and the
+external ones. It is not important in which direction you insert the trimpot, since we can then turn
+the control screw to correct the setting as needed.</p>
+
+<h4 id="a-idcapacitorsa23--capacitors"><a id="capacitors"></a><strong><em>2.3.- Capacitors:</em></strong></h4>
+
+<p align="justify">
+Capacitors : capacitors are used to temporary store charge. There are many different types of
+capacitors, and their value is measured in Farad (symbol F). A Farad is a very large capacity, so
+normal capacitors usually have capacity ranging from pF ($10^{-12}$ F) to few hundreds of μF ($10^{-6}$ F).</p>
+<p align="justify">
+In the kit there are two different type of capacitors, electrolytic (relative large capacity, used for slow
+changing voltages/charge)  and ceramic capacitors (small capacity, used for fast changing
+charges/voltages).</p>
+
+<h4 id="electrolytic-capacitors"><strong><em>Electrolytic Capacitors:</em></strong></h4>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image025.jpg" width="200" />
+<img src="/images/EPKIT/image026.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.</font>
+</p>
+</div>
+
+<p align="justify">
+Electrolytic capacitors are polarized meaning that they have a positive and a negative terminal (the
+wires that come out of the capacitors are called terminals and can also be distinguished by their
+length, see picture).</p>
+<p align="justify">
+In the kit you should have two capacitors of value
+10 μF and one of value 1 μF. Find their position –
+and correct orientation – on the board.</p>
+
+<h4 id="ceramic-capacitors"><strong><em>Ceramic capacitors:</em></strong></h4>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image029.jpg" width="700" />
+<p align="center">
+<font size="3">Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.</font>
+</p>
+</div>
+
+<p align="justify">
+Ceramics capacitors are much smaller than
+electrolytic capacitors, and their capacity is given in
+pF, using a numerical code that is similar to the one
+used for resistors, two digits plus a certain number
+of zeros. In our case we have a capacitor of value
+10000 pF=10 nF and one with value 560 pF.
+Notice that ceramic capacitors are not polarized
+and (like resistors) can be reversed without
+problems.</p>
+
+<h4 id="a-idicsa-24--integrated-circuits"><a id="ics"></a> <strong><em>2.4.- Integrated Circuits.</em></strong></h4>
+
+<p align="justify">
+Integrated circuits are complex miniaturized circuits that can
+perform many different functions and often look like little insects with many legs.</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image030.jpg" width="200" />
+<img src="/images/EPKIT/image032.jpg" width="200" />
+<img src="/images/EPKIT/socket.png" width="260" />
+<p align="center">
+<font size="3"> Fig. 10: Our two heroes, the AD623 and the TLC2272 ICs and a socket.</font>
+</p>
+</div>
+
+<p align="justify">
+These two ICs performs similar functions in this board (they both amplify the small electrical signals
+from the plants and make it large enough for the Arduino to measure it) but one (the AD623, can
+you recognise it?) is specialized for very small signals (the plant whispers..) and is very sensitive, so it
+doesn’t disturb the plants. The second one (the TLC2272) contains two amplifiers that are used to
+further amplify the signal and filter away some noise (the board is so sensitive that without a filter
+you will end up listening to the electrical noise generated by other electrical appliances, lights,
+computers etc - and you don’t want to be distracted from your plants stories - so you need to
+eliminate these unwanted noises). ICs are in general quite sensitive parts and don’t like becoming
+very hot during the soldering process. To help avoiding burning (quite literally) your ICs, some IC
+sockets are provided. Instead of soldering the ICs directly to the
+board, the sockets are soldered in their place, and the ICs will then
+be inserted into the socket at the very end, just before testing the
+boards (a bit of adjustment of the IC terminals might be needed to fit
+them properly in the socket). The metal springs in the socket will
+ensure a good electrical contact. This way the ICs never risk being
+damaged from the high temperature used for soldering (BTW,careful with the soldering iron, it’s HOT!).
+</p>
+<div style="text-align: center;">
+
+<img src="/images/EPKIT/image035.jpg" width="265" />
+<img src="/images/EPKIT/image037.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 11: The voltage splitter IC.</font>
+</p>
+</div>
+
+<p align="justify">
+The last IC is a smaller one that is used to provide a very precise reference voltage to the rest of the
+circuit, in order to help reduce the noise and make a cleaner recording. This one doesn’t have a
+socket so you will need to solder it directly. Try and be fast in order to reduce the temperature of
+the IC during the soldering process. Notice that the shape of this IC is semi-cylindrical. This will help
+inserting the IC in the board in the right orientation. Since every terminal (called “pins” in this case)
+has a specific function, it is important the way the ICs are inserted in their place on the board. Please
+find the position of the three ICs – and their orientation – on the images of the board.
+</p>
+
+<h4 id="a-idcnyleda25--connectors-and-led"><a id="cnyled"></a><strong><em>2.5.- Connectors and LED.</em></strong></h4>
+
+<p align="justify">
+There is a LED (light emitting diode) to show when the board is on. This is a sort
+of modern version of a bulb, more efficient, more robust and with a longer life
+expectancy. It is also a polarized component; The “long leg” is the positive
+terminal; use the pictures and the marking on the board to orient it properly.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image039.jpg" width="100" />
+<img src="/images/EPKIT/image040.jpg" width="400" />
+<p align="justify">
+<font size="3">Fig. 12: LED and male connectors, notice that the LED has also an orientation, the board layout shows the
+appropiate orientation for soldering the LED (flat part pointing outwards the board).</font>
+</p>
+</div>
+
+<p align="justify">
+There is also a number of connectors which should be soldered into the board for it to be connected
+to the microcontroller. Be very careful not to cut the long connectors, they are necessary for the board to
+ be properly plugged into the female contacts of the controller boards.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image043.jpg" width="300" />
+<img src="/images/EPKIT/image044.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 13: Long connectors and signal jacks.</font>
+</p>
+</div>
+
+<p align="justify">
+As illustrated in the figure of the completed version of the board there are two jacks which also need to be soldered to get the input and output signals in and out the board.
+</p>
+
+<h2 id="a-idcorracorrection-and-a-word-of-caution"><a id="corr"></a><strong><em>Correction and a word of caution.</em></strong></h2>
+
+<p align="justify">
+There is a little mistake on the PCB. Cut the trace at the two red signs and add a connection as
+shown in white. Be careful not to short any nearby pads. Do this at the end, after the components
+have been already placed in order to avoid blocking the holes with solder during the operation.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image008.jpg" width="300" />
+<img src="/images/EPKIT/image050.jpg" width="340" />
+<img src="/images/EPKIT/image014.png" width="500" />
+<p align="justify">
+<font size="3">Fig. 14: Soldering face of the board and detailed illustration of the correction which needs to be
+ soldered.</font>
+</p>
+</div>
+
+<p align="justify">
+Finally, please be very careful only to solder in the face with no printed symbols.
+</p>
+
+
+        <hr class="divider-short"/>
+
+        
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite">
+
+<script type="text/javascript">
+      var disqus_shortname = 'calvphysics';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions/';
+        var disqus_url = 'http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2017/02/13/Software/" title="Previous Post: Software">&laquo; Previous: Software</a>
+        
+
+        
+          <a class="pull-right" href="/blog/2017/02/13/Electronics/" title="Next Post: Electronics I: Board Design">Next: Electronics I: Board Design &raquo;</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56288995-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/OpenPlant-Electrophysiology/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/kupkasmale"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/calugo/OpenPlant-Electrophysiology/"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Hosted in   <a href="https://github.com/calugo">Github</a>. Base theme <a href="https://github.com/sevenadrian/MediumFox">MediumFox</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
+
+
+<!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>

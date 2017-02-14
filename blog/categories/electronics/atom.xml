@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Electronics | Plant Electrophysiology]]></title>
+  <link href="http://calugo.github.io//github/blog/categories/electronics/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//github/"/>
+  <updated>2017-02-14T04:14:14+00:00</updated>
+  <id>http://calugo.github.io//github/</id>
+  <author>
+    <name><![CDATA[Franken-Plant Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Electronics I: Board Design]]></title>
+    <link href="http://calugo.github.io//github/blog/2017/02/13/Electronics/"/>
+    <updated>2017-02-13T23:09:28+00:00</updated>
+    <id>http://calugo.github.io//github/blog/2017/02/13/Electronics</id>
+    <content type="html"><![CDATA[<h2 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h2>
+
+<h2 id="index">Index</h2>
+<ol>
+  <li><a href="#Intro">The OpenPlant Shield</a></li>
+  <li><a href="#Files">Files guide</a></li>
+</ol>
+
+<h2 id="a-idintroa-the-openplant-shield"><a id="Intro"></a> The OpenPlant Shield:</h2>
+<p align="justify">
+In order to provide a cheap alternative to professional-grade plant electrophysiology recorders, in the past years a number of DIY/Open Source approaches have been produced. Some of these approaches are very comprehensive and can easily substitute laboratory-level equipment (e.g. <a href="http://mobilecg.hu">Mobilecg</a>,  <a href="http://openeeg.sourceforge.net">Openeg</a>,  <a href=" http://openbci.com">Openbci</a>, <a href=" http://openeeg.sourceforge.net">Open-ephys</a>) but are far too complicated and expensive for the amateur of the average school, requiring advanced electronic skills to produce and use the equipment.  
+</p>
+<p align="justify">
+Our aim was to produce a simple but good enough system to observe plant depolarization potentials and make it easy enough for a reasonably skilled person to actually make one at home, using easily available electronic components.  In a later stage we also want to extend the system to allow injection of electrical stimuli and study plant reactions and electrical pulses synchronization and oscillations. </p>
+
+<p align="justify">
+ Out of the various Open Source approaches available one seems close in spirit to ours. It is the Plant SpikerShield from  <a href="https://backyardbrains.com/products/plantspikershield"> Backyard Brains </a>, which is in essence a simple front end low-noise amplifier aimed at being interfaced to an Arduino-compatible board which provides the analog to digital conversion and the connection to a PC where the signal is recorded and analysed.</p>
+
+<p align="justify">
+ However we found the SpikerShield´s cost is still too high to allow purchase of multiple devices needed in a school environment - the bundle including an Arduino, the frontend board and a few more support parts cost around $190. The SpikerShield board is also difficult to produce by DIY-ers because it is a double-layer one. Double-layer PCBs are difficult to produce at home, because they require precise alignment of the traces on the two sides of the board, moreover it is not possible to produce traces connecting the two sides and therefore they require many wire bridges.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board1.png" width="700" />
+<p align="justify">
+Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
+</p>
+</div>
+
+<p align="justify">
+  Our take on the SpikerShield was to develop a single-layer board that is easily to produce at home for a total cost of about £20. The more delicate task in producing a PCB is drilling the through holes for the components, which are typically very small (&lt; 1 mm) and need to be drilled precisely in order not to break the drill bit. To help with this we developed a DIY PCB drilling machine, and provide plans for its construction.
+</p>
+
+<p align="justify">
+Some of the possible improvements for the SpikeShield design include increasing the resolution of the system. The original design is based on a simple frontend amplifier based on a <i>classical</i>  operational instrumentation configuration and relies on the analog to digital converters (ADC) of the Arduino board, which are 10bit ADCs.  This means a dynamic range of ~60dB for the ADC, while the S/N ratio in current (cheaply available) instrumentation amplifiers reach easily ~90-100dB, which correspond roughly to 15-16bit resolution.</p>
+
+<p align="justify"> Therefore an ADC with higher resolution could be used with this kind of frontend. ADC resolutions above 16dB would not really be useful because the noise floor of the frontend amplifier would cover the resolution of the ADC. A number of possible Arduino-compatible development boards provide ADCs with up to 16bit resolution (see table board.xlsx) with costs comparable to that of an offical Arduino board, while providing faster processors and in some cases a 12 bit DAC, which enables us to immediately have the possibility to inject signals in the plant.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board2.png" width="700" />
+<p align="justify">
+Fig. 2: Our two-layer board. The board is compatible with both Arduino and Freedom development boards.
+</p>
+</div>
+
+<p align="justify">
+The first batch of PCBs we are delivering can be used as an Arduino shield or directly used with one of the boards mentioned above, for instance
+<a href="https://www.element14.com/community/docs/DOC-65944/l/freedom-development-platform-for-kinetis-k64-k63-and-k24-mcus">Freedom K64, K63, and K24 MCUs </a>
+ which are based on a MK64FN1M0VLL12 MCU running at up to 120MHz with 1Mb of flash memory (for a comparison, an Arduino Uno runs at 16MHz with a flash memory of 32Kb).
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board3.png" width="700" />
+<p align="justify">
+Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom Development board for Kinetis K64, Bottom: Out two-layer board
+</p>
+</div>
+
+<p align="justify">
+ This board offers 2 16bits ADCs and 2 12bit DACs and is programmable in a very similar way to the Arduino board.
+The first deliverable PCB boards have been produced in a double-layer format (because this is the standard format available by professional PCB board fabrication companies) but a single layer version for DIY is also available - along with a &#8220;mini&#8221; version built on perfboard and suitable for use on a fast prototype board (standard 0.1&#8217; spacing) and a surface-mount single layer version. All the designs for the fabrication of these boards are available in DipTrace format (DipTrace is a professional schematics/PCB board software, but a <a href="http://diptrace.com/download-diptrace"> free version </a>  is available for personal use  - which is what we used for the development), Gerber files can be exported for fabrication of professional=quality boards.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/board4.png" width="700" />
+<p align="justify">
+Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
+</p>
+</div>
+
+<p>
+Other Another alternative available for PCB editing and more are listed <a href="http://calugo.github.io/OpenPlant-Electrophysiology/asides/links/"> here </a> .
+</p>
+
+<h2 id="a-idfilesa-files-guide"><a id="Files"></a> Files guide:</h2>
+
+<p>The project’s <a href="https://github.com/calugo/OpenPlant-Electrophysiology"> github repository</a> contains a folder called <strong>physioshield</strong> containing the following files/folders each with the information described below:</p>
+
+<p align="left"> <i><strong> boards.xlsx</strong></i> - The available alternative boards.<br />
+
+<i><strong> BOM&#8230;xlsx </strong></i> - Bill of materials for building the board.<br />
+
+<i><strong> spike_shield&#8230;dip </strong></i> - Diptrace PCB design.<br />
+<i><strong>spikershield1.LM4</strong></i>	- The mini version on stripboard. Open with LochMaster. <br />
+<i><strong>Gerber</strong></i> (Folder) - The Gerber files for the fabrication of the two-sided board.
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Electronics II: Board Assembly Instructions]]></title>
+    <link href="http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions/"/>
+    <updated>2017-02-13T21:10:12+00:00</updated>
+    <id>http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions</id>
+    <content type="html"><![CDATA[<h2 id="board-assembly-guide----more---">Board Assembly guide! <!-- more --></h2>
+
+<h1 id="electrophysiology-kit">Electrophysiology kit</h1>
+
+<p>Before starting a couple of links!</p>
+
+<p>A pdf version of this document can be found <a href="https://www.dropbox.com/s/ydim10bipd66qv8/Instructions.pdf?dl=0">here</a>.
+The bill of materials can be found  <a href="https://www.dropbox.com/s/s26cmqimlcfhz2i/Physio_BOM.xlsx?dl=0">here</a>.</p>
+
+<h1 id="index">Index</h1>
+<ol>
+  <li><a href="#Schematics">Schematics</a></li>
+  <li><a href="#Kit">What is included in the kit?</a>
+    <ul>
+      <li><a href="#pcb">1.- PCB Board</a></li>
+      <li><a href="#components">2.- Components</a></li>
+      <li><a href="#resistors">2.1.- Resistors</a></li>
+      <li><a href="#trimpots">2.2.- Trimpots</a></li>
+      <li><a href="#capacitors">2.3.- Capacitors</a></li>
+      <li><a href="#ics">2.3.- Integrated Circuits</a></li>
+      <li><a href="#cnyled">2.4.- Connectors and LED </a></li>
+    </ul>
+  </li>
+  <li><a href="#corr">Correction</a></li>
+</ol>
+
+<h2 id="a-idschematicsa-schematics"><a id="Schematics"></a> <strong><em>Schematics.</em></strong></h2>
+<p align="justify">
+The boards are modelled on the commercially available Backyard Brains Plant Spikershield. The
+electrical circuit is practically the same (apart from a little improvement on the Vref, which is now
+provided by a specialized IC, U6 in our schematics). The main difference is actually in the physical
+boards. Our version has a more “standard” Arduino shield form factor, and allows the board to be
+used with Arduinos as well as other microcontroller boards (specifically the Nucleo development
+boards from  <a href="http://www.st.com/en/evaluation-tools/stm32-mcu-
+nucleo.html?querycriteria=productId=LN1847">Stmicroelectronics </a> and the <a href="http://www.nxp.com/products/software-and-tools/hardware-development-tools/freedom-
+development-boards:FREDEVPLA"> Freedom Development Boards </a>
+ from NXP) which provide higher resolution ADCs (12 to 16 bits) and more
+processing power then Arduino, still at a very low price.</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image001.png" width="700" />
+<p align="center">
+<font size="3">Fig. 1: The original Backyard Brains Plant Spikershield.</font>
+</p>
+</div>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image003.png" width="700" />
+<p align="center">
+<font size="3">Fig. 2: Our version of the Plant Spikershield.</font>
+</p>
+</div>
+
+<h2 id="a-idkitawhats-in-the-kit"><a id="Kit"></a><strong><em>What’s in the kit?</em></strong></h2>
+
+<p>The kits we provide contain a number of elements which we describe below alongside a visual guide to put the board together.</p>
+
+<h3 id="a-idpcbapcb-board"><a id="pcb"></a><strong><em>PCB board.</em></strong></h3>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image005.jpg" width="330" />
+<p align="center">
+<font size="3">Front side.</font>
+</p>
+<img src="/images/EPKIT/image008.jpg" width="300" />
+<p align="center">
+<font size="3">Backside (with one error&#8230;.. see below).</font>
+</p>
+<p align="center">
+<font size="3">Fig. 3: Board without components.</font>
+</p>
+</div>
+
+<p>Once you have completed the board it should look like this:</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image009.png" width="700" />
+<p align="center">
+<font size="3">This is what you should get at end!</font>
+</p>
+<img src="/images/EPKIT/image011.png" width="700" />
+<p align="center">
+<font size="3">Pay attention to the orientation of components!.</font>
+</p>
+
+<img src="/images/EPKIT/image013.png" width="700" />
+<p align="center">
+<font size="3">Backside (with one error&#8230;.. see below).</font>
+</p>
+<p align="center">
+<font size="3">Fig. 4: Assembled Board.</font>
+</p>
+</div>
+
+<h3 id="a-idcomponentsacomponents">2.- <a id="components"></a><strong><em>Components:</em></strong></h3>
+
+<h4 id="a-idresistorsa-21--resistors"><a id="resistors"></a> <strong><em>2.1.- Resistors:</em></strong></h4>
+<p align="justify">
+Used to regulate the current in a circuit, their value is measured in Ohm (symbol Ω).
+</p>
+<div style="text-align: center;">
+<img src="/images/EPKIT/image015.jpg" width="300" />
+<img src="/images/EPKIT/image017.jpg" width="270" />
+<p align="center">
+<font size="3">Fig. 5: Resistors.</font>
+</p>
+</div>
+
+<p align="justify">
+Usual values range from units of Ohms to MΩ. In the kit you will find 4 different resistors, of values
+390 Ω, 1KΩ, 100KΩ and 2.2 MΩ. The value of a resistor is usually given using a colour code, as
+described in the following table:
+</p>
+<div style="text-align: center;">
+<img src="/images/EPKIT/image019.jpg" width="700" />
+<p align="center">
+<font size="3">Fig. 6: Resistor value tables (<a href="http://www.fluxmonkey.com/electronoize/fred.htm">http://www.fluxmonkey.com/electronoize/fred.htm</a>).</font>
+</p>
+</div>
+
+<p align="justify">
+Use the table to identify the resistors in your kit, and find their correct location on the board.</p>
+
+<h4 id="a-idtrimpotsa-22--trimpots"><a id="trimpots"></a> <strong><em>2.2.- Trimpots:</em></strong></h4>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image021.png" width="200" />
+<img src="/images/EPKIT/image022.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 7: A trimpot and its electrical symbol.</font>
+</p>
+</div>
+
+<p align="justify">
+Trimpots are variable resistors used for adjusting the characteristics of a circuit. They can take
+different shapes but in our case there is only one that looks like a blue plastic “cube”. Essentially
+they are a resistor where there is an extra contact that can be moves along the resistor (this contact
+goes to the central wire in the picture). The little screw on top of the trimpot allows to change the
+position of the contact, therefore changing the resistance between the central contact and the
+external ones. It is not important in which direction you insert the trimpot, since we can then turn
+the control screw to correct the setting as needed.</p>
+
+<h4 id="a-idcapacitorsa23--capacitors"><a id="capacitors"></a><strong><em>2.3.- Capacitors:</em></strong></h4>
+
+<p align="justify">
+Capacitors : capacitors are used to temporary store charge. There are many different types of
+capacitors, and their value is measured in Farad (symbol F). A Farad is a very large capacity, so
+normal capacitors usually have capacity ranging from pF ($10^{-12}$ F) to few hundreds of μF ($10^{-6}$ F).</p>
+<p align="justify">
+In the kit there are two different type of capacitors, electrolytic (relative large capacity, used for slow
+changing voltages/charge)  and ceramic capacitors (small capacity, used for fast changing
+charges/voltages).</p>
+
+<h4 id="electrolytic-capacitors"><strong><em>Electrolytic Capacitors:</em></strong></h4>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image025.jpg" width="200" />
+<img src="/images/EPKIT/image026.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.</font>
+</p>
+</div>
+
+<p align="justify">
+Electrolytic capacitors are polarized meaning that they have a positive and a negative terminal (the
+wires that come out of the capacitors are called terminals and can also be distinguished by their
+length, see picture).</p>
+<p align="justify">
+In the kit you should have two capacitors of value
+10 μF and one of value 1 μF. Find their position –
+and correct orientation – on the board.</p>
+
+<h4 id="ceramic-capacitors"><strong><em>Ceramic capacitors:</em></strong></h4>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image029.jpg" width="700" />
+<p align="center">
+<font size="3">Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.</font>
+</p>
+</div>
+
+<p align="justify">
+Ceramics capacitors are much smaller than
+electrolytic capacitors, and their capacity is given in
+pF, using a numerical code that is similar to the one
+used for resistors, two digits plus a certain number
+of zeros. In our case we have a capacitor of value
+10000 pF=10 nF and one with value 560 pF.
+Notice that ceramic capacitors are not polarized
+and (like resistors) can be reversed without
+problems.</p>
+
+<h4 id="a-idicsa-24--integrated-circuits"><a id="ics"></a> <strong><em>2.4.- Integrated Circuits.</em></strong></h4>
+
+<p align="justify">
+Integrated circuits are complex miniaturized circuits that can
+perform many different functions and often look like little insects with many legs.</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image030.jpg" width="200" />
+<img src="/images/EPKIT/image032.jpg" width="200" />
+<img src="/images/EPKIT/socket.png" width="260" />
+<p align="center">
+<font size="3"> Fig. 10: Our two heroes, the AD623 and the TLC2272 ICs and a socket.</font>
+</p>
+</div>
+
+<p align="justify">
+These two ICs performs similar functions in this board (they both amplify the small electrical signals
+from the plants and make it large enough for the Arduino to measure it) but one (the AD623, can
+you recognise it?) is specialized for very small signals (the plant whispers..) and is very sensitive, so it
+doesn’t disturb the plants. The second one (the TLC2272) contains two amplifiers that are used to
+further amplify the signal and filter away some noise (the board is so sensitive that without a filter
+you will end up listening to the electrical noise generated by other electrical appliances, lights,
+computers etc - and you don’t want to be distracted from your plants stories - so you need to
+eliminate these unwanted noises). ICs are in general quite sensitive parts and don’t like becoming
+very hot during the soldering process. To help avoiding burning (quite literally) your ICs, some IC
+sockets are provided. Instead of soldering the ICs directly to the
+board, the sockets are soldered in their place, and the ICs will then
+be inserted into the socket at the very end, just before testing the
+boards (a bit of adjustment of the IC terminals might be needed to fit
+them properly in the socket). The metal springs in the socket will
+ensure a good electrical contact. This way the ICs never risk being
+damaged from the high temperature used for soldering (BTW,careful with the soldering iron, it’s HOT!).
+</p>
+<div style="text-align: center;">
+
+<img src="/images/EPKIT/image035.jpg" width="265" />
+<img src="/images/EPKIT/image037.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 11: The voltage splitter IC.</font>
+</p>
+</div>
+
+<p align="justify">
+The last IC is a smaller one that is used to provide a very precise reference voltage to the rest of the
+circuit, in order to help reduce the noise and make a cleaner recording. This one doesn’t have a
+socket so you will need to solder it directly. Try and be fast in order to reduce the temperature of
+the IC during the soldering process. Notice that the shape of this IC is semi-cylindrical. This will help
+inserting the IC in the board in the right orientation. Since every terminal (called “pins” in this case)
+has a specific function, it is important the way the ICs are inserted in their place on the board. Please
+find the position of the three ICs – and their orientation – on the images of the board.
+</p>
+
+<h4 id="a-idcnyleda25--connectors-and-led"><a id="cnyled"></a><strong><em>2.5.- Connectors and LED.</em></strong></h4>
+
+<p align="justify">
+There is a LED (light emitting diode) to show when the board is on. This is a sort
+of modern version of a bulb, more efficient, more robust and with a longer life
+expectancy. It is also a polarized component; The “long leg” is the positive
+terminal; use the pictures and the marking on the board to orient it properly.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image039.jpg" width="100" />
+<img src="/images/EPKIT/image040.jpg" width="400" />
+<p align="justify">
+<font size="3">Fig. 12: LED and male connectors, notice that the LED has also an orientation, the board layout shows the
+appropiate orientation for soldering the LED (flat part pointing outwards the board).</font>
+</p>
+</div>
+
+<p align="justify">
+There is also a number of connectors which should be soldered into the board for it to be connected
+to the microcontroller. Be very careful not to cut the long connectors, they are necessary for the board to
+ be properly plugged into the female contacts of the controller boards.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image043.jpg" width="300" />
+<img src="/images/EPKIT/image044.jpg" width="200" />
+<p align="center">
+<font size="3">Fig. 13: Long connectors and signal jacks.</font>
+</p>
+</div>
+
+<p align="justify">
+As illustrated in the figure of the completed version of the board there are two jacks which also need to be soldered to get the input and output signals in and out the board.
+</p>
+
+<h2 id="a-idcorracorrection-and-a-word-of-caution"><a id="corr"></a><strong><em>Correction and a word of caution.</em></strong></h2>
+
+<p align="justify">
+There is a little mistake on the PCB. Cut the trace at the two red signs and add a connection as
+shown in white. Be careful not to short any nearby pads. Do this at the end, after the components
+have been already placed in order to avoid blocking the holes with solder during the operation.
+</p>
+
+<div style="text-align: center;">
+<img src="/images/EPKIT/image008.jpg" width="300" />
+<img src="/images/EPKIT/image050.jpg" width="340" />
+<img src="/images/EPKIT/image014.png" width="500" />
+<p align="justify">
+<font size="3">Fig. 14: Soldering face of the board and detailed illustration of the correction which needs to be
+ soldered.</font>
+</p>
+</div>
+
+<p align="justify">
+Finally, please be very careful only to solder in the face with no printed symbols.
+</p>
+]]></content>
+  </entry>
+  
+</feed>
