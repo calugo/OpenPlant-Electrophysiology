@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Electronics | Plant Electrophysiology]]></title>
-  <link href="http://calugo.github.io//github/blog/categories/electronics/atom.xml" rel="self"/>
-  <link href="http://calugo.github.io//github/"/>
-  <updated>2017-02-14T04:17:29+00:00</updated>
-  <id>http://calugo.github.io//github/</id>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/categories/electronics/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//"/>
+  <updated>2017-02-14T04:46:36+00:00</updated>
+  <id>http://calugo.github.io/OpenPlant-Electrophysiology//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Electronics I: Board Design]]></title>
-    <link href="http://calugo.github.io//github/blog/2017/02/13/Electronics/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2017/02/13/Electronics/"/>
     <updated>2017-02-13T23:09:28+00:00</updated>
-    <id>http://calugo.github.io//github/blog/2017/02/13/Electronics</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2017/02/13/Electronics</id>
     <content type="html"><![CDATA[<h2 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h2>
 
 <h2 id="index">Index</h2>
@@ -110,9 +110,9 @@ Other Another alternative available for PCB editing and more are listed <a href=
   
   <entry>
     <title type="html"><![CDATA[Electronics II: Board Assembly Instructions]]></title>
-    <link href="http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions/"/>
+    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2017/02/13/board-assembly-instructions/"/>
     <updated>2017-02-13T21:10:12+00:00</updated>
-    <id>http://calugo.github.io//github/blog/2017/02/13/board-assembly-instructions</id>
+    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2017/02/13/board-assembly-instructions</id>
     <content type="html"><![CDATA[<h2 id="board-assembly-guide----more---">Board Assembly guide! <!-- more --></h2>
 
 <h1 id="electrophysiology-kit">Electrophysiology kit</h1>
