@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Oscillators | Plant Electrophysiology]]></title>
-  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/categories/oscillators/atom.xml" rel="self"/>
-  <link href="http://calugo.github.io/OpenPlant-Electrophysiology//"/>
-  <updated>2017-02-14T05:40:36+00:00</updated>
-  <id>http://calugo.github.io/OpenPlant-Electrophysiology//</id>
+  <link href="http://calugo.github.io//blog/categories/oscillators/atom.xml" rel="self"/>
+  <link href="http://calugo.github.io//"/>
+  <updated>2017-02-14T05:42:08+00:00</updated>
+  <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introduction: Circuits and Excitable Media]]></title>
-    <link href="http://calugo.github.io/OpenPlant-Electrophysiology//blog/2017/02/13/Excitable-Media/"/>
+    <link href="http://calugo.github.io//blog/2017/02/13/Excitable-Media/"/>
     <updated>2017-02-13T23:09:29+00:00</updated>
-    <id>http://calugo.github.io/OpenPlant-Electrophysiology//blog/2017/02/13/Excitable-Media</id>
+    <id>http://calugo.github.io//blog/2017/02/13/Excitable-Media</id>
     <content type="html"><![CDATA[<h3 id="project-primer---more-------circuits-genes-boards-and-synbio">Project primer<!-- more --> -  Circuits: genes, boards and SynBio?.</h3>
 
 <p align="justify">
