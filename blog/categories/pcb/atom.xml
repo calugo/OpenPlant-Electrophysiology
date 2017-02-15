@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Pcb | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/pcb/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-15T23:33:47+00:00</updated>
+  <updated>2017-02-15T23:42:51+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -18,7 +18,7 @@
     <link href="http://calugo.github.io//blog/2017/02/13/Electronics/"/>
     <updated>2017-02-13T23:09:28+00:00</updated>
     <id>http://calugo.github.io//blog/2017/02/13/Electronics</id>
-    <content type="html"><![CDATA[<h2 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h2>
+    <content type="html"><![CDATA[<h3 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h3>
 
 <h2 id="index">Index</h2>
 <ol>
@@ -113,7 +113,7 @@ Other Another alternative available for PCB editing and more are listed <a href=
     <link href="http://calugo.github.io//blog/2017/02/13/board-assembly-instructions/"/>
     <updated>2017-02-13T21:10:12+00:00</updated>
     <id>http://calugo.github.io//blog/2017/02/13/board-assembly-instructions</id>
-    <content type="html"><![CDATA[<h2 id="board-assembly-guide----more---">Board Assembly guide! <!-- more --></h2>
+    <content type="html"><![CDATA[<h4 id="board-assembly-guide----more---">Board Assembly guide! <!-- more --></h4>
 
 <h1 id="electrophysiology-kit">Electrophysiology kit</h1>
 
