@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open Hardware | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/open-hardware/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-15T23:42:51+00:00</updated>
+  <updated>2017-02-15T23:46:07+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -18,7 +18,7 @@
     <link href="http://calugo.github.io//blog/2017/02/13/Electronics/"/>
     <updated>2017-02-13T23:09:28+00:00</updated>
     <id>http://calugo.github.io//blog/2017/02/13/Electronics</id>
-    <content type="html"><![CDATA[<h3 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h3>
+    <content type="html"><![CDATA[<h4 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h4>
 
 <h2 id="index">Index</h2>
 <ol>
