@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T02:40:45+00:00</updated>
+  <updated>2017-02-16T02:42:10+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -258,7 +258,9 @@ Use the table to identify the resistors in your kit, and find their correct loca
 <div class="row" align="center">
 
 <div class="col-xs-6" style="text-align:center" align="center">
+<p align="center">
 <img class="img-responsive" src="/images/EPKIT/image022.jpg" width="200" align="center" />
+</p>
 </div>
 
 <div class="col-xs-6" style="text-align:center" align="center">
