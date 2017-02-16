@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open Hardware | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/open-hardware/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T01:28:32+00:00</updated>
+  <updated>2017-02-16T01:58:48+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -212,14 +212,23 @@ processing power then Arduino, still at a very low price.</p>
 <h4 id="a-idresistorsa-21--resistors"><a id="resistors"></a> <strong><em>2.1.- Resistors:</em></strong></h4>
 <p align="justify">
 Used to regulate the current in a circuit, their value is measured in Ohm (symbol Ω).
-</p>
-<div style="text-align: center;">
+
+<!-- div style="text-align: center;"-->
+<div class="row">
+
+<div class="col-xs-6" style="text-align:center">
 <img class="img-responsive" src="/images/EPKIT/image015.jpg" width="300" />
+</div>
+
+<div class="col-xs-6" style="text-align:center">
 <img class="img-responsive" src="/images/EPKIT/image017.jpg" width="270" />
+</div>
+
+</div>
 <p align="center">
 <font size="3">Fig. 5: Resistors.</font>
 </p>
-</div>
+
 
 <p align="justify">
 Usual values range from units of Ohms to MΩ. In the kit you will find 4 different resistors, of values
@@ -236,7 +245,7 @@ described in the following table:
 <p align="justify">
 Use the table to identify the resistors in your kit, and find their correct location on the board.</p>
 
-<h4 id="a-idtrimpotsa-22--trimpots"><a id="trimpots"></a> <strong><em>2.2.- Trimpots:</em></strong></h4>
+#### <a id="trimpots"></a> **_2.2.- Trimpots:_**
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image021.png" width="200" />
@@ -255,7 +264,9 @@ position of the contact, therefore changing the resistance between the central c
 external ones. It is not important in which direction you insert the trimpot, since we can then turn
 the control screw to correct the setting as needed.</p>
 
-<h4 id="a-idcapacitorsa23--capacitors"><a id="capacitors"></a><strong><em>2.3.- Capacitors:</em></strong></h4>
+
+
+#### <a id="capacitors"></a>**_2.3.- Capacitors:_**
 
 <p align="justify">
 Capacitors : capacitors are used to temporary store charge. There are many different types of
@@ -266,7 +277,9 @@ In the kit there are two different type of capacitors, electrolytic (relative la
 changing voltages/charge)  and ceramic capacitors (small capacity, used for fast changing
 charges/voltages).</p>
 
-<h4 id="electrolytic-capacitors"><strong><em>Electrolytic Capacitors:</em></strong></h4>
+
+
+#### **_Electrolytic Capacitors:_**
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image025.jpg" width="200" />
@@ -275,6 +288,7 @@ charges/voltages).</p>
 <font size="3">Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.</font>
 </p>
 </div>
+
 
 <p align="justify">
 Electrolytic capacitors are polarized meaning that they have a positive and a negative terminal (the
@@ -285,7 +299,7 @@ In the kit you should have two capacitors of value
 10 μF and one of value 1 μF. Find their position –
 and correct orientation – on the board.</p>
 
-<h4 id="ceramic-capacitors"><strong><em>Ceramic capacitors:</em></strong></h4>
+#### **_Ceramic capacitors:_**
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image029.jpg" width="700" />
@@ -293,6 +307,7 @@ and correct orientation – on the board.</p>
 <font size="3">Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.</font>
 </p>
 </div>
+
 
 <p align="justify">
 Ceramics capacitors are much smaller than
@@ -305,7 +320,7 @@ Notice that ceramic capacitors are not polarized
 and (like resistors) can be reversed without
 problems.</p>
 
-<h4 id="a-idicsa-24--integrated-circuits"><a id="ics"></a> <strong><em>2.4.- Integrated Circuits.</em></strong></h4>
+#### <a id="ics"></a> **_2.4.- Integrated Circuits._**
 
 <p align="justify">
 Integrated circuits are complex miniaturized circuits that can
@@ -357,7 +372,7 @@ has a specific function, it is important the way the ICs are inserted in their p
 find the position of the three ICs – and their orientation – on the images of the board.
 </p>
 
-<h4 id="a-idcnyleda25--connectors-and-led"><a id="cnyled"></a><strong><em>2.5.- Connectors and LED.</em></strong></h4>
+#### <a id="cnyled"></a>**_2.5.- Connectors and LED._**
 
 <p align="justify">
 There is a LED (light emitting diode) to show when the board is on. This is a sort
@@ -374,6 +389,8 @@ terminal; use the pictures and the marking on the board to orient it properly.
 appropiate orientation for soldering the LED (flat part pointing outwards the board).</font>
 </p>
 </div>
+
+
 
 <p align="justify">
 There is also a number of connectors which should be soldered into the board for it to be connected
@@ -393,7 +410,8 @@ to the microcontroller. Be very careful not to cut the long connectors, they are
 As illustrated in the figure of the completed version of the board there are two jacks which also need to be soldered to get the input and output signals in and out the board.
 </p>
 
-<h2 id="a-idcorracorrection-and-a-word-of-caution"><a id="corr"></a><strong><em>Correction and a word of caution.</em></strong></h2>
+
+## <a id="corr"></a>**_Correction and a word of caution._**
 
 <p align="justify">
 There is a little mistake on the PCB. Cut the trace at the two red signs and add a connection as
@@ -413,6 +431,7 @@ have been already placed in order to avoid blocking the holes with solder during
 
 <p align="justify">
 Finally, please be very careful only to solder in the face with no printed symbols.
+</p>
 </p>
 ]]></content>
   </entry>
