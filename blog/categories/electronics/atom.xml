@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T02:49:05+00:00</updated>
+  <updated>2017-02-16T02:56:21+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -298,21 +298,25 @@ charges/voltages).</p>
 
 <h4 id="electrolytic-capacitors"><strong><em>Electrolytic Capacitors:</em></strong></h4>
 
+<p align="center">
+
 <div class="row" align="center">
 
-<div class="col-xs-6" style="text-align:center" align="center">
+<div class="col-xs-6" style="text-align:center">
 <p align="center">
 <img class="img-responsive" src="/images/EPKIT/image025.jpg" width="200" />
 </p>
 <div>
 
-<div class="col-xs-6" style="text-align:center" align="center">
+<div class="col-xs-6" style="text-align:center">
 <p align="center">
 <img class="img-responsive" src="/images/EPKIT/image026.jpg" width="200" />
 </p>
 </div>
 
 </div>
+
+
 
 <p align="center">
 <font size="3">Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.</font>
@@ -460,7 +464,7 @@ have been already placed in order to avoid blocking the holes with solder during
 <p align="justify">
 Finally, please be very careful only to solder in the face with no printed symbols.
 </p>
-</div></div>
+</div></div></p>
 ]]></content>
   </entry>
   
