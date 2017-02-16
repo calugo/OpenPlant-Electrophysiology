@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Pcb | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/pcb/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T03:43:54+00:00</updated>
+  <updated>2017-02-16T03:45:15+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -505,21 +505,21 @@ shown in white. Be careful not to short any nearby pads. Do this at the end, aft
 have been already placed in order to avoid blocking the holes with solder during the operation.
 </p>
 
-<p>&lt;div class=”row”style=”text-align: center;”&gt;
-&lt;div class=&#8221;col-xs-6&#8221; style=&#8221;text-align:center&#8221;&gt;
-&lt;p align”center”&gt;
+<div class="row" style="text-align: center;">
+<div class="col-xs-6" style="text-align:center">
+&lt;p align&#8221;center&#8221;&gt;
 <img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#8221;col-xs-6&#8221; style=&#8221;text-align:center&#8221;&gt;
-&lt;p align=&#8221;center&#8221;&gt;
+
+</div>
+<div class="col-xs-6" style="text-align:center">
+<p align="center">
 <img class="img-responsive" src="/images/EPKIT/image050.jpg" width="340" />
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p align=&#8221;center&#8221;&gt;
+</p>
+</div>
+</div>
+<p align="center">
 <img class="img-responsive" src="/images/EPKIT/image014.png" width="500" />
-&lt;/p&gt;</p>
+</p>
 
 <p align="justify">
 <font size="3">Fig. 14: Soldering face of the board and detailed illustration of the correction which needs to be
