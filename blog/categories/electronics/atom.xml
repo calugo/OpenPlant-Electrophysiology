@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T03:27:13+00:00</updated>
+  <updated>2017-02-16T03:32:01+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -357,7 +357,7 @@ problems.</p>
 Integrated circuits are complex miniaturized circuits that can
 perform many different functions and often look like little insects with many legs.</p>
 
-<p align="right">
+<p align="center">
 
 <div class="row" align="center">
 
@@ -405,14 +405,28 @@ them properly in the socket). The metal springs in the socket will
 ensure a good electrical contact. This way the ICs never risk being
 damaged from the high temperature used for soldering (BTW,careful with the soldering iron, it’s HOT!).
 </p>
-<div style="text-align: center;">
 
+<p align="center">
+<div class="row" style="text-align: center;">
+
+<div class="col-xs-6" style="text-align:center">
+<p align="center">
 <img class="img-responsive" src="/images/EPKIT/image035.jpg" width="265" />
+</p>
+</div>
+
+<div class="col-xs-4" style="text-align:center">
+<p align="center">
 <img class="img-responsive" src="/images/EPKIT/image037.jpg" width="200" />
+</p>
+</div>
+
+</div>
+</p>
+
 <p align="center">
 <font size="3">Fig. 11: The voltage splitter IC.</font>
 </p>
-</div>
 
 <p align="justify">
 The last IC is a smaller one that is used to provide a very precise reference voltage to the rest of the
