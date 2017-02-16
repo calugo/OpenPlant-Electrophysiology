@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open Hardware | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/open-hardware/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T01:21:31+00:00</updated>
+  <updated>2017-02-16T01:28:32+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -171,12 +171,14 @@ processing power then Arduino, still at a very low price.</p>
 <h3 id="a-idpcbapcb-board"><a id="pcb"></a><strong><em>PCB board.</em></strong></h3>
 
 <div style="text-align: center;">
-<img class="img-responsive" src="/images/EPKIT/image005.jpg" width="330" />
 <p align="center">
+<img class="img-responsive" src="/images/EPKIT/image005.jpg" width="330" />
+<br />
 <font size="3">Front side.</font>
 </p>
-<img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
 <p align="center">
+<img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
+<br />
 <font size="3">Backside (with one error&#8230;.. see below).</font>
 </p>
 <p align="center">
