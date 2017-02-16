@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Diy | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/diy/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T01:04:45+00:00</updated>
+  <updated>2017-02-16T01:21:31+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -41,7 +41,7 @@ Our aim was to produce a simple but good enough system to observe plant depolari
 </p>
 
 <div style="text-align: center;">
-<img src="/images/board1.png" width="700" />
+<img class="img-responsive" src="/images/board1.png" width="700" />
 <p align="justify">
 Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
 </p>
@@ -58,7 +58,7 @@ Some of the possible improvements for the SpikeShield design include increasing 
 </p>
 
 <div style="text-align: center;">
-<img src="/images/board2.png" width="700" />
+<img class="img-responsive" src="/images/board2.png" width="700" />
 <p align="justify">
 Fig. 2: Our two-layer board. The board is compatible with both Arduino and Freedom development boards.
 </p>
@@ -71,7 +71,7 @@ The first batch of PCBs we are delivering can be used as an Arduino shield or di
 </p>
 
 <div style="text-align: center;">
-<img src="/images/board3.png" width="700" />
+<img class="img-responsive" src="/images/board3.png" width="700" />
 <p align="justify">
 Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom Development board for Kinetis K64, Bottom: Out two-layer board
 </p>
@@ -83,7 +83,7 @@ The first deliverable PCB boards have been produced in a double-layer format (be
 </p>
 
 <div style="text-align: center;">
-<img src="/images/board4.png" width="700" />
+<img class="img-responsive" src="/images/board4.png" width="700" />
 <p align="justify">
 Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
 </p>

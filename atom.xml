@@ -4,7 +4,7 @@
   <title><![CDATA[OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T01:04:45+00:00</updated>
+  <updated>2017-02-16T01:21:31+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -382,7 +382,7 @@ Our aim was to produce a simple but good enough system to observe plant depolari
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/board1.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/board1.png" width="700" />
 <p align="justify">
 Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
 </p>
@@ -399,7 +399,7 @@ Some of the possible improvements for the SpikeShield design include increasing 
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/board2.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/board2.png" width="700" />
 <p align="justify">
 Fig. 2: Our two-layer board. The board is compatible with both Arduino and Freedom development boards.
 </p>
@@ -412,7 +412,7 @@ The first batch of PCBs we are delivering can be used as an Arduino shield or di
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/board3.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/board3.png" width="700" />
 <p align="justify">
 Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom Development board for Kinetis K64, Bottom: Out two-layer board
 </p>
@@ -424,7 +424,7 @@ The first deliverable PCB boards have been produced in a double-layer format (be
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/board4.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/board4.png" width="700" />
 <p align="justify">
 Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
 </p>
@@ -492,14 +492,14 @@ development-boards:FREDEVPLA"> Freedom Development Boards </a>
 processing power then Arduino, still at a very low price.</p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image001.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image001.png" width="700" />
 <p align="center">
 <font size="3">Fig. 1: The original Backyard Brains Plant Spikershield.</font>
 </p>
 </div>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image003.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image003.png" width="700" />
 <p align="center">
 <font size="3">Fig. 2: Our version of the Plant Spikershield.</font>
 </p>
@@ -512,11 +512,11 @@ processing power then Arduino, still at a very low price.</p>
 <h3 id="a-idpcbapcb-board"><a id="pcb"></a><strong><em>PCB board.</em></strong></h3>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image005.jpg" width="330" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image005.jpg" width="330" />
 <p align="center">
 <font size="3">Front side.</font>
 </p>
-<img src="http://calugo.github.io//images/EPKIT/image008.jpg" width="300" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image008.jpg" width="300" />
 <p align="center">
 <font size="3">Backside (with one error&#8230;.. see below).</font>
 </p>
@@ -528,16 +528,16 @@ processing power then Arduino, still at a very low price.</p>
 <p>Once you have completed the board it should look like this:</p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image009.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image009.png" width="700" />
 <p align="center">
 <font size="3">This is what you should get at the end!</font>
 </p>
-<img src="http://calugo.github.io//images/EPKIT/image011.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image011.png" width="700" />
 <p align="center">
 <font size="3">Pay attention to the orientation of components!.</font>
 </p>
 
-<img src="http://calugo.github.io//images/EPKIT/image013.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image013.png" width="700" />
 <p align="center">
 <font size="3">Backside (with one error&#8230;.. see below).</font>
 </p>
@@ -553,8 +553,8 @@ processing power then Arduino, still at a very low price.</p>
 Used to regulate the current in a circuit, their value is measured in Ohm (symbol Ω).
 </p>
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image015.jpg" width="300" />
-<img src="http://calugo.github.io//images/EPKIT/image017.jpg" width="270" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image015.jpg" width="300" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image017.jpg" width="270" />
 <p align="center">
 <font size="3">Fig. 5: Resistors.</font>
 </p>
@@ -566,7 +566,7 @@ Usual values range from units of Ohms to MΩ. In the kit you will find 4 differe
 described in the following table:
 </p>
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image019.jpg" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image019.jpg" width="700" />
 <p align="center">
 <font size="3">Fig. 6: Resistor value tables (<a href="http://www.fluxmonkey.com/electronoize/fred.htm">http://www.fluxmonkey.com/electronoize/fred.htm</a>).</font>
 </p>
@@ -578,8 +578,8 @@ Use the table to identify the resistors in your kit, and find their correct loca
 <h4 id="a-idtrimpotsa-22--trimpots"><a id="trimpots"></a> <strong><em>2.2.- Trimpots:</em></strong></h4>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image021.png" width="200" />
-<img src="http://calugo.github.io//images/EPKIT/image022.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image021.png" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image022.jpg" width="200" />
 <p align="center">
 <font size="3">Fig. 7: A trimpot and its electrical symbol.</font>
 </p>
@@ -608,8 +608,8 @@ charges/voltages).</p>
 <h4 id="electrolytic-capacitors"><strong><em>Electrolytic Capacitors:</em></strong></h4>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image025.jpg" width="200" />
-<img src="http://calugo.github.io//images/EPKIT/image026.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image025.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image026.jpg" width="200" />
 <p align="center">
 <font size="3">Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.</font>
 </p>
@@ -627,7 +627,7 @@ and correct orientation – on the board.</p>
 <h4 id="ceramic-capacitors"><strong><em>Ceramic capacitors:</em></strong></h4>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image029.jpg" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image029.jpg" width="700" />
 <p align="center">
 <font size="3">Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.</font>
 </p>
@@ -651,9 +651,9 @@ Integrated circuits are complex miniaturized circuits that can
 perform many different functions and often look like little insects with many legs.</p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image030.jpg" width="200" />
-<img src="http://calugo.github.io//images/EPKIT/image032.jpg" width="200" />
-<img src="http://calugo.github.io//images/EPKIT/socket.png" width="260" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image030.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image032.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/socket.png" width="260" />
 <p align="center">
 <font size="3"> Fig. 10: Our two heroes, the AD623 and the TLC2272 ICs and a socket.</font>
 </p>
@@ -679,8 +679,8 @@ damaged from the high temperature used for soldering (BTW,careful with the solde
 </p>
 <div style="text-align: center;">
 
-<img src="http://calugo.github.io//images/EPKIT/image035.jpg" width="265" />
-<img src="http://calugo.github.io//images/EPKIT/image037.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image035.jpg" width="265" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image037.jpg" width="200" />
 <p align="center">
 <font size="3">Fig. 11: The voltage splitter IC.</font>
 </p>
@@ -706,8 +706,8 @@ terminal; use the pictures and the marking on the board to orient it properly.
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image039.jpg" width="100" />
-<img src="http://calugo.github.io//images/EPKIT/image040.jpg" width="400" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image039.jpg" width="100" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image040.jpg" width="400" />
 <p align="justify">
 <font size="3">Fig. 12: LED and male connectors, notice that the LED has also an orientation, the board layout shows the
 appropiate orientation for soldering the LED (flat part pointing outwards the board).</font>
@@ -721,8 +721,8 @@ to the microcontroller. Be very careful not to cut the long connectors, they are
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image043.jpg" width="300" />
-<img src="http://calugo.github.io//images/EPKIT/image044.jpg" width="200" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image043.jpg" width="300" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image044.jpg" width="200" />
 <p align="center">
 <font size="3">Fig. 13: Long connectors and signal jacks.</font>
 </p>
@@ -741,9 +741,9 @@ have been already placed in order to avoid blocking the holes with solder during
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/EPKIT/image008.jpg" width="300" />
-<img src="http://calugo.github.io//images/EPKIT/image050.jpg" width="340" />
-<img src="http://calugo.github.io//images/EPKIT/image014.png" width="500" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image008.jpg" width="300" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image050.jpg" width="340" />
+<img class="img-responsive" src="http://calugo.github.io//images/EPKIT/image014.png" width="500" />
 <p align="justify">
 <font size="3">Fig. 14: Soldering face of the board and detailed illustration of the correction which needs to be
  soldered.</font>
