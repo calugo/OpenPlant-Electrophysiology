@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Pcb | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/pcb/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T02:29:35+00:00</updated>
+  <updated>2017-02-16T02:32:09+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -254,13 +254,20 @@ Use the table to identify the resistors in your kit, and find their correct loca
 
 <h4 id="a-idtrimpotsa22--trimpots"><a id="trimpots"></a><strong><em>2.2.- Trimpots:</em></strong></h4>
 
-<div style="text-align: center;">
+<div class="row" align="center">
+
+<div class="col-xs-6" style="text-align:center">
 <img class="img-responsive" src="/images/EPKIT/image021.png" width="200" />
+</div>
+
+<div class="col-xs-6" style="text-align:center">
 <img class="img-responsive" src="/images/EPKIT/image022.jpg" width="200" />
+</div>
+</div>
+
 <p align="center">
 <font size="3">Fig. 7: A trimpot and its electrical symbol.</font>
 </p>
-</div>
 
 <p align="justify">
 Trimpots are variable resistors used for adjusting the characteristics of a circuit. They can take
