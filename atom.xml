@@ -4,7 +4,7 @@
   <title><![CDATA[OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T01:00:30+00:00</updated>
+  <updated>2017-02-16T01:04:45+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -78,7 +78,7 @@ A search query for the string &#8216;Lorenz system&#8217; returns as of April 20
 </p>
 
 <div style="text-align: center;">
-<img src="http://calugo.github.io//images/xyzchaosB.png" width="700" />
+<img class="img-responsive" src="http://calugo.github.io//images/xyzchaosB.png" width="700" />
 <p align="justify">
 Fig. 1: Trajectory in the <i>phase space</i> defined as the space in which the variables x, y and z are plotted against each other, the trajectory is generated as time changes. This particular trajectory corresponds to parameter values where the system is chaotic (it never closes) showing the classical butterfly-like shape. The figure also shows projections of the trajectory over each of the two dimensional subspaces x-y, x-z  and y-z.
 </p>
