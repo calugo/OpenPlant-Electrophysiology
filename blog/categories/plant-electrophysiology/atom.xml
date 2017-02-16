@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plant Electrophysiology | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/plant-electrophysiology/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T02:06:04+00:00</updated>
+  <updated>2017-02-16T02:21:18+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -130,6 +130,7 @@ Used to regulate the current in a circuit, their value is measured in Ohm (symbo
 </div>
 
 </div>
+
 <p align="center">
 <font size="3">Fig. 5: Resistors.</font>
 </p>
@@ -140,6 +141,7 @@ Usual values range from units of Ohms to MΩ. In the kit you will find 4 differe
 390 Ω, 1KΩ, 100KΩ and 2.2 MΩ. The value of a resistor is usually given using a colour code, as
 described in the following table:
 </p>
+
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image019.jpg" width="700" />
 <p align="center">
@@ -148,7 +150,8 @@ described in the following table:
 </div>
 
 <p align="justify">
-Use the table to identify the resistors in your kit, and find their correct location on the board.</p>
+Use the table to identify the resistors in your kit, and find their correct location on the board.
+</p>
 
 #### <a id="trimpots"></a> **_2.2.- Trimpots:_**
 
