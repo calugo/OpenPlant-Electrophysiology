@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open Hardware | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/open-hardware/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T02:56:21+00:00</updated>
+  <updated>2017-02-16T02:58:28+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -306,7 +306,7 @@ charges/voltages).</p>
 <p align="center">
 <img class="img-responsive" src="/images/EPKIT/image025.jpg" width="200" />
 </p>
-<div>
+</div>
 
 <div class="col-xs-6" style="text-align:center">
 <p align="center">
@@ -316,7 +316,7 @@ charges/voltages).</p>
 
 </div>
 
-
+</p>
 
 <p align="center">
 <font size="3">Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.</font>
@@ -331,7 +331,7 @@ In the kit you should have two capacitors of value
 10 μF and one of value 1 μF. Find their position –
 and correct orientation – on the board.</p>
 
-#### **_Ceramic capacitors:_**
+<h4 id="ceramic-capacitors"><strong><em>Ceramic capacitors:</em></strong></h4>
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image029.jpg" width="700" />
@@ -339,7 +339,6 @@ and correct orientation – on the board.</p>
 <font size="3">Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.</font>
 </p>
 </div>
-
 
 <p align="justify">
 Ceramics capacitors are much smaller than
@@ -352,7 +351,7 @@ Notice that ceramic capacitors are not polarized
 and (like resistors) can be reversed without
 problems.</p>
 
-#### <a id="ics"></a> **_2.4.- Integrated Circuits._**
+<h4 id="a-idicsa-24--integrated-circuits"><a id="ics"></a> <strong><em>2.4.- Integrated Circuits.</em></strong></h4>
 
 <p align="justify">
 Integrated circuits are complex miniaturized circuits that can
@@ -404,7 +403,7 @@ has a specific function, it is important the way the ICs are inserted in their p
 find the position of the three ICs – and their orientation – on the images of the board.
 </p>
 
-#### <a id="cnyled"></a>**_2.5.- Connectors and LED._**
+<h4 id="a-idcnyleda25--connectors-and-led"><a id="cnyled"></a><strong><em>2.5.- Connectors and LED.</em></strong></h4>
 
 <p align="justify">
 There is a LED (light emitting diode) to show when the board is on. This is a sort
@@ -421,8 +420,6 @@ terminal; use the pictures and the marking on the board to orient it properly.
 appropiate orientation for soldering the LED (flat part pointing outwards the board).</font>
 </p>
 </div>
-
-
 
 <p align="justify">
 There is also a number of connectors which should be soldered into the board for it to be connected
@@ -442,8 +439,7 @@ to the microcontroller. Be very careful not to cut the long connectors, they are
 As illustrated in the figure of the completed version of the board there are two jacks which also need to be soldered to get the input and output signals in and out the board.
 </p>
 
-
-## <a id="corr"></a>**_Correction and a word of caution._**
+<h2 id="a-idcorracorrection-and-a-word-of-caution"><a id="corr"></a><strong><em>Correction and a word of caution.</em></strong></h2>
 
 <p align="justify">
 There is a little mistake on the PCB. Cut the trace at the two red signs and add a connection as
@@ -464,7 +460,6 @@ have been already placed in order to avoid blocking the holes with solder during
 <p align="justify">
 Finally, please be very careful only to solder in the face with no printed symbols.
 </p>
-</div></div></p>
 ]]></content>
   </entry>
   
