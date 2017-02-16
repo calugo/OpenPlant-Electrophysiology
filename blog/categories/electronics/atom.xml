@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-02-16T01:58:48+00:00</updated>
+  <updated>2017-02-16T02:06:04+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -214,7 +214,7 @@ processing power then Arduino, still at a very low price.</p>
 Used to regulate the current in a circuit, their value is measured in Ohm (symbol Ω).
 
 <!-- div style="text-align: center;"-->
-<div class="row">
+<div class="row" align="center">
 
 <div class="col-xs-6" style="text-align:center">
 <img class="img-responsive" src="/images/EPKIT/image015.jpg" width="300" />
