@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Complexity | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/complexity/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-14T18:26:15+00:00</updated>
+  <updated>2017-03-14T18:28:50+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -24,6 +24,17 @@
 In this post we take the opportunity to describe the rationale behind this project. The post is not about mathematics it is about circuits and it is also about plants but as we shall see soon enough patterns observed in systems ranging from cells to tissues in muscles such as the  brain and heart and man made devices such as electrical, electronic circuitry  share features which can be compared and understood with the only tool that really &#8220;ties the room together&#8221; which is mathematics, however we to keep this to a bare minimum.
 </p>
 
+<p align="justify">
+The equivalence between mechanical and electrical circuits becomes possible because we posses quantitative frameworks for mechanics (Newton&#8217;s Laws) and electrodynamics (Maxwell&#8217;s equations) which make the mapping in the analytic realm  more or less straightforward.  Clocks and circuits in biology present a more challenging scenario as we are yet to develop a universal framework to dynamically describe the processes occurring at the molecular and regulatory levels, which are all related to non-equilibrium phenomena. It is needless to say that circuits and pathways in the life sciences are at the very core of many research endeavours, ranging from evolution and cell specialization to drug development, crop security to mention some.
+</p>
+
+<p align="justify">
+ The exponential growth in computational power and ready made packages have democratised &#8216;in-silico&#8217; analysis, inference and modelling of such systems to investigators with no programming or mathematical skills by only specifying a set of reactions and the type of interaction. Even our repository contains a little jupyter notebook written in python to recreate  some of the ideas  discussed in this post (OpenPlant-Lorenz.ipynb).  In silico techniques offer a number of advantages such as making the processes of discovery and thorough exploration of several scenarios immediate and systematic and automated and easily reproducible.</p>
+
+<p align="justify">
+Systematic computational protocols (in theory at least) can also be developed in order to constraint the set of experiments to be carried out to those cases which might show promise in testing a hypothesis and the emergence of Synthetic Biology (SynBio) techniques we might (again, at least in theory) start to explore the possibility of designing and building circuitry using standard components  &#8216;analogous&#8217; to those mentioned before for electrical and electronic circuits. Looking at things by drawing analogies presents is a great way to expose the ethos and goals of SynBio to the general public.
+</p>
+
 <h3 id="chemical-reactions-clocks-and-chaos">Chemical Reactions, Clocks and Chaos.</h3>
 
 <p align="justify">
@@ -37,17 +48,6 @@ The linear spring (aka harmonic oscillator) is a very useful idealisation used t
 
 <p align="justify">
 In the case of electrical/electronic circuits it is often possible to establish analogies between mechanical systems and the behaviour of the circuits variables such as voltages and currents. Electrical circuits are built by combinations of components called resistors $R$, inductors $L$ and capacitors $C$ which regulate changes in time of electrical charge, current and voltages across the circuit.</p>
-
-<p align="justify">
-The equivalence between mechanical and electrical circuits becomes possible because we posses quantitative frameworks for mechanics (Newton&#8217;s Laws) and electrodynamics (Maxwell&#8217;s equations) which make the mapping in the analytic realm  more or less straightforward.  Clocks and circuits in biology present a more challenging scenario as we are yet to develop a universal framework to dynamically describe the processes occurring at the molecular and regulatory levels, which are all related to non-equilibrium phenomena. It is needless to say that circuits and pathways in the life sciences are at the very core of many research endeavours, ranging from evolution and cell specialization to drug development, crop security to mention some.
-</p>
-
-<p align="justify">
- The exponential growth in computational power and ready made packages have democratised &#8216;in-silico&#8217; analysis, inference and modelling of such systems to investigators with no programming or mathematical skills by only specifying a set of reactions and the type of interaction. Even our repository contains a little jupyter notebook written in python to recreate  some of the ideas  discussed in this post (OpenPlant-Lorenz.ipynb).  In silico techniques offer a number of advantages such as making the processes of discovery and thorough exploration of several scenarios immediate and systematic and automated and easily reproducible.</p>
-
-<p align="justify">
-Systematic computational protocols (in theory at least) can also be developed in order to constraint the set of experiments to be carried out to those cases which might show promise in testing a hypothesis and the emergence of Synthetic Biology (SynBio) techniques we might (again, at least in theory) start to explore the possibility of designing and building circuitry using standard components  &#8216;analogous&#8217; to those mentioned before for electrical and electronic circuits. Looking at things by drawing analogies presents is a great way to expose the ethos and goals of SynBio to the general public.
-</p>
 
 <p align="justify">
 The possibility of writing equations for circuits allow us also to design them and analyse these prior to implementation, we soon discuss this using a great case-study but before getting to that let us introduce another very interesting equivalence between descriptions which for our purposes of touching biology and synthetic biology are perhaps more valuable than the mechanics analogy.</p>
