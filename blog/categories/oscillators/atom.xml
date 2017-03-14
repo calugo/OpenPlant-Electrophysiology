@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Oscillators | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/oscillators/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-14T22:57:51+00:00</updated>
+  <updated>2017-03-14T23:16:38+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -27,7 +27,7 @@ In this post we take the opportunity to describe the rationale behind this proje
 <p align="justify">
 The goal of our project is to develop a set of low budget set of experiments which touch several STEM topics to students in a comprehensive fashion using as a conducting thread the topic of excitable systems. By doing so we touch on circuit design, synchronisation and collective phenomena, software development and the internet of things, 3D modelling and printing, microfuidics and then, as described below, by drawing analogies we hope this to be an entry point to  Synthetic Biology (SynBio).</p>
 
-<h3 id="chemical-reactions-clocks-and-chaos">Chemical Reactions, Clocks and Chaos.</h3>
+<p align="left" style="font-style:italic" color="c0c0c0">Chemical Reactions, Clocks and Chaos.</p>
 
 <p align="justify">
 Every system which exhibits periodic behaviour is an object which we can call a clock, cardiac pace-maker cells or circaidan cycles for example are well know biological clocks with periods ranging from milliseconds to days or even seasonal periods.</p>
