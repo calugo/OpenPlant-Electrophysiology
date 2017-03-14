@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Complexity | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/complexity/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-14T23:20:34+00:00</updated>
+  <updated>2017-03-14T23:24:03+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -18,11 +18,7 @@
     <link href="http://calugo.github.io//blog/2017/02/13/Excitable-Media/"/>
     <updated>2017-02-13T23:09:29+00:00</updated>
     <id>http://calugo.github.io//blog/2017/02/13/Excitable-Media</id>
-    <content type="html"><![CDATA[<p align="left" style="font-style:italic" color="#c0c0c0"> Circuits: genes, boards and SynBio?.</p>
-<!-- more -->
-<ul>
-  <li></li>
-</ul>
+    <content type="html"><![CDATA[<p>&lt;p align=”left” style=”font-style:italic” color=#c0c0c0&gt; Circuits: genes, boards and SynBio?&lt;/p&gt;<!-- more --> -  </p>
 
 <p align="justify">
 In this post we take the opportunity to describe the rationale behind this project. The post is not about mathematics it is about circuits and it is also about plants but as we shall see soon enough patterns observed in systems ranging from cells to tissues in muscles such as the  brain and heart and man made devices such as electrical and electronic circuits share features which can be compared and understood with mathematics, however we to keep this to a bare minimum.
