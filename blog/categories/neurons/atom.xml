@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Neurons | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/neurons/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-14T23:43:14+00:00</updated>
+  <updated>2017-03-14T23:46:37+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -28,7 +28,7 @@ In this post we take the opportunity to describe the rationale behind this proje
 <p align="justify">
 The goal of our project is to develop a set of low budget set of experiments which touch several STEM topics to students in a comprehensive fashion using as a conducting thread the topic of excitable systems. By doing so we touch on circuit design, synchronisation and collective phenomena, software development and the internet of things, 3D modelling and printing, microfuidics and then, as described below, by drawing analogies we hope this to be an entry point to  Synthetic Biology (SynBio).</p>
 
-<p align="left" style="font-style:italic" color="#c0c0c0">Chemical Reactions, Clocks and Chaos.</p>
+<p align="left" style="font-style:italic; color:#290066;">Chemical Reactions, Clocks and Chaos.</p>
 
 <p align="justify">
 Every system which exhibits periodic behaviour is an object which we can call a clock, cardiac pace-maker cells or circaidan cycles for example are well know biological clocks with periods ranging from milliseconds to days or even seasonal periods.</p>
@@ -48,7 +48,7 @@ The linear spring (aka harmonic oscillator) is a very useful idealisation used t
 To illustrate the  equivalence we now turn or attention to the Lorenz system as a working example. We choose this for simplicity but the links and experiments described below can and have been done for several other systems relevant to different fields such as the membrane action potential in neurons developed by Hodgkin-Huxley, its reduced version by Fitzhugh-Nagumo, the relaxation oscillatory system by Van der Pol, the chaotic spiral attractor system of Rossler, and many more!
 </p>
 
-<h4 id="the-paradigmatic-lorenz-system-and-chuas-circuit">The paradigmatic Lorenz system and Chua’s circuit</h4>
+<p align="left" style="font-style:italic" color="#c0c0c0">The paradigmatic Lorenz system and Chua&#8217;s circuit</p>
 
 <p align="justify">
 A search query for the string &#8216;Lorenz system&#8217; returns as of April 2016, about 32 900 000 entries, which for a mathematical object is not bad! It&#8217;s celebrity status is due in part to the beauty and complexity of the trajectories generated when one plots one variable against the others for a certain combination of the parameter values.
@@ -161,7 +161,7 @@ Fig. 4: Periodic orbit of the Lorenz system the parameter values are the same as
 </p>
 </div>
 
-<h4 id="engineering-chaos-in-autonomous-systems-chuas-circuit">Engineering chaos in autonomous systems: Chua’s circuit.</h4>
+<p align="left" style="font-style:italic" color="#c0c0c0">Engineering chaos in autonomous systems: Chua&#8217;s circuit.</p>
 
 <p>Let us return for a moment to our definition of clocks, i.e. every system in which the variables under observation are periodic. Implicitly we have being thinking about <strong>autonomous</strong> clocks which means that they are not powered by an external source of energy which varies with time instead the external input is yet another constant in the system think a battery for instance.</p>
 
