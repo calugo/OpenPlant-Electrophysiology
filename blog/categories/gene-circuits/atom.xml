@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gene Circuits | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/gene-circuits/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-14T23:16:38+00:00</updated>
+  <updated>2017-03-14T23:20:34+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -18,7 +18,11 @@
     <link href="http://calugo.github.io//blog/2017/02/13/Excitable-Media/"/>
     <updated>2017-02-13T23:09:29+00:00</updated>
     <id>http://calugo.github.io//blog/2017/02/13/Excitable-Media</id>
-    <content type="html"><![CDATA[<h4 id="circuits-genes-boards-and-synbio---more-----">Circuits: genes, boards and SynBio?.<!-- more --> -</h4>
+    <content type="html"><![CDATA[<p align="left" style="font-style:italic" color="#c0c0c0"> Circuits: genes, boards and SynBio?.</p>
+<!-- more -->
+<ul>
+  <li></li>
+</ul>
 
 <p align="justify">
 In this post we take the opportunity to describe the rationale behind this project. The post is not about mathematics it is about circuits and it is also about plants but as we shall see soon enough patterns observed in systems ranging from cells to tissues in muscles such as the  brain and heart and man made devices such as electrical and electronic circuits share features which can be compared and understood with mathematics, however we to keep this to a bare minimum.
@@ -27,7 +31,7 @@ In this post we take the opportunity to describe the rationale behind this proje
 <p align="justify">
 The goal of our project is to develop a set of low budget set of experiments which touch several STEM topics to students in a comprehensive fashion using as a conducting thread the topic of excitable systems. By doing so we touch on circuit design, synchronisation and collective phenomena, software development and the internet of things, 3D modelling and printing, microfuidics and then, as described below, by drawing analogies we hope this to be an entry point to  Synthetic Biology (SynBio).</p>
 
-<p align="left" style="font-style:italic" color="c0c0c0">Chemical Reactions, Clocks and Chaos.</p>
+<p align="left" style="font-style:italic" color="#c0c0c0">Chemical Reactions, Clocks and Chaos.</p>
 
 <p align="justify">
 Every system which exhibits periodic behaviour is an object which we can call a clock, cardiac pace-maker cells or circaidan cycles for example are well know biological clocks with periods ranging from milliseconds to days or even seasonal periods.</p>
