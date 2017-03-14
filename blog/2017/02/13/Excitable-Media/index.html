@@ -73,19 +73,11 @@ in
         <h4 id="circuits-genes-boards-and-synbio---more-----">Circuits: genes, boards and SynBio?.<!-- more --> -</h4>
 
 <p align="justify">
-In this post we take the opportunity to describe the rationale behind this project. The post is not about mathematics it is about circuits and it is also about plants but as we shall see soon enough patterns observed in systems ranging from cells to tissues in muscles such as the  brain and heart and man made devices such as electrical, electronic circuitry  share features which can be compared and understood with the only tool that really &#8220;ties the room together&#8221; which is mathematics, however we to keep this to a bare minimum.
+In this post we take the opportunity to describe the rationale behind this project. The post is not about mathematics it is about circuits and it is also about plants but as we shall see soon enough patterns observed in systems ranging from cells to tissues in muscles such as the  brain and heart and man made devices such as electrical and electronic circuits share features which can be compared and understood with mathematics, however we to keep this to a bare minimum.
 </p>
 
 <p align="justify">
-The equivalence between mechanical and electrical circuits becomes possible because we posses quantitative frameworks for mechanics (Newton&#8217;s Laws) and electrodynamics (Maxwell&#8217;s equations) which make the mapping in the analytic realm  more or less straightforward.  Clocks and circuits in biology present a more challenging scenario as we are yet to develop a universal framework to dynamically describe the processes occurring at the molecular and regulatory levels, which are all related to non-equilibrium phenomena. It is needless to say that circuits and pathways in the life sciences are at the very core of many research endeavours, ranging from evolution and cell specialization to drug development, crop security to mention some.
-</p>
-
-<p align="justify">
- The exponential growth in computational power and ready made packages have democratised &#8216;in-silico&#8217; analysis, inference and modelling of such systems to investigators with no programming or mathematical skills by only specifying a set of reactions and the type of interaction. Even our repository contains a little jupyter notebook written in python to recreate  some of the ideas  discussed in this post (OpenPlant-Lorenz.ipynb).  In silico techniques offer a number of advantages such as making the processes of discovery and thorough exploration of several scenarios immediate and systematic and automated and easily reproducible.</p>
-
-<p align="justify">
-Systematic computational protocols (in theory at least) can also be developed in order to constraint the set of experiments to be carried out to those cases which might show promise in testing a hypothesis and the emergence of Synthetic Biology (SynBio) techniques we might (again, at least in theory) start to explore the possibility of designing and building circuitry using standard components  &#8216;analogous&#8217; to those mentioned before for electrical and electronic circuits. Looking at things by drawing analogies presents is a great way to expose the ethos and goals of SynBio to the general public.
-</p>
+Our project&#8217;s objective is to develop a set of low budget set of experiments which touch several STEM topics to students in a comprehensive fashion using as a conducting thread the topic of excitable systems. By doing so we touch on circuit design, synchronisation and collective phenomena, software development and the internet of things, 3D modelling and printing and microfuidics. Then by drawing analogies the project hopes to be a nice entry point to the emergent field of Synthetic Biology (SynBio).</p>
 
 <h3 id="chemical-reactions-clocks-and-chaos">Chemical Reactions, Clocks and Chaos.</h3>
 
@@ -95,14 +87,11 @@ Every system which exhibits periodic behaviour is an object which we can call a 
 <p>The period of a clock is often an intrinsic property of the system. For example, linear springs for which the restitution force  is  proportional to the displacement $x$  are clocks with a natural frequency (the reciprocal of the period) equal to $\omega_o=(k/m)^\frac{1}{2}$. The constant $k$ is a property of the spring’s material and $m$  stands for the mass of the oscillating particle.</p>
 
 <p align="justify">
-The linear spring (aka harmonic oscillator) is a very useful idealisation used to describe several systems, however in more realistic scenarios one needs to take into account dissipation processes such as friction or interactions of a more complicated nature in which linearity is not a good assumption to describe what it is observed empirically.
+Before getting any further with our discussion we must say that the statements above and across the fortcoming paragraphs are often a consequence of our ability to write and analyse equations which rule the dynamics of the clocks. This ability also allow us to design the circuits prior to their physical implementation. It is needless to say that the discovery of universal circuits and pathways in the life sciences are at the very core of many research endeavours, ranging from evolution and cell specialization to drug development, crop security to mention some and that the possibility of designing and building circuitry using standard components  &#8216;analogous&#8217; to those in mechanics and electronics is precisely the goal of SynBio.
 </p>
 
 <p align="justify">
-In the case of electrical/electronic circuits it is often possible to establish analogies between mechanical systems and the behaviour of the circuits variables such as voltages and currents. Electrical circuits are built by combinations of components called resistors $R$, inductors $L$ and capacitors $C$ which regulate changes in time of electrical charge, current and voltages across the circuit.</p>
-
-<p align="justify">
-The possibility of writing equations for circuits allow us also to design them and analyse these prior to implementation, we soon discuss this using a great case-study but before getting to that let us introduce another very interesting equivalence between descriptions which for our purposes of touching biology and synthetic biology are perhaps more valuable than the mechanics analogy.</p>
+The linear spring (aka harmonic oscillator) is a very useful idealisation used to describe several systems. For the case of electrical/electronic circuits instead of mass and spring properties the behaviour of the clock is given in terms of the properties of its components, such as resistors $R$, inductors $L$ and capacitors $C$ which regulate changes in time of electrical charge, current and voltages across the circuit, for systems of chemical reactions and gene regulatory circuits (GRN) design is also possible at the theoretical level which then can be build into an electronic circuit under very general conditions.</p>
 
 <p>The last paragraph sketches  <strong>the first take home message</strong> of our post: dynamical physical systems can be linked to equivalent chemical dynamical systems <a href="#Circuits">[1]</a> and in several cases into electrical/electronic circuits.</p>
 
@@ -388,7 +377,10 @@ With the aid of SynBio perhaps it will become straightforward to edit, engineer 
     <p><a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">Q. Guo et al.J. R. Soc. Interface (2015)
 </a></p>
   </li>
-  <li><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf"> Andreas Wagner, TIGS, 08, 397-410 (2011)</a></li>
+  <li>
+    <p><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf"> Andreas Wagner, TIGS, 08, 397-410 (2011)</a></p>
+  </li>
+  <li><a id="chuas"></a>&lt;a href=http://www.chuacircuits.com/&gt;All you need to know about building Chua’s circuits&lt;/a&gt;</li>
 </ol>
 
 
