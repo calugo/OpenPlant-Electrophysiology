@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Muscles | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/muscles/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T00:04:39+00:00</updated>
+  <updated>2017-03-15T00:07:16+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -44,7 +44,7 @@ The linear spring (aka harmonic oscillator) is a very useful idealisation used t
 
 <p align="justify"> The last paragraph sketches  <strong>the first take home message</strong>
  of our post: dynamical physical systems can be linked to equivalent chemical dynamical systems
- &lt;a href=#Circuits&gt;[\[1\] and in several cases into electrical/electronic circuits. </p>
+ <a href="#Circuits">[1]</a> and in several cases into electrical/electronic circuits. </p>
 
 <p align="justify">
 To illustrate the  equivalence we now turn or attention to the Lorenz system as a working example. We choose this for simplicity but the links and experiments described below can and have been done for several other systems relevant to different fields such as the membrane action potential in neurons developed by Hodgkin-Huxley, its reduced version by Fitzhugh-Nagumo, the relaxation oscillatory system by Van der Pol, the chaotic spiral attractor system of Rossler, and many more!
