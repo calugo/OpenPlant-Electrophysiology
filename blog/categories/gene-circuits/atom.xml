@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gene Circuits | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/gene-circuits/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T01:17:19+00:00</updated>
+  <updated>2017-03-15T01:41:09+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -99,10 +99,7 @@ Fig. 3: Solutions of the Lorenz system as a function of time in the chaotic regi
 </div>
 
 <p align="justify">
-The fact that the same circuit topology leads to very different behaviours is the key in our entire discussion. If we think in biological terms we could say that the change in the expression levels of our very nicely periodic system can undergo a severe transition to a chaotic state due to a simple change in one of the intrinsic parameters of the system, this could be  caused for instance by a mutation.
-</p>
-<p align="justify">
-The circuit possesses very different &#8216;phenotypes&#8217; despite being described by the same circuitry. We will come back to this later, but first let us take the discussion one step further, into the realm of  designing and building a physical implementation of the system.
+The fact that the same circuit topology leads to very different behaviours is the key in our entire discussion. If we think in biological terms we could say that the change in the expression levels of our very nicely periodic system can undergo a severe transition to a chaotic state due to a simple change in one of the intrinsic parameters of the system, this could be  caused for instance by a mutation. The circuit possesses very different &#8216;phenotypes&#8217; despite being described by the same circuitry. We will come back to this later, but first let us take the discussion one step further, into the realm of  designing and building a physical implementation of the system.
 </p>
 
 <div style="text-align: center;">
@@ -114,9 +111,7 @@ Fig. 4: Periodic orbit of the Lorenz system the parameter values are the same as
 
 <p align="left" style="font-style:italic; color:#290066;">Engineering chaos in autonomous systems: Chua&#8217;s circuit.</p>
 
-<p>Let us return for a moment to our definition of clocks, i.e. every system in which the variables under observation are periodic. Implicitly we have being thinking about <strong>autonomous</strong> clocks which means that they are not powered by an external source of energy which varies with time instead the external input is yet another constant in the system think a battery for instance.</p>
-
-<p>As mentioned earlier, electrical oscillators are built using  <strong>standard passive components</strong> (resistors $R$, capacitors $C$ and inductors $L$).</p>
+<p align="left"> Previously, we defined clocks as systems in which the variables under observation are periodic. Implicitly we have being thinking about <strong>autonomous</strong> clocks which means that they are not powered by time varying source of energy, but by a constant force. Also,  we  also mentioned that electrical oscillators are built using  <strong>standard passive components</strong> (resistors $R$, capacitors $C$ and inductors $L$).</p>
 
 <p align="justify">
 Simple arrangements of passive elements easily produce self-sustained oscillatory responses. However linearity implies that no matter how we combine such elements, the reponse is always linear and there are no transitions into more complex behaviours. So how do we build a Lorenz-like circuit? or any circuit resembling interesting behaviours such as those  observed in chemistry, ecology and gene regulation?
