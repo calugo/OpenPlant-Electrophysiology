@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Oscillators | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/oscillators/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T18:26:55+00:00</updated>
+  <updated>2017-03-15T19:46:57+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -142,12 +142,12 @@ Theoretically and then experimentally the way of introducing the non-linearity i
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/nrchua.png" width="600" />
 <p align="justify" style="font-size:90%">
-Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
+Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the non-linear diode for which the relationship voltage versus current is illustrated in the right panel.
 </p>
 </div>
 
 <p align="justify">
-So, how to build a Chua circuit? We know what is required, now we need to go from paper to workbench. The answer is hinted in Figs. 4 and 5, where the schematics of circuits are shown which differ in detail, the first shows the mentioned active element which not surprisingly is called a Chua diode. Fig.  5 shows schematics of how to &#8216;build&#8217; one with standard components.
+In order to go from paper to workbench Figs. 5 and 6 illustrate schematics for the circuit. Figure 6 is particularly cool as it introduces a way to impement the not only the non-linear diode but also a designed replacement for the inductor element, which is not an easy component to find over the counter. The replacement is a <strong>gyrator circuit</strong> which makes the connection to SynBio more explicit as we are not only only employing standard operational amplifiers to generate a new designed behaviour, but also to replace an analogous component with an equivalent digitally designed one! The full set of component values is well documented in the great site of Valentin Sidersky <a href="http://www.chuacircuits.com/">chuacircuits.com</a>. What we show here largely follows the instructions there, however we do replace the use of the TL082, by a single IC with four operational amplifiers, namely the TL074.
 </p>
 
 <div style="text-align: center;">
@@ -156,20 +156,17 @@ So, how to build a Chua circuit? We know what is required, now we need to go fro
      <img class="img-responsive" src="/images/chuaXX.png" width="300" />
      </div>
      <div class="col-xs-6" style="text-align:center">
-     <img align="right" class="img-responsive" src="/images/gyrator.png" height="300" />
+     <img align="center" class="img-responsive" src="/images/gyrator.png" height="300" />
      </div>
     <p align="justify" style="font-size:90%">
-    Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
+    Fig. 6: Chua Circuit showing the diode designed with standard operational amplifiers as active elements (left). An even stronger and easier implementation for this circuit can be achieved replaing the inductor $L$ with a <strong>gyrator circuit</strong>, which provides a current equvalent to that of the inductor, this enforces even more connection with SynBio! As we can also use two standard operational amplifiers to implement the gyrator.
     </p>
   </div>
 </div>
-<p>BLLLLL</p>
 
-<div align="center">
-<img src="/images/chuapic.png" width="300" />
-<p align="justify" style="font-size:90%">
-Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
-</div>
+<p align="justify">
+The pics and videos!
+</p>
 
 <div style="text-align: center;">
   <div class="row" align="center">
@@ -184,9 +181,8 @@ Fig. 6: Our early version of the circuit replacing the inductor by a sythetic on
     <p align="justify" style="font-size:90%">
    Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
 
-</div>
+  </div>
 
-<div style="text-align: center;">
   <div class="row" align="center">
       <div class="col-xs-6" style="text-align:center">
       <img class="img-responsive" src="/images/chuasoldered.jpg" width="250" />
@@ -198,8 +194,6 @@ Fig. 6: Our early version of the circuit replacing the inductor by a sythetic on
       Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
   </div>
 </div>
-
-
 
 <p align="justify">
 The diode is basically a couple of operational amplifiers and six resistors, in order to add tunable parameters the resistor in the circuit needs to be a variable resistor (a potentiometer), the circuit can be further modified by replacing the inductor by a synthetic one usin a gyrator circuit replacement. The operational amplifiers are standard TL081 or TL082 which come with both elements packed in the same integrated circuit.
@@ -219,7 +213,6 @@ Movie 1.1: Implementation of the circuit, in the video we show the transition fr
 </p>
 </div>
 
-
 <div align="center">
 <video width="320" height="240" controls="">
  <source src="/images/chua2.webm" type="video/mp4" />
@@ -236,59 +229,68 @@ So that is it!, that is how one builds a Lorenz-like circuit!, What else then? W
 
 <p align="justify">These type of oscillators are characterised by a set of features such as:</p>
 
-* All or nothing response to stimuli (unless a threshold is reached)
-
-* A refractory period (The systems is not able to trigger again unless it has reached its basal level)
-
-<p align="justify">
+<ul>
+  <li>
+    <p>All or nothing response to stimuli (unless a threshold is reached)</p>
+  </li>
+  <li>
+    <p>A refractory period (The systems is not able to trigger again unless it has reached its basal level)</p>
+  </li>
+</ul>
+<p>&lt;/p&gt;
+&lt;p align=&#8217;justify&#8217;&gt;
 In many ways certain plants behave like neurons or myocytes!, spiking violently after a sustained perturbation. This have led to a varied number of investigators to attempt to understand such dynamics
-using the techniques described so far.</p>
+using the techniques described so far.&lt;/p&gt;</p>
 
-Some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review [\[4\]](#plants) for instace.)
+<p>Some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review <a href="#plants">[4]</a> for instace.)</p>
 
 <p align="justify"> In our case we are interested in studying several rhythms by coupling certain response plants with electonic circuits which might the trigger some electrical stimuli which then difusses to other plants or on the way back to the plant, we are interested in studying the phenomena called &#8220;synchronisation&#8221;.</p>
 
 <p align="justify">
 Chemical   signal carriers and triggers such as those of calcium are yet to be fully characterised for several  plant processes such as growth and interaction with the environment, and our little electrogram machines might be of use to understand such roles which of course in the much more cost effective realm of plant sciences compared to those of neurons or cardiac cells!</p>
 
-
-
-Innovation in the phenotype originates at the molecular level in at least one of the three levels of organisation described by genetics, gene regulation circuits and metabolic networks [\[1\]](#Wagner).
+<p>Innovation in the phenotype originates at the molecular level in at least one of the three levels of organisation described by genetics, gene regulation circuits and metabolic networks <a href="#Wagner">[1]</a>.</p>
 
 <p align="justify">
 This classification of genotype classes which belong to levels of organization scales apart immediatley invites to postulate an analogy with similar systems well studied in the engineering and physical sciences where innovation has evolved not as natural process but also by design.
 </p>
 
-
-
 <p align="justify">
 A way to be explict in the connections
 we are trying to build is to briefly present a quintessential example of how innovation by design can go back and forth from an idea to a real life implementation.  Our example coincidentally will also touch a deeper connection between the plant systems we are trying to study and contemporary ideas of &#8220;emergence&#8221; and the nature of the &#8220;laws&#8221; of biology.</p>
 
-Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis,as hinted earlier, it allows to test  the interplay of the three levels of organisation in which evolution acts: genetics, gene regulation circuits and metabolic networks [\[1\]](#Wagner).
+<p>Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis,as hinted earlier, it allows to test  the interplay of the three levels of organisation in which evolution acts: genetics, gene regulation circuits and metabolic networks <a href="#Wagner">[1]</a>.</p>
 
 <p align="justify">
 With the aid of SynBio perhaps it will become straightforward to edit, engineer and test the robustness and evolvability  of each of those genotype classes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
 </p>
 
-Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits [\[2\]](#chaosI) and [\[3\]](#chaosII) about linearity and non-linearity of circuits and the Chua system.
+<p>Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits <a href="#chaosI">[2]</a> and <a href="#chaosII">[3]</a> about linearity and non-linearity of circuits and the Chua system.</p>
 
-## References.
+<h2 id="references">References.</h2>
 
-1. <a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a>
-
-2. <a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
-</a>
-
-3. <a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua&#8217;s circuit primer</a>
-
-4. <a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
-</a>
-
-5. <a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
-
-6. <a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
-</div>
+<ol>
+  <li>
+    <p><a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a></p>
+  </li>
+  <li>
+    <p><a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
+</a></p>
+  </li>
+  <li>
+    <p><a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua’s circuit primer</a></p>
+  </li>
+  <li>
+    <p><a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
+</a></p>
+  </li>
+  <li>
+    <p><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a></p>
+  </li>
+  <li>
+    <p><a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky’s Chua’s circuits page</a></p>
+  </li>
+</ol>
 ]]></content>
   </entry>
   
