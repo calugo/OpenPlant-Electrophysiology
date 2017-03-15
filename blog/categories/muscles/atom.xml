@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Muscles | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/muscles/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T02:02:59+00:00</updated>
+  <updated>2017-03-15T15:56:58+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -103,7 +103,7 @@ The fact that the same circuit topology leads to very different behaviours is th
 </p>
 
 <div style="text-align: center;">
-<img style="font-size:90%" src="/images/xyznochaosB.png" width="700" />
+<img class="img-responsive" style="font-size:90%" src="/images/xyznochaosB.png" width="700" />
 <p align="justify" style="font-size:90%">
 Fig. 4: Periodic orbit of the Lorenz system the parameter values are the same as the ones used to produce the temporal courses shown in Fig. 2.
 </p>
@@ -130,22 +130,24 @@ Simple arrangements of passive elements easily produce self-sustained oscillator
 </ul>
 
 <p align="justify">
-The above statement was proven by Leon Chua et al in the mid 1980&#8217;s when they were attempting to build a circuit which could replicate the Lorenz dynamics. Loosely speaking, the solution was found by noticing that chaos can be understood as a mixing process. The solutions to the equations de-correlate to other solutions in the vicinity at an exponential rate and then are pulled back together repeatedly, this phenomena is known as stretching and folding (think of the patterns you observe when you pour coffee into milk and stir).</p>
+The above was proven by Leon Chua and collaborators in the mid 1980&#8217;s when they were attempting to build a circuit which could replicate the Lorenz dynamics. Loosely speaking, the solution was found by noticing that chaos can be understood as a mixing process. The solutions to the equations de-correlate to other solutions in the vicinity at an exponential rate and then are pulled back together repeatedly, this phenomena is known as stretching and folding (think of the patterns you observe when you pour coffee into milk and stir).</p>
 
 <p align="justify">
-Theoretically and then experimentally the way of introducing the non-linearity into the system is sketched in Fig. 5, there the addition of the active component is shown alongside the response function devised to implement the stretching-folding mechanisms. The non-linearity can be constructed by three region piece-wise linear regimes where negative resistance region introduces the active property to the <strong>device</strong>. The rest of the setup is a parallel implementation of a standard $RLC$ oscillator.</p>
+Theoretically and then experimentally the way of introducing the non-linearity into the system is sketched in Fig. 5, there the addition of the active component is shown alongside the response function devised to implement the stretching-folding mechanisms. The non-linearity can be constructed by a three region piece-wise linear resistance function where negative region introduces the active property to the component. The rest of the setup is a parallel implementation of a standard $RLC$ oscillator.</p>
 
-<p align="justify"> As it turn out, it comes the question of how to achieve such response, the Chua circuit is the simplest setup which satisfies the conditions for Chaos. Moreover, every continuous three dimensional odd-symmetric and piece-wise linear dynamical system can be mapped into the circuit.  In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..)is exhibited by the circuit. These statements are <strong>theorems</strong>, the demonstrations are beyond this rather informal presentation, however bear in mind that this way of inductive thinking and rigour allowed people to achieve all of these remarkable results.</p>
+<p align="justify">The Chua circuit is the simplest setup which satisfies the conditions for chaos. Moreover, every continuous three dimensional odd-symmetric and piece-wise linear dynamical system can be mapped into the circuit.  In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..) is exhibited by the circuit.</p>
+
+<p>&lt;p align=”justify&gt;” The proof of Chua’s <strong>theorems</strong>  are beyond this rather informal presentation, however bear in mind that the <strong>inductive thinking and rigour</strong> which allowed people to achieve these remarkable results is something which be systematically  applied at the moment of designing a circuit.&lt;/p&gt;</p>
 
 <div style="text-align: center;">
-<img src="/images/nrchua.png" width="600" />
+<img class="img-responsive" src="/images/nrchua.png" width="600" />
 <p align="justify" style="font-size:90%">
 Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
 </p>
 </div>
 
 <p align="justify">
-So, how to build a Chua circuit? We know what is required, now we need to go from paper to workbench. The answer is hinted in Figs. 4 and 5, where the schematics of circuits are shown which differ in detail, the first shows the mentioned active element which not surprisingly is called a Chua diode. Fig.  5 shows schematics of how to &#8216;build&#8217; one with yet again standard components.
+So, how to build a Chua circuit? We know what is required, now we need to go from paper to workbench. The answer is hinted in Figs. 4 and 5, where the schematics of circuits are shown which differ in detail, the first shows the mentioned active element which not surprisingly is called a Chua diode. Fig.  5 shows schematics of how to &#8216;build&#8217; one with standard components.
 </p>
 
 <div style="text-align: center;">
@@ -160,6 +162,23 @@ Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is th
 <p align="justify" style="font-size:90%">
 Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
 </div>
+
+<!-- div style="text-align: center;"-->
+<div class="row" align="center">
+
+<div class="col-xs-6" style="text-align:center">
+<img class="img-responsive" src="/images/gyrator.png" width="300" />
+</div>
+
+<div class="col-xs-6" style="text-align:center">
+<img class="img-responsive" src="/images/chuapic.png" width="270" />
+</div>
+
+</div>
+
+<p align="center">
+<font size="3">Fig. 5: Resistors.</font>
+</p>
 
 <p align="justify">
 The diode is basically a couple of operational amplifiers and six resistors, in order to add tunable parameters the resistor in the circuit needs to be a variable resistor (a potentiometer), the circuit can be further modified by replacing the inductor by a synthetic one usin a gyrator circuit replacement. The operational amplifiers are standard TL081 or TL082 which come with both elements packed in the same integrated circuit.
