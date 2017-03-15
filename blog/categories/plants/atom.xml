@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plants | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/plants/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T01:49:23+00:00</updated>
+  <updated>2017-03-15T02:02:59+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -112,9 +112,10 @@ Fig. 4: Periodic orbit of the Lorenz system the parameter values are the same as
 <p align="left" style="font-style:italic; color:#290066;">Engineering chaos in autonomous systems: Chua&#8217;s circuit.</p>
 
 <p align="justify"> Previously, we defined clocks as systems in which the variables under observation are periodic. Implicitly we have being thinking about <strong>autonomous</strong> clocks which means that they are not powered by time varying source of energy, but by a constant force. Also,  we  mentioned that electrical oscillators are built using  <strong>standard passive components</strong> (resistors $R$, capacitors $C$ and inductors $L$).
-Simple arrangements of passive elements easily produce self-sustained oscillatory responses. However linearity implies that no matter how we combine such elements, the reponse is always linear and there are no transitions into more complex behaviours. So how do we build a Lorenz-like circuit? or any circuit resembling interesting behaviours such as those  observed in chemistry, electro-physiology or gene regulation? Is there a set of necessary and suficient conditions for a circuit to exhibit chaos?</p>
+Simple arrangements of passive elements easily produce self-sustained oscillatory responses. However linearity implies that no matter how we combine such elements, the reponse is always linear and there are no transitions into more complex behaviours.
+</p>
 
-<p align="justify"> The answer is yes, and the conditions are:</p>
+<p align="justify">In order for a circuit to exhibit chaotic behaviour it must satisfy:</p>
 
 <ul>
   <li>
@@ -129,37 +130,16 @@ Simple arrangements of passive elements easily produce self-sustained oscillator
 </ul>
 
 <p align="justify">
-The above statement was proven by Leon Chua et al in the mid 1980&#8217;s when they were attempting to build a circuit which could replicate the Lorenz dynamics.
-</p>
+The above statement was proven by Leon Chua et al in the mid 1980&#8217;s when they were attempting to build a circuit which could replicate the Lorenz dynamics. Loosely speaking, the solution was found by noticing that chaos can be understood as a mixing process. The solutions to the equations de-correlate to other solutions in the vicinity at an exponential rate and then are pulled back together repeatedly, this phenomena is known as stretching and folding (think of the patterns you observe when you pour coffee into milk and stir).</p>
 
 <p align="justify">
-Loosely speaking, the solution was found by noticing that chaos can be understood as a mixing process. The solutions to the equations de-correlate to other solutions in the vicinity at an exponential rate and then are pulled back together repeatedly, this phenomena is known as stretching and folding (think of the patterns you observe when you pour coffee into milk and stir).</p>
+Theoretically and then experimentally the way of introducing the non-linearity into the system is sketched in Fig. 5, there the addition of the active component is shown alongside the response function devised to implement the stretching-folding mechanisms. The non-linearity can be constructed by three region piece-wise linear regimes where negative resistance region introduces the active property to the <strong>device</strong>. The rest of the setup is a parallel implementation of a standard $RLC$ oscillator.</p>
 
-<p align="justify">
-Theoretically and then experimentally the way of introducing the non-linearity into the system is sketched in Fig. 5, there the addition of the active component is shown alongside the response function devised to implement the stretching-folding mechanisms.</p>
-
-<p>The non-linearity can be constructed by three region piece-wise linear regimes where negative resistance region introduces the active property to the <strong>device</strong>. The rest of the setup is a parallel implementation of a standard $RLC$ oscillator.</p>
-
-<p>Now, it comes the question of how to achieve such response, before addressing it let us mention the following rather important statements.</p>
-
-<ul>
-  <li>
-    <p>The Chua circuit is the simplest setup which satisfies the conditions for Chaos.</p>
-  </li>
-  <li>
-    <p>Every continuous three dimensional odd-symmetric
- and piece-wise linear dynamical system can be mapped into the circuit.</p>
-  </li>
-  <li>
-    <p>In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..)is∫ exhibited by the circuit.</p>
-  </li>
-</ul>
-
-<p>The above statements are <strong>theorems</strong> and the demonstrations are beyond this rather informal presentation, however bear in mind that this way of inductive thinking and rigour allowed people to achieve all of the remarkable results discussed here.</p>
+<p align="justify"> As it turn out, it comes the question of how to achieve such response, the Chua circuit is the simplest setup which satisfies the conditions for Chaos. Moreover, every continuous three dimensional odd-symmetric and piece-wise linear dynamical system can be mapped into the circuit.  In physical implementations of the circuit, every possible behaviour known in the realm of non-linear dynamics (Hopf bifurcations, period doubling, etc..)is exhibited by the circuit. These statements are <strong>theorems</strong>, the demonstrations are beyond this rather informal presentation, however bear in mind that this way of inductive thinking and rigour allowed people to achieve all of these remarkable results.</p>
 
 <div style="text-align: center;">
 <img src="/images/nrchua.png" width="600" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
 </p>
 </div>
@@ -170,14 +150,14 @@ So, how to build a Chua circuit? We know what is required, now we need to go fro
 
 <div style="text-align: center;">
 <img src="/images/chuaXX.png" width="300" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
 </p>
 </div>
 
 <div align="center">
 <img src="/images/chuapic.png" width="300" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
 </div>
 
@@ -185,7 +165,7 @@ Fig. 6: Our early version of the circuit replacing the inductor by a sythetic on
 The diode is basically a couple of operational amplifiers and six resistors, in order to add tunable parameters the resistor in the circuit needs to be a variable resistor (a potentiometer), the circuit can be further modified by replacing the inductor by a synthetic one usin a gyrator circuit replacement. The operational amplifiers are standard TL081 or TL082 which come with both elements packed in the same integrated circuit.
 </p>
 
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig. 6 and Movies 1.1-1.2 show our (early) implementation of the circuit, the movies show the transition from a periodic regime into chaos by tinkering with the variable resistor and measuring the voltage in the capacitors $C_1$ and $C_2$.
 </p>
 
@@ -194,7 +174,7 @@ Fig. 6 and Movies 1.1-1.2 show our (early) implementation of the circuit, the mo
  <source src="/images/chua1.webm" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Movie 1.1: Implementation of the circuit, in the video we show the transition from periodic to a single scroll then to a double scroll, the oscilloscope also show the time traces for $C_1$ and $C_2$ which pretty much resemble the ones obtained solving Lorenz equations.
 </p>
 </div>
@@ -204,7 +184,7 @@ Movie 1.1: Implementation of the circuit, in the video we show the transition fr
  <source src="/images/chua2.webm" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Movie 1.2: The double scroll and the circuit in action!
 </p>
 </div>
