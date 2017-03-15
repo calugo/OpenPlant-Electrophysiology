@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gene Circuits | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/gene-circuits/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T18:24:05+00:00</updated>
+  <updated>2017-03-15T18:26:55+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -155,8 +155,8 @@ So, how to build a Chua circuit? We know what is required, now we need to go fro
      <div class="col-xs-6" style="text-align:center">
      <img class="img-responsive" src="/images/chuaXX.png" width="300" />
      </div>
-     <div align="right" class="col-xs-6" style="text-align:center">
-     <img class="img-responsive" src="/images/gyrator.png" height="300" />
+     <div class="col-xs-6" style="text-align:center">
+     <img align="right" class="img-responsive" src="/images/gyrator.png" height="300" />
      </div>
     <p align="justify" style="font-size:90%">
     Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
