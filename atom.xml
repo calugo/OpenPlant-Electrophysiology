@@ -4,7 +4,7 @@
   <title><![CDATA[OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-14T23:59:50+00:00</updated>
+  <updated>2017-03-15T00:04:39+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -42,11 +42,9 @@ Our ability to write and analyse equations which rule the dynamics of the clocks
 <p align="justify">
 The linear spring (aka harmonic oscillator) is a very useful idealisation used to describe several systems. For the case of electrical/electronic circuits instead of mass and spring properties the behaviour of the clock is given in terms of the properties of its components, such as resistors $R$, inductors $L$ and capacitors $C$ which regulate changes in time of electrical charge, current and voltages across the circuit, for systems of chemical reactions and gene regulatory circuits (GRN) design is also possible at the theoretical level which then can be build into an electronic circuit under very general conditions.</p>
 
-<p align="justify"> The last paragraph sketches  <a strong="">the first take home message
+<p align="justify"> The last paragraph sketches  <strong>the first take home message</strong>
  of our post: dynamical physical systems can be linked to equivalent chemical dynamical systems
- &lt;a href=#Circuits&gt;[\[1\]</a>
- [\[1\]](#Circuits) and in several cases into electrical/electronic circuits.
- </p>
+ &lt;a href=#Circuits&gt;[\[1\] and in several cases into electrical/electronic circuits. </p>
 
 <p align="justify">
 To illustrate the  equivalence we now turn or attention to the Lorenz system as a working example. We choose this for simplicity but the links and experiments described below can and have been done for several other systems relevant to different fields such as the membrane action potential in neurons developed by Hodgkin-Huxley, its reduced version by Fitzhugh-Nagumo, the relaxation oscillatory system by Van der Pol, the chaotic spiral attractor system of Rossler, and many more!
