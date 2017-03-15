@@ -201,7 +201,10 @@ Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is th
 <p align="justify">
 In order to go from paper to workbench Figs. 5 and 6 illustrate schematics for the circuit. Figure 6 is particularly cool as it introduces a way to impement the not only the non-linear diode but also a designed replacement for the inductor element, which is not an easy component to find over the counter.</p>
 <p align="justify">
-The replacement is a <strong>gyrator circuit</strong> and its use makes the connection to SynBio more explicit, we are not only making use of  standard operational amplifiers to generate a new designed behaviour (Chua&#8217;s diode), but also to replace an analogous component with an equivalent digitally designed one! The full set of component values is well documented in the great site of Valentin Sidersky <a href="http://www.chuacircuits.com/">chuacircuits.com</a>. What we show here largely follows the instructions there, however we do replace the use of the TL082, by a single IC with four operational amplifiers, namely the TL074.
+The replacement is a <strong>gyrator circuit</strong> and its use makes the connection to SynBio more explicit, we are not only making use of  standard operational amplifiers to generate a new designed behaviour (Chua&#8217;s diode), but also to replace an analogous component with an equivalent digitally designed one!
+</p>
+<p align="justify">
+The full set of component values is well documented in the great site of Valentin Sidersky <a href="http://www.chuacircuits.com/">chuacircuits.com</a>. What we show here largely follows the instructions there, however we do replace the use of the TL082, by a single IC with four operational amplifiers, namely the TL074.
 </p>
 
 <div style="text-align: center;">
@@ -219,17 +222,17 @@ The replacement is a <strong>gyrator circuit</strong> and its use makes the conn
 </div>
 
 <p align="justify">
-The pics and videos!
+Fig. 7 shows several iterations of the circuits build for demonstrating purposes, as detailed somewhere in the experiments entry, we have used these to study synchronisation phenomena, our monitoring software and the dynamics of the circuit itself, also the videos below the figure show the circuit in action, we control the transition to chaos by allowing two resistors in the circuit to be adjustable (potentiotemers). In the figure we show an early breadboard version and two soldered versions, the former does use two TL082, but as mentioned in the previous paragraphs we used TL074 IC which enclose four operational amplifiers and make the implementation far simpler.
 </p>
 
 <div style="text-align: center;">
   <div class="row" align="center">
      <div class="col-xs-6" style="text-align:center">
-     <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/gyrator.png" width="250" />
+     <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/chuapic.png" width="250" />
      </div>
 
     <div class="col-xs-6" style="text-align:center">
-    <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/chuapic.png" width="270" />
+    <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/chuasoldered.jpg" width="270" />
     </div>
 
     <p align="justify" style="font-size:90%">
@@ -239,7 +242,7 @@ The pics and videos!
 
   <div class="row" align="center">
       <div class="col-xs-6" style="text-align:center">
-      <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/chuasoldered.jpg" width="250" />
+      <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/chuacases.jpg" width="250" />
       </div>
       <div class="col-xs-6" style="text-align:center">
       <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/chuacase.jpg" width="270" />
@@ -248,10 +251,6 @@ The pics and videos!
       Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
   </div>
 </div>
-
-<p align="justify">
-The diode is basically a couple of operational amplifiers and six resistors, in order to add tunable parameters the resistor in the circuit needs to be a variable resistor (a potentiometer), the circuit can be further modified by replacing the inductor by a synthetic one usin a gyrator circuit replacement. The operational amplifiers are standard TL081 or TL082 which come with both elements packed in the same integrated circuit.
-</p>
 
 <p align="justify" style="font-size:90%">
 Fig. 6 and Movies 1.1-1.2 show our (early) implementation of the circuit, the movies show the transition from a periodic regime into chaos by tinkering with the variable resistor and measuring the voltage in the capacitors $C_1$ and $C_2$.
