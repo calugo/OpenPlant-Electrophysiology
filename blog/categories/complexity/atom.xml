@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Complexity | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/complexity/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T00:14:23+00:00</updated>
+  <updated>2017-03-15T00:19:26+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -317,24 +317,24 @@ With the aid of SynBio perhaps it will become straightforward to edit, engineer 
 
 <ol>
   <li>
-    <p><a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970"> Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a></p>
+    <p><a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a></p>
   </li>
   <li>
-    <p><a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">M. P. Kennedy Three steps to chaos. I. Evolution
+    <p><a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
 </a></p>
   </li>
   <li>
-    <p><a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">M. P. Kennedy Three steps to chaos. II. A Chua’s circuit primer</a></p>
+    <p><a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua’s circuit primer</a></p>
   </li>
   <li>
-    <p><a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">Q. Guo et al.J. R. Soc. Interface (2015)
+    <p><a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
 </a></p>
   </li>
   <li>
-    <p><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf"> Andreas Wagner, TIGS, 08, 397-410 (2011)</a></p>
+    <p><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a></p>
   </li>
   <li>
-    <p><a id="chuas"></a><a href="http://www.chuacircuits.com/">Valentin Sidersky’s Chua’s circuits page</a></p>
+    <p><a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky’s Chua’s circuits page</a></p>
   </li>
 </ol>
 ]]></content>
