@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Statistical Physics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/statistical-physics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T23:38:55+00:00</updated>
+  <updated>2017-03-15T23:40:50+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -179,7 +179,7 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
   <div class="row" align="center">
 
       <div class="col-xs-6" style="text-align:center">
-      <img align="center" class="img-responsive" src="/images/chuapic.png" width="250%" />
+      <img align="center" class="img-responsive" src="/images/chuapic.png" width="250" />
       </div>
 
       <div class="col-xs-6" style="text-align:center">
@@ -202,10 +202,10 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
       <div class="col-xs-6" style="text-align:center">
       <img align="center" class="img-responsive" src="/images/boxtest.jpg" width="300" />
       </div>
-        <div class="row" align="center">
+  <div class="row" align="center">
       <p align="justify" style="font-size:90%">
       Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
-      </div>
+  </div>
   </div>
 </div>
 
