@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Neurons | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/neurons/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T19:46:57+00:00</updated>
+  <updated>2017-03-15T19:51:31+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -147,7 +147,9 @@ Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is th
 </div>
 
 <p align="justify">
-In order to go from paper to workbench Figs. 5 and 6 illustrate schematics for the circuit. Figure 6 is particularly cool as it introduces a way to impement the not only the non-linear diode but also a designed replacement for the inductor element, which is not an easy component to find over the counter. The replacement is a <strong>gyrator circuit</strong> which makes the connection to SynBio more explicit as we are not only only employing standard operational amplifiers to generate a new designed behaviour, but also to replace an analogous component with an equivalent digitally designed one! The full set of component values is well documented in the great site of Valentin Sidersky <a href="http://www.chuacircuits.com/">chuacircuits.com</a>. What we show here largely follows the instructions there, however we do replace the use of the TL082, by a single IC with four operational amplifiers, namely the TL074.
+In order to go from paper to workbench Figs. 5 and 6 illustrate schematics for the circuit. Figure 6 is particularly cool as it introduces a way to impement the not only the non-linear diode but also a designed replacement for the inductor element, which is not an easy component to find over the counter.</p>
+<p align="justify">
+The replacement is a <strong>gyrator circuit</strong> and its use makes the connection to SynBio more explicit, we are not only making use of  standard operational amplifiers to generate a new designed behaviour (Chua&#8217;s diode), but also to replace an analogous component with an equivalent digitally designed one! The full set of component values is well documented in the great site of Valentin Sidersky <a href="http://www.chuacircuits.com/">chuacircuits.com</a>. What we show here largely follows the instructions there, however we do replace the use of the TL082, by a single IC with four operational amplifiers, namely the TL074.
 </p>
 
 <div style="text-align: center;">
