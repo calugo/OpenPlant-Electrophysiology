@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Muscles | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/muscles/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T18:16:57+00:00</updated>
+  <updated>2017-03-15T18:18:58+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -156,7 +156,7 @@ So, how to build a Chua circuit? We know what is required, now we need to go fro
      <img class="img-responsive" src="/images/chuaXX.png" width="300" />
      </div>
      <div class="col-xs-6" style="text-align:center">
-     <img class="img-responsive" src="/images/gyrator.png" width="270" />
+     <img class="img-responsive" src="/images/gyrator.png" height="20" />
      </div>
     <p align="justify" style="font-size:90%">
     Fig. 5: Circuit Schematics of the circuit devised by Chua, the key feature is the response of the non-linear for which the relationship voltage versus current is illustrated in the right panel.
