@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Complexity | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/complexity/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T22:53:39+00:00</updated>
+  <updated>2017-03-15T23:00:04+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -178,9 +178,13 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
 <div style="text-align: center;">
   <div class="row" align="center">
 
-    <div class="col-xs-12" style="text-align:center">
-    <img class="img-responsive" src="/images/chuasoldered.png" width="270" />
-    </div>
+      <div class="col-xs-12" style="text-align:center">
+      <img class="img-responsive" src="/images/chuapic.png" width="270" />
+      </div>
+
+      <div class="col-xs-12" style="text-align:center">
+      <img class="img-responsive" src="/images/chuasoldered.png" width="270" />
+      </div>
 
     <p align="justify" style="font-size:90%">
    Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
@@ -189,10 +193,10 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
 
   <div class="row" align="center">
       <div class="col-xs-6" style="text-align:center">
-      <img class="img-responsive" src="/images/chuacases.jpg" width="250" />
+      <img class="img-responsive" src="/images/luncbox.jpg" width="250" />
       </div>
       <div class="col-xs-6" style="text-align:center">
-      <img class="img-responsive" src="/images/chuacase.jpg" width="270" />
+      <img class="img-responsive" src="/images/boxtest.jpg" width="270" />
       </div>
       <p align="justify" style="font-size:90%">
       Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
