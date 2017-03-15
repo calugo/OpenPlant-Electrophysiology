@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Neurons | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/neurons/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T01:05:04+00:00</updated>
+  <updated>2017-03-15T01:13:05+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -50,7 +50,14 @@ The linear spring (aka harmonic oscillator) is a very useful idealisation used t
 To illustrate the  equivalence we now turn or attention to the Lorenz system as a working example. We choose this for simplicity but the links and experiments described below can and have been done for several other systems relevant to different fields such as the membrane action potential in neurons developed by Hodgkin-Huxley, its reduced version by Fitzhugh-Nagumo, the relaxation oscillatory system by Van der Pol, the chaotic spiral attractor system of Rossler, and many more!
 </p>
 
-<p align="left" style="font-style:italic" color="#c0c0c0">The paradigmatic Lorenz system and Chua&#8217;s circuit</p>
+<p>&lt;p align=”left” style=”font-style:italic color:#290066;”“&gt;The paradigmatic Lorenz system and Chua’s circuit&lt;/p&gt;</p>
+
+<div style="text-align: center;">
+<img class="img-responsive" src="/images/xyzchaosB.png" width="700" />
+<p align="justify" style="font-size:90%">
+Fig. 1: Trajectory in the <i>phase space</i> defined as the space in which the variables x, y and z are plotted against each other, the trajectory is generated as time changes. This particular trajectory corresponds to parameter values where the system is chaotic (it never closes) showing the classical butterfly-like shape. The figure also shows projections of the trajectory over each of the two dimensional subspaces x-y, x-z  and y-z.
+</p>
+</div>
 
 <p align="left">
 The Lorenz system is described by the system of ordinary differential equations below:
@@ -65,19 +72,12 @@ The Lorenz system is described by the system of ordinary differential equations 
 \end {array}
  %]]&gt;</script>
 
-<div style="text-align: center;">
-<img class="img-responsive" src="/images/xyzchaosB.png" width="700" />
-<p align="justify" style="font-size:90%">
-Fig. 1: Trajectory in the <i>phase space</i> defined as the space in which the variables x, y and z are plotted against each other, the trajectory is generated as time changes. This particular trajectory corresponds to parameter values where the system is chaotic (it never closes) showing the classical butterfly-like shape. The figure also shows projections of the trajectory over each of the two dimensional subspaces x-y, x-z  and y-z.
-</p>
-</div>
-
 <p align="justify">
 This elegant system was originally intended to model a three dimensional convective flow and has been studied extensively, it depends of three parameters $\sigma$, $\rho$ and $\beta$ and it can be used not only as a &#8216;weather model&#8217;  but also as a generic model for chemical reactions and as we shall see as a basis for a non-linear tunable circuit. The equivalent reaction network can be found in  <a href="#Circuits">[1]</a>, and is obtained by assumming  three reactive products $X$, $Y$ and $Z$ where $x$, $y$ and $z$ stand for their respective concentrations, and standard &#8220;law of mass action&#8221; type of interaction, then the following a reaction scheme can be derived which is governed by a Lorenz system in the first octant.
 </p>
 
 <p align="justify">
-The translation into a reaction scheme is slightly elaborate and well beyond this post, we only would like to stress the need to include a number of dummy species $A_i$&#8217;s and $P_i$&#8217;s ($i=1,2,&#8230;$). The former are kept at a constant concentration $[A_i]$ whereas the latter are unreactive products, these are introduced to keep the chemical concentrations always positive.
+The translation into a reaction scheme is slightly elaborate, we only would like to stress the need to include a number of dummy species $A_i$&#8217;s and $P_i$&#8217;s ($i=1,2,&#8230;$). The former are kept at a constant concentration $[A_i]$ whereas the latter are unreactive products, these are introduced to keep the chemical concentrations always positive.
 </p>
 
 <p align="justify">
@@ -99,10 +99,10 @@ Fig. 3: Solutions of the Lorenz system as a function of time in the chaotic regi
 </div>
 
 <p align="justify">
-The fact that the same circuit topology leads to very different behaviours is the key in our entire discussion. If we think in biological terms we could say that the change in the expression levels of our very nicely periodic system can undergo a severe transition to a chaotic state due to a simple change in one of the intrinsic parameters of the system cause for instance by a mutation.
+The fact that the same circuit topology leads to very different behaviours is the key in our entire discussion. If we think in biological terms we could say that the change in the expression levels of our very nicely periodic system can undergo a severe transition to a chaotic state due to a simple change in one of the intrinsic parameters of the system, this could be  caused for instance by a mutation.
 </p>
 <p align="justify">
-The circuit possesses very different &#8216;phenotypes&#8217; despite being described by the same circuitry! We will come back to this later, but first let us take the discussion one step further, into the realm of  designing and building a physical implementation of the system.
+The circuit possesses very different &#8216;phenotypes&#8217; despite being described by the same circuitry. We will come back to this later, but first let us take the discussion one step further, into the realm of  designing and building a physical implementation of the system.
 </p>
 
 <div style="text-align: center;">
