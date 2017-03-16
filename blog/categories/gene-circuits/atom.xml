@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gene Circuits | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/gene-circuits/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-16T13:43:41+00:00</updated>
+  <updated>2017-03-16T19:27:19+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -170,10 +170,7 @@ The full set of component values is well documented in the great site of Valenti
 </div>
 
 <p align="justify">
-Fig. 7 shows several iterations of the circuits build for demonstrating purposes, as detailed somewhere in the experiments entry, we have used these to study synchronisation phenomena, our monitoring software and the dynamics of the circuit itself, also the videos below the figure show the circuit in action, we control the transition to chaos by allowing two resistors in the circuit to be adjustable (potentiotemers).</p>
-
-<p align="justify"> In the figure we show an early breadboard version and two soldered versions, the former does use two TL082, but as mentioned in the previous paragraphs we used TL074 IC which enclose four operational amplifiers and make the implementation far simpler.
-</p>
+Fig. 7 shows one of the several iterations we build of the circuit for demonstrating purposes, we have used these to study synchronisation phenomena, the functionality of our data collection and analysis software and the dynamics of the circuit itself, also we present a video of the circuit in action!  The transition to chaos is modulated by allowing two resistors in the circuit to be adjustable (potentiotemers). In our realisation of the circuits we use a single TL074 IC opposed to two TL082, this makes the implementation sigthtly simpler. </p>
 
 <div style="text-align: center;">
   <div class="row" align="center">
@@ -190,7 +187,7 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
 
   <div class="row" align="center">
   <p align="justify" style="font-size:90%">
-  Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
+  Fig. 6: Circuit replacing the inductor by a sythetic gyrator circuit.  A detailed description of the circuit&#8217;s component values can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
   </div>
 
 
@@ -201,11 +198,11 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
       </div>
       <div class="col-xs-6" style="text-align:center">
       <img align="center" class="img-responsive" src="/images/atract.jpg" width="300" />
-      </div>
+  </div>
+
   <div class="row" align="center">
       <p align="justify" style="font-size:90%">
-      Fig. 6: Our early version of the circuit replacing the inductor by a sythetic one provided by a gyrator circuit.  Detailed description of the circuit can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
-  </div>
+      Fig. 6: The circuit in action! Plot of the time-series $V_1$ and $V_2$ across the capacitors and against each other in the attractor&#8217;s regime.</p>
   </div>
 </div>
 
@@ -215,7 +212,7 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
  Your browser does not support the video tag.
 </video>
 <p align="justify" style="font-size:90%">
-Movie 1.1: Implementation of the circuit, in the video we show the transition from periodic to a single scroll then to a double scroll, the oscilloscope also show the time traces for $C_1$ and $C_2$ which pretty much resemble the ones obtained solving Lorenz equations.
+Movie 1.1:  Little movie showing the adjustable parameters in an oscilloscope of the voltages across $C_1$ and $C_2$, note the resemblance to the theoretical time-series described at the beginning of the post.
 </p>
 </div>
 
@@ -223,70 +220,64 @@ Movie 1.1: Implementation of the circuit, in the video we show the transition fr
 So that is it!, that is how one builds a Lorenz-like circuit!, What else then? What about the plants? where does all this fits into plant sciences?, the answer is basically everywhere!. Action potentials triggered by mechanical or chemical stimuli have been studied for a long time as they do exhibit the basic features of an <strong>integrate and fire</strong> oscillator.
 </p>
 
+
+<p align="left" style="font-style:italic; color:#290066;">Excitable systems: Cells, Plants and Mechanics.</p>
+
 <p align="justify">These type of oscillators are characterised by a set of features such as:</p>
 
-<ul>
-  <li>
-    <p>All or nothing response to stimuli (unless a threshold is reached)</p>
-  </li>
-  <li>
-    <p>A refractory period (The systems is not able to trigger again unless it has reached its basal level)</p>
-  </li>
-</ul>
-<p>&lt;/p&gt;
-&lt;p align=&#8217;justify&#8217;&gt;
-In many ways certain plants behave like neurons or myocytes!, spiking violently after a sustained perturbation. This have led to a varied number of investigators to attempt to understand such dynamics
-using the techniques described so far.&lt;/p&gt;</p>
+* All or nothing response to stimuli (unless a threshold is reached)
 
-<p>Some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review <a href="#plants">[4]</a> for instace.)</p>
+* A refractory period (The systems is not able to trigger again unless it has reached its basal level)
+
+<p align="justify">
+In many ways certain plants behave like neurons or myocytes!, spiking violently after a sustained perturbation. This have led to a varied number of investigators to attempt to understand such dynamics
+using the techniques described so far.</p>
+
+Some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review [\[4\]](#plants) for instace.)
 
 <p align="justify"> In our case we are interested in studying several rhythms by coupling certain response plants with electonic circuits which might the trigger some electrical stimuli which then difusses to other plants or on the way back to the plant, we are interested in studying the phenomena called &#8220;synchronisation&#8221;.</p>
 
 <p align="justify">
 Chemical   signal carriers and triggers such as those of calcium are yet to be fully characterised for several  plant processes such as growth and interaction with the environment, and our little electrogram machines might be of use to understand such roles which of course in the much more cost effective realm of plant sciences compared to those of neurons or cardiac cells!</p>
 
-<p>Innovation in the phenotype originates at the molecular level in at least one of the three levels of organisation described by genetics, gene regulation circuits and metabolic networks <a href="#Wagner">[1]</a>.</p>
+
+
+Innovation in the phenotype originates at the molecular level in at least one of the three levels of organisation described by genetics, gene regulation circuits and metabolic networks [\[1\]](#Wagner).
 
 <p align="justify">
 This classification of genotype classes which belong to levels of organization scales apart immediatley invites to postulate an analogy with similar systems well studied in the engineering and physical sciences where innovation has evolved not as natural process but also by design.
 </p>
 
+
+
 <p align="justify">
 A way to be explict in the connections
 we are trying to build is to briefly present a quintessential example of how innovation by design can go back and forth from an idea to a real life implementation.  Our example coincidentally will also touch a deeper connection between the plant systems we are trying to study and contemporary ideas of &#8220;emergence&#8221; and the nature of the &#8220;laws&#8221; of biology.</p>
 
-<p>Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis,as hinted earlier, it allows to test  the interplay of the three levels of organisation in which evolution acts: genetics, gene regulation circuits and metabolic networks <a href="#Wagner">[1]</a>.</p>
+Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis,as hinted earlier, it allows to test  the interplay of the three levels of organisation in which evolution acts: genetics, gene regulation circuits and metabolic networks [\[1\]](#Wagner).
 
 <p align="justify">
 With the aid of SynBio perhaps it will become straightforward to edit, engineer and test the robustness and evolvability  of each of those genotype classes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
 </p>
 
-<p>Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits <a href="#chaosI">[2]</a> and <a href="#chaosII">[3]</a> about linearity and non-linearity of circuits and the Chua system.</p>
+Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits [\[2\]](#chaosI) and [\[3\]](#chaosII) about linearity and non-linearity of circuits and the Chua system.
 
-<h2 id="references">References.</h2>
+## References.
 
-<ol>
-  <li>
-    <p><a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a></p>
-  </li>
-  <li>
-    <p><a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
-</a></p>
-  </li>
-  <li>
-    <p><a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua’s circuit primer</a></p>
-  </li>
-  <li>
-    <p><a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
-</a></p>
-  </li>
-  <li>
-    <p><a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a></p>
-  </li>
-  <li>
-    <p><a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky’s Chua’s circuits page</a></p>
-  </li>
-</ol>
+1. <a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a>
+
+2. <a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
+</a>
+
+3. <a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua&#8217;s circuit primer</a>
+
+4. <a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
+</a>
+
+5. <a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
+
+6. <a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
+</div>
 ]]></content>
   </entry>
   
