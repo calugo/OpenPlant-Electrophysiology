@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Muscles | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/muscles/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-15T23:40:50+00:00</updated>
+  <updated>2017-03-16T00:17:11+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -211,21 +211,11 @@ Fig. 7 shows several iterations of the circuits build for demonstrating purposes
 
 <div align="center">
 <video width="320" height="240" controls="">
- <source src="/images/chua1.webm" type="video/mp4" />
+ <source src="/images/chua.webm" type="video/mp4" />
  Your browser does not support the video tag.
 </video>
 <p align="justify" style="font-size:90%">
 Movie 1.1: Implementation of the circuit, in the video we show the transition from periodic to a single scroll then to a double scroll, the oscilloscope also show the time traces for $C_1$ and $C_2$ which pretty much resemble the ones obtained solving Lorenz equations.
-</p>
-</div>
-
-<div align="center">
-<video width="320" height="240" controls="">
- <source src="/images/chua2.webm" type="video/mp4" />
- Your browser does not support the video tag.
-</video>
-<p align="justify" style="font-size:90%">
-Movie 1.2: The double scroll and the circuit in action!
 </p>
 </div>
 
