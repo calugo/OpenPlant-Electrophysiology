@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Neurons | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/neurons/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-16T19:31:07+00:00</updated>
+  <updated>2017-03-16T21:13:53+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -170,7 +170,7 @@ The full set of component values is well documented in the great site of Valenti
 </div>
 
 <p align="justify">
-Fig. 7 shows one of the several iterations we build of the circuit for demonstrating purposes, we have used these to study synchronisation phenomena, the functionality of our data collection and analysis software and the dynamics of the circuit itself, also we present a video of the circuit in action!  The transition to chaos is modulated by allowing two resistors in the circuit to be adjustable (potentiotemers). In our realisation of the circuits we use a single TL074 IC opposed to two TL082, this makes the implementation sigthtly simpler. </p>
+Fig. 7 shows one of the several iterations we built of the circuit for demonstrating purposes, we have used these to study synchronisation phenomena, the functionality of our data collection and analysis software and the dynamics of the circuit itself, and most importantly to use it as an example of the routes one can take to investigate a system, from mechanics to chemistry to maths to the workbench and viceversa to design and build a device with standard components which acting together are much more than the sum of their individual contributions.</p>
 
 <div style="text-align: center;">
   <div class="row" align="center">
@@ -200,11 +200,16 @@ Fig. 7 shows one of the several iterations we build of the circuit for demonstra
       <img align="center" class="img-responsive" src="/images/atract.jpg" width="300" />
   </div>
 
+
+
   <div class="row" align="center">
       <p align="justify" style="font-size:90%">
       Fig. 6: The circuit in action! Plot of the time-series $V_1$ and $V_2$ across the capacitors and against each other in the attractor&#8217;s regime.</p>
   </div>
 </div>
+
+<p align="justify">
+Below, we also we present a video of the circuit in action!  The transition to chaos is modulated by allowing two resistors in the circuit to be adjustable (potentiotemers). In our realisation of the circuits we use a single TL074 IC opposed to two TL082, this makes the implementation sigthtly simpler. </p>
 
 <div align="center">
 <video width="320" height="240" controls="">
@@ -217,17 +222,22 @@ Movie 1.1:  Little movie showing the adjustable parameters in an oscilloscope of
 </div>
 
 <p align="justify">
-So that is it!, that is how one builds a Lorenz-like circuit!, What else then? What about the plants? where does all this fits into plant sciences?, the answer is basically everywhere!. Action potentials triggered by mechanical or chemical stimuli have been studied for a long time as they do exhibit the basic features of an <strong>integrate and fire</strong> oscillator.
+So that is it!, that is how one builds a Lorenz-like circuit!, What else then?  Well we now briefly discuss a little bit about some other types of excitable systems, like the ones found in cells and certain plants in which  action potentials are triggered by mechanical or chemical stimuli. These have been studied for a long time and some of them belong to what it is called <strong>integrate and fire</strong> oscillators.
 </p>
 
 
-<p align="left" style="font-style:italic; color:#290066;">Excitable systems: Cells, Plants and Mechanics.</p>
+<p align="left" style="font-style:italic; color:#290066;">Excitable systems: cells, plants and mechanics.</p>
 
 <p align="justify">These type of oscillators are characterised by a set of features such as:</p>
 
-* All or nothing response to stimuli (unless a threshold is reached)
+<ul>
 
-* A refractory period (The systems is not able to trigger again unless it has reached its basal level)
+ <li>All or nothing response to stimuli (unless a threshold is reached)</li>
+
+ <li> A refractory period (The systems is not able to trigger again unless it has reached its basal level)</li>
+
+<ul>
+
 
 <p align="justify">
 In many ways certain plants behave like neurons or myocytes!, spiking violently after a sustained perturbation. This have led to a varied number of investigators to attempt to understand such dynamics
@@ -277,7 +287,7 @@ Finally we strongly recommend to the interested reader with some mathematical li
 5. <a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
 
 6. <a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
-</div>
+</ul></ul></div>
 ]]></content>
   </entry>
   
