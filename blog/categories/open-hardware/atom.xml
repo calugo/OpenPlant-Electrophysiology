@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open Hardware | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/open-hardware/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T01:46:08+00:00</updated>
+  <updated>2017-03-17T01:47:21+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -43,7 +43,7 @@ Our aim was to produce a simple but good enough system to observe plant depolari
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/board1.png" width="700" />
-&lt;p align=&#8217;justify&#8217;<p align="justify" style="font-size:90%">
+<p align="justify" style="font-size:90%">
 Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
 </p>
 </div>
