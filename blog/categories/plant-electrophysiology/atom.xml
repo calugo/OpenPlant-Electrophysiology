@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plant Electrophysiology | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/plant-electrophysiology/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T03:32:14+00:00</updated>
+  <updated>2017-03-17T03:35:31+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -380,7 +380,7 @@ has a specific function, it is important the way the ICs are inserted in their p
 find the position of the three ICs – and their orientation – on the images of the board.
 </p>
 
-<h4><a id="cnyled"></a>2.5.- Connectors and LED.</h4>
+<h4 id="a-idcnyleda-25--connectors-and-leds"><a id="cnyled"></a> <strong><em>2.5.- Connectors and LEDs:</em></strong></h4>
 
 <p align="justify">
 There is a LED (light emitting diode) to show when the board is on. This is a sort
