@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T02:17:33+00:00</updated>
+  <updated>2017-03-17T02:44:39+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -150,20 +150,24 @@ boards from  <a href="http://www.st.com/en/evaluation-tools/stm32-mcu-
 nucleo.html?querycriteria=productId=LN1847">Stmicroelectronics </a> and the <a href="http://www.nxp.com/products/software-and-tools/hardware-development-tools/freedom-
 development-boards:FREDEVPLA"> Freedom Development Boards </a>
  from NXP) which provide higher resolution ADCs (12 to 16 bits) and more
-processing power then Arduino, still at a very low price.</p>
+processing power than Arduino, still at a very low price.</p>
 
 <div style="text-align: center;">
-<img class="img-responsive" src="/images/EPKIT/image001.png" width="700" />
-<p align="justify" style="font-size:90%">
-Fig. 1: The original Backyard Brains Plant Spikershield.
-</p>
+   <div class="row" align="center">
+    <img class="img-responsive" src="/images/EPKIT/image001.png" width="700" />
+    <p align="center" style="font-size:90%">
+      Fig. 1: The original Backyard Brains Plant Spikershield.
+    </p>
+   </div>
 </div>
 
 <div style="text-align: center;">
-<img class="img-responsive" src="/images/EPKIT/image003.png" width="700" />
-<p align="justify" style="font-size:90%">
-Fig. 2: Our version of the Plant Spikershield.
-</p>
+  <div class="row" align="center">
+    <img class="img-responsive" src="/images/EPKIT/image003.png" width="700" />
+    <p align="center" style="font-size:90%">
+      Fig. 2: Our version of the Plant Spikershield.
+    </p>
+  </div>
 </div>
 
 <h2 id="a-idkitawhats-in-the-kit"><a id="Kit"></a><strong><em>What’s in the kit?</em></strong></h2>
@@ -173,19 +177,24 @@ Fig. 2: Our version of the Plant Spikershield.
 <h3 id="a-idpcbapcb-board"><a id="pcb"></a><strong><em>PCB board.</em></strong></h3>
 
 <div style="text-align: center;">
-<p align="center">
-<img class="img-responsive" src="/images/EPKIT/image005.jpg" width="330" />
-<br />
-<font size="3">Front side.</font>
-</p>
-<p align="center">
-<img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
-<br />
-<font size="3">Backside (with one error&#8230;.. see below).</font>
-</p>
-<p align="justify" style="font-size:90%">
-Fig. 3: Board without components.
-</p>
+
+
+  <div class="row" align="center">
+    <img class="img-responsive" src="/images/EPKIT/image005.jpg" width="330" />
+    <p align="center" style="font-size:90%">
+    Front side.
+    </p>
+  </div>
+
+
+  <div class="row" align="center">
+    <img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
+    <p align="center" style="font-size:90%"> Backside (with one error&#8230;.. see below).
+    </p>
+  </div>
+  <p align="center" style="font-size:90%">
+  Fig. 3: Board without components.
+  </p>
 </div>
 
 <p>Once you have completed the board it should look like this:</p>
