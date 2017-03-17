@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T02:49:19+00:00</updated>
+  <updated>2017-03-17T02:51:26+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -192,11 +192,10 @@ processing power than Arduino, still at a very low price.</p>
     <p align="center" style="font-size:90%"> Backside (with one error&#8230;.. see below).
     </p>
   </div>
-
-  <div class="row" align="center" style="font-size:95%">
+  <div class="row" align="center">
     Fig. 3: Board without components.
   </div>
-  
+
 </div>
 
 <p>Once you have completed the board it should look like this:</p>
