@@ -4,7 +4,7 @@
   <title><![CDATA[OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T00:50:04+00:00</updated>
+  <updated>2017-03-17T00:52:31+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -188,8 +188,7 @@ Fig. 7 shows one of the several iterations we built of the circuit for demonstra
   <div class="row" align="center">
   <p align="justify" style="font-size:90%">
   Fig. 6: Circuit replacing the inductor by a sythetic gyrator circuit.  A detailed description of the circuit&#8217;s component values can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
-  </div>
-
+ </div>
 
 
   <div class="row" align="center">
@@ -198,14 +197,14 @@ Fig. 7 shows one of the several iterations we built of the circuit for demonstra
       </div>
       <div class="col-xs-6" style="text-align:center">
       <img align="center" class="img-responsive" src="http://calugo.github.io//images/atract.jpg" width="300" />
+      </div>
   </div>
-
-
 
   <div class="row" align="center">
       <p align="justify" style="font-size:90%">
       Fig. 6: The circuit in action! Plot of the time-series $V_1$ and $V_2$ across the capacitors and against each other in the attractor&#8217;s regime.</p>
   </div>
+
 </div>
 
 <p align="justify">
@@ -224,7 +223,6 @@ Movie 1.1:  Little movie showing the adjustable parameters in an oscilloscope of
 <p align="justify">
 So that is it!, that is how one builds a Lorenz-like circuit!, What else then?  Well we now briefly discuss a little bit about some other types of excitable systems, like the ones found in cells and certain plants in which  action potentials are triggered by mechanical or chemical stimuli. These have been studied for a long time and some of them belong to what it is called <strong>integrate and fire</strong> oscillators.
 </p>
-
 
 <p align="left" style="font-style:italic; color:#290066;">Excitable systems: cells, plants and mechanics.</p>
 
@@ -272,7 +270,6 @@ Finally we strongly recommend to the interested reader with some mathematical li
 <p align="left">
 <a id="chuas"></a><a href="http://www.chuacircuits.com/">[6] Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
 </p>
-</div>
 ]]></content>
   </entry>
   
