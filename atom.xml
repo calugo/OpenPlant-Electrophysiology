@@ -4,7 +4,7 @@
   <title><![CDATA[OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T00:43:41+00:00</updated>
+  <updated>2017-03-17T00:48:20+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -242,35 +242,35 @@ For the case of plants, Venus Flytraps and Mimosas to mention some, have driven 
 Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis, as exposed earlier, with the aid of mathematical modelling, operating in several levels such as genetical, regulatory, metabolic <a href="#Wagner">[1]</a>) or  environmental, and assist SynBio researchers in testing the robustness and evolvability of engineered phenotypes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.</p>
 
 <p align="justify">
-Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits <a href="#chaosI">[3]</a> and <a href="#chaosII">[3]</a> about linearity and non-linearity of circuits and the Chua system.
+Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits <a href="#chaosI">[2]</a> and <a href="#chaosII">[3]</a> about linearity and non-linearity of circuits and the Chua system.
 </p>
 
-## References.
+<h2>References.</h2>
 
 <p align="left">
-<a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a>
+<a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">[1] Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a>
 </p>
 
 <p align="left">
-<a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
+<a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">[2] M. P. Kennedy Three steps to chaos. I. Evolution
 </a>
 </p>
 
 <p align="left">
-<a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua&#8217;s circuit primer</a>
+<a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">[3] M. P. Kennedy Three steps to chaos. II. A Chua&#8217;s circuit primer</a>
 </p>
 
 <p align="left">
-<a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
+<a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">[4] Q. Guo et al.J. R. Soc. Interface (2015)
 </a>
 </p>
 
 <p align="left">
-<a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
+<a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">[5] Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
 </p>
 
 <p align="left">
-<a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
+<a id="chuas"></a><a href="http://www.chuacircuits.com/">[6] Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
 </p>
 </div>
 ]]></content>
