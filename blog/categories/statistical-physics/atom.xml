@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Statistical Physics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/statistical-physics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T00:21:48+00:00</updated>
+  <updated>2017-03-17T00:28:04+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -228,7 +228,7 @@ So that is it!, that is how one builds a Lorenz-like circuit!, What else then?  
 
 <p align="left" style="font-style:italic; color:#290066;">Excitable systems: cells, plants and mechanics.</p>
 
-<p align="justify">These type of oscillators are characterised by a set of features such as:</p>
+<p align="justify">Integrate and fire systems are characterised by a set of features such as:</p>
 
  <p align="left">The existence of an intrinsic threshold in the oscillator against external perturbations</p>
 
@@ -237,16 +237,16 @@ So that is it!, that is how one builds a Lorenz-like circuit!, What else then?  
  <p align="left"> A refractory period (The systems is not able to trigger again unless it has reached its basal level)</p>
 
 <p align="justify">
-Disregarding the partuclars of the shape and several mechanisms involved in the action potential, cells such as neurons or myocytes, circuits and even plants can be modelled to some extent by intergrate and fire dynamics as they  spike after a sustained external input. Which make the attempt to understand such dynamics locally and globally a beautiful endeavour.</p>
+Cells such as neurons or myocytes, circuits and some plants can be modelled to some extent by intergrate and fire dynamics as they  spike after a sustained external input. Which make the attempt to understand such dynamics locally and globally a beautiful endeavour.</p>
 
 <p align="justify">
-For the case of plants, such as Venus Flytraps and Mimosas, some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking mechanisms alongside the mechanical properties of the systems to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review <a href="#plants">[4]</a> for instace.)
+For the case of plants, Venus Flytraps and Mimosas to mention some, have driven intedisciplinary teams research efforts trying harness the spiking mechanisms alongside their mechanical properties of to engineer sensors and bio-mechanical structures with multiple applications (See this excellent review <a href="#plants">[4]</a> for instace).</p>
 
 <p align="justify"> In our case we are interested in studying the resultant rhythms by coupling the plants with electonic circuits triggering electrical stimuli which then difusses to other plants or in a loop, by doing so we can  study synchronisation and its relation to the signalling network topolgy or circadian cycles.</p>
 
 &lt;p align=&#8221;justify&gt;&#8221;
 Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis, as exposed earlier, with the aid of mathematical modelling, operating in several levels such as genetical, regulatory, metabolic ()<a href="#Wagner">[1]</a>) or  environmental, and assist SynBio researchers in testing the robustness and evolvability of engineered phenotypes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
-</p>
+
 
 Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits [\[2\]](#chaosI) and [\[3\]](#chaosII) about linearity and non-linearity of circuits and the Chua system.
 
