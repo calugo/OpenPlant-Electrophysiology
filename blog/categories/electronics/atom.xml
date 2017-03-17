@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T00:55:50+00:00</updated>
+  <updated>2017-03-17T01:28:28+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -18,9 +18,10 @@
     <link href="http://calugo.github.io//blog/2017/02/13/Electronics/"/>
     <updated>2017-02-13T23:09:28+00:00</updated>
     <id>http://calugo.github.io//blog/2017/02/13/Electronics</id>
-    <content type="html"><![CDATA[<h4 id="pcbs-files-guide----more---">PCBs files guide! <!-- more --></h4>
+    <content type="html"><![CDATA[<p align="left" style="font-style:italic; color:#290066;">Arduino shield files guide!</p>
+<!-- more -->
 
-<h2 id="index">Index</h2>
+<p align="left" style="font-style:italic; color:#290066;">Index</p>
 <ol>
   <li><a href="#Intro">The OpenPlant Shield</a></li>
   <li><a href="#Files">Files guide</a></li>
@@ -42,7 +43,7 @@ Our aim was to produce a simple but good enough system to observe plant depolari
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/board1.png" width="700" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
 </p>
 </div>
@@ -59,7 +60,7 @@ Some of the possible improvements for the SpikeShield design include increasing 
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/board2.png" width="700" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig. 2: Our two-layer board. The board is compatible with both Arduino and Freedom development boards.
 </p>
 </div>
@@ -72,7 +73,7 @@ The first batch of PCBs we are delivering can be used as an Arduino shield or di
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/board3.png" width="700" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom Development board for Kinetis K64, Bottom: Out two-layer board
 </p>
 </div>
@@ -84,7 +85,7 @@ The first deliverable PCB boards have been produced in a double-layer format (be
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/board4.png" width="700" />
-<p align="justify">
+<p align="justify" style="font-size:90%">
 Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
 </p>
 </div>
