@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T02:53:57+00:00</updated>
+  <updated>2017-03-17T02:57:06+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -178,21 +178,19 @@ processing power than Arduino, still at a very low price.</p>
 
 <div style="text-align: center;">
 
-
   <div class="row" align="center">
     <img class="img-responsive" src="/images/EPKIT/image005.jpg" width="330" />
     <p align="center" style="font-size:90%">
-    Front side.
+      Front side.
     </p>
   </div>
-
 
   <div class="row" align="center">
     <img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
     <p align="center" style="font-size:90%"> Backside (with one error&#8230;.. see below).
     </p>
   </div>
-  <div class="row" align="center">
+  <div align="center">
     Fig. 3: nBoard without components.
   </div>
 
