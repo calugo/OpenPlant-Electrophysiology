@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T02:57:06+00:00</updated>
+  <updated>2017-03-17T03:02:44+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -191,7 +191,7 @@ processing power than Arduino, still at a very low price.</p>
     </p>
   </div>
   <div align="center">
-    Fig. 3: nBoard without components.
+    Fig. 3: Board without components.
   </div>
 
 </div>
@@ -212,7 +212,7 @@ processing power than Arduino, still at a very low price.</p>
 <p align="center">
 <font size="3">Backside (with one error&#8230;.. see below).</font>
 </p>
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 4: Assembled Board.
 </p>
 </div>
@@ -238,7 +238,7 @@ Used to regulate the current in a circuit, their value is measured in Ohm (symbo
 
 </div>
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 5: Resistors.
 </p>
 
@@ -252,7 +252,7 @@ described in the following table:
 
 <img class="img-responsive" src="/images/EPKIT/image019.jpg" width="700" />
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 6: Resistor value tables (<a href="http://www.fluxmonkey.com/electronoize/fred.htm">http://www.fluxmonkey.com/electronoize/fred.htm</a>).
 </p>
 
@@ -282,7 +282,7 @@ Use the table to identify the resistors in your kit, and find their correct loca
 </div>
 </p>
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 7: A trimpot and its electrical symbol.
 </p>
 
@@ -328,7 +328,7 @@ charges/voltages).</p>
 
 </p>
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 8: Two electrolytic capacitors of capacity 10 μF and 1 μF.
 </p>
 
@@ -345,7 +345,7 @@ and correct orientation – on the board.</p>
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image029.jpg" width="700" />
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.
 </p>
 </div>
@@ -393,7 +393,7 @@ perform many different functions and often look like little insects with many le
 </div>
 </p>
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 10: Our two heroes, the AD623 and the TLC2272 ICs and a socket.
 </p>
 
@@ -434,7 +434,7 @@ damaged from the high temperature used for soldering (BTW,careful with the solde
 </div>
 </p>
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 11: The voltage splitter IC.
 </p>
 
@@ -499,7 +499,7 @@ to the microcontroller. Be very careful not to cut the long connectors, they are
 
 </div>
 
-<p align="justify" style="font-size:90%">
+<p align="center" style="font-size:90%">
 Fig. 13: Long connectors and signal jack.
 </p>
 
@@ -517,9 +517,9 @@ have been already placed in order to avoid blocking the holes with solder during
 
 <div class="row" style="text-align: center;">
 <div class="col-xs-6" style="text-align:center">
-&lt;p align&#8221;center&#8221;&gt;
+<p align="center">
 <img class="img-responsive" src="/images/EPKIT/image008.jpg" width="300" />
-
+</p>
 </div>
 <div class="col-xs-6" style="text-align:center">
 <p align="center">
