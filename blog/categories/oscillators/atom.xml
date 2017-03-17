@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Oscillators | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/oscillators/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-16T21:16:48+00:00</updated>
+  <updated>2017-03-17T00:21:48+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -230,44 +230,22 @@ So that is it!, that is how one builds a Lorenz-like circuit!, What else then?  
 
 <p align="justify">These type of oscillators are characterised by a set of features such as:</p>
 
-<ul align="left">
+ <p align="left">The existence of an intrinsic threshold in the oscillator against external perturbations</p>
 
- <li>All or nothing response to stimuli (unless a threshold is reached)</li>
+ <p align="left">All or nothing response to stimuli (unless a threshold is reached)</p>
 
- <li> A refractory period (The systems is not able to trigger again unless it has reached its basal level)</li>
-
-<ul>
-
+ <p align="left"> A refractory period (The systems is not able to trigger again unless it has reached its basal level)</p>
 
 <p align="justify">
-In many ways certain plants behave like neurons or myocytes!, spiking violently after a sustained perturbation. This have led to a varied number of investigators to attempt to understand such dynamics
-using the techniques described so far.</p>
-
-Some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review [\[4\]](#plants) for instace.)
-
-<p align="justify"> In our case we are interested in studying several rhythms by coupling certain response plants with electonic circuits which might the trigger some electrical stimuli which then difusses to other plants or on the way back to the plant, we are interested in studying the phenomena called &#8220;synchronisation&#8221;.</p>
+Disregarding the partuclars of the shape and several mechanisms involved in the action potential, cells such as neurons or myocytes, circuits and even plants can be modelled to some extent by intergrate and fire dynamics as they  spike after a sustained external input. Which make the attempt to understand such dynamics locally and globally a beautiful endeavour.</p>
 
 <p align="justify">
-Chemical   signal carriers and triggers such as those of calcium are yet to be fully characterised for several  plant processes such as growth and interaction with the environment, and our little electrogram machines might be of use to understand such roles which of course in the much more cost effective realm of plant sciences compared to those of neurons or cardiac cells!</p>
+For the case of plants, such as Venus Flytraps and Mimosas, some intedisciplinary teams have taken the research of these systems even further! by trying exploit harness the spiking mechanisms alongside the mechanical properties of the systems to engineer sensors and bio-mechanical structures with multiple applications.  (See this excellent review <a href="#plants">[4]</a> for instace.)
 
+<p align="justify"> In our case we are interested in studying the resultant rhythms by coupling the plants with electonic circuits triggering electrical stimuli which then difusses to other plants or in a loop, by doing so we can  study synchronisation and its relation to the signalling network topolgy or circadian cycles.</p>
 
-
-Innovation in the phenotype originates at the molecular level in at least one of the three levels of organisation described by genetics, gene regulation circuits and metabolic networks [\[1\]](#Wagner).
-
-<p align="justify">
-This classification of genotype classes which belong to levels of organization scales apart immediatley invites to postulate an analogy with similar systems well studied in the engineering and physical sciences where innovation has evolved not as natural process but also by design.
-</p>
-
-
-
-<p align="justify">
-A way to be explict in the connections
-we are trying to build is to briefly present a quintessential example of how innovation by design can go back and forth from an idea to a real life implementation.  Our example coincidentally will also touch a deeper connection between the plant systems we are trying to study and contemporary ideas of &#8220;emergence&#8221; and the nature of the &#8220;laws&#8221; of biology.</p>
-
-Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis,as hinted earlier, it allows to test  the interplay of the three levels of organisation in which evolution acts: genetics, gene regulation circuits and metabolic networks [\[1\]](#Wagner).
-
-<p align="justify">
-With the aid of SynBio perhaps it will become straightforward to edit, engineer and test the robustness and evolvability  of each of those genotype classes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
+&lt;p align=&#8221;justify&gt;&#8221;
+Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis, as exposed earlier, with the aid of mathematical modelling, operating in several levels such as genetical, regulatory, metabolic ()<a href="#Wagner">[1]</a>) or  environmental, and assist SynBio researchers in testing the robustness and evolvability of engineered phenotypes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
 </p>
 
 Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits [\[2\]](#chaosI) and [\[3\]](#chaosII) about linearity and non-linearity of circuits and the Chua system.
@@ -287,7 +265,7 @@ Finally we strongly recommend to the interested reader with some mathematical li
 5. <a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
 
 6. <a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
-</ul></ul></div>
+</div>
 ]]></content>
   </entry>
   
