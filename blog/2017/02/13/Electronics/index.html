@@ -73,7 +73,7 @@ in
         <p align="left" style="font-style:italic; color:#290066;">Arduino shield files guide!</p>
 <!-- more -->
 
-<p align="left" style="font-style:italic; color:#290066;">Index</p>
+<h2 id="index">Index</h2>
 <ol>
   <li><a href="#Intro">The OpenPlant Shield</a></li>
   <li><a href="#Files">Files guide</a></li>
@@ -81,27 +81,27 @@ in
 
 <h2 id="a-idintroa-the-openplant-shield"><a id="Intro"></a> The OpenPlant Shield:</h2>
 <p align="justify">
-In order to provide a cheap alternative to professional-grade plant electrophysiology recorders, in the past years a number of DIY/Open Source approaches have been produced. Some of these approaches are very comprehensive and can easily substitute laboratory-level equipment (e.g. <a href="http://mobilecg.hu">Mobilecg</a>,  <a href="http://openeeg.sourceforge.net">Openeg</a>,  <a href=" http://openbci.com">Openbci</a>, <a href=" http://openeeg.sourceforge.net">Open-ephys</a>) but are far too complicated and expensive for the amateur of the average school, requiring advanced electronic skills to produce and use the equipment.  
+In order to provide a cheap alternative to professional-grade plant electrophysiology recorders, a number of DIY/open-source approaches have been produced. Some of these are very comprehensive and can easily substitute laboratory-level equipment (e.g. <a href="http://mobilecg.hu">Mobilecg</a>,  <a href="http://openeeg.sourceforge.net">Openeg</a>,  <a href=" http://openbci.com">Openbci</a>, <a href=" http://openeeg.sourceforge.net">Open-ephys</a>) but are far too complicated and expensive for the amateur of the average school, requiring advanced electronic skills to produce and use the equipment.  
 </p>
 <p align="justify">
-Our aim was to produce a simple but good enough system to observe plant depolarization potentials and make it easy enough for a reasonably skilled person to actually make one at home, using easily available electronic components.  In a later stage we also want to extend the system to allow injection of electrical stimuli and study plant reactions and electrical pulses synchronization and oscillations. </p>
+Our aim was to produce a simple but good enough system to observe plant depolarization potentials and make it simple enough for any reasonably skilled person to make one at home, using over the counter electronic components.  In a later stage we also want to extend the system to allow injection of electrical stimuli and study plant reactions and electrical pulses synchronization and oscillations. </p>
 
 <p align="justify">
- Out of the various Open Source approaches available one seems close in spirit to ours. It is the Plant SpikerShield from  <a href="https://backyardbrains.com/products/plantspikershield"> Backyard Brains </a>, which is in essence a simple front end low-noise amplifier aimed at being interfaced to an Arduino-compatible board which provides the analog to digital conversion and the connection to a PC where the signal is recorded and analysed.</p>
+ Out of the various open-source approaches available one seems close in spirit to ours. It is the Plant SpikerShield from  <a href="https://backyardbrains.com/products/plantspikershield"> Backyard Brains </a>, which is in essence a simple front end low-noise amplifier aimed at being interfaced to an Arduino-compatible board which provides the analog to digital conversion and the connection to a PC where the signal is recorded and analysed.</p>
 
 <p align="justify">
- However we found the SpikerShield´s cost is still too high to allow purchase of multiple devices needed in a school environment - the bundle including an Arduino, the frontend board and a few more support parts cost around $190. The SpikerShield board is also difficult to produce by DIY-ers because it is a double-layer one. Double-layer PCBs are difficult to produce at home, because they require precise alignment of the traces on the two sides of the board, moreover it is not possible to produce traces connecting the two sides and therefore they require many wire bridges.
+ However we found the SpikerShield´s cost is still too high to allow purchase of multiple devices needed in a school environment - the bundle including an Arduino, the frontend board and a few more support parts cost around 190 USD. The SpikerShield board is also difficult to produce by DIY-ers because it is a double-layer one. Double-layer PCBs are difficult to produce at home, because they require precise alignment of the traces on the two sides of the board, moreover it is not possible to produce traces connecting the two sides and therefore they require many wire bridges.
 </p>
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/board1.png" width="700" />
-<p align="justify" style="font-size:90%">
+&lt;p align=&#8217;justify&#8217;<p align="justify" style="font-size:90%">
 Fig. 1: Early versions of the board. From the left: Original SpikerShield, first version of our board (a.k.a. “the mini”) with standard 0.1’ connectors to be mounted on a prototype board, and first version (single layer) of the Arduino Shield version.
 </p>
 </div>
 
 <p align="justify">
-  Our take on the SpikerShield was to develop a single-layer board that is easily to produce at home for a total cost of about £20. The more delicate task in producing a PCB is drilling the through holes for the components, which are typically very small (&lt; 1 mm) and need to be drilled precisely in order not to break the drill bit. To help with this we developed a DIY PCB drilling machine, and provide plans for its construction.
+  Our take on the SpikerShield was to develop a single-layer board that is easily to produce at home for a total cost of about £20. The more delicate task in producing a PCB is drilling through the holes for the components, which are typically very small (&lt; 1 mm) and need to be drilled precisely in order not to break the drill bit. To help with this we developed a DIY PCB drilling machine, and provide plans for its construction.
 </p>
 
 <p align="justify">
@@ -137,7 +137,7 @@ The first deliverable PCB boards have been produced in a double-layer format (be
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/OpenPlant-Electrophysiology/images/board4.png" width="700" />
-<p align="justify" style="font-size:90%">
+<p align="justify">
 Fig 4: The board mounted on the Freedom development board. When used with this board, a 12 bit DAC output is available.
 </p>
 </div>
