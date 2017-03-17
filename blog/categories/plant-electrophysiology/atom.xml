@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Plant Electrophysiology | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/plant-electrophysiology/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T03:28:21+00:00</updated>
+  <updated>2017-03-17T03:32:14+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -47,7 +47,7 @@ The bill of materials can be found  <a href="https://www.dropbox.com/s/s26cmqiml
 <p align="justify">
 The boards are modelled on the commercially available Backyard Brains Plant Spikershield. The
 electrical circuit is practically the same (apart from a little improvement on the $V_{ref}$, which is now
-provided by a specialized IC, U6 in our schematics).
+provided by a specialized IC, U6 in our schematics).</p>
 
 <p align="justify">
 The main difference is actually in the physical
@@ -77,13 +77,11 @@ processing power than Arduino, still at a very low price.</p>
   </div>
 </div>
 
+<h2 id="a-idkitawhats-in-the-kit"><a id="Kit"></a><strong><em>What’s in the kit?</em></strong></h2>
 
-## <a id="Kit"></a>**_What’s in the kit?_**
+<p>The kits we provide contain a number of elements which we describe below alongside a visual guide to put the board together.</p>
 
-The kits we provide contain a number of elements which we describe below alongside a visual guide to put the board together.
-
-### <a id="pcb"></a>**_PCB board._**
-
+<h3 id="a-idpcbapcb-board"><a id="pcb"></a><strong><em>PCB board.</em></strong></h3>
 
 <div style="text-align: center;">
 
@@ -105,7 +103,7 @@ The kits we provide contain a number of elements which we describe below alongsi
 
 </div>
 
-Once you have completed the board it should look like this:
+<p>Once you have completed the board it should look like this:</p>
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image009.png" width="700" />
@@ -126,15 +124,12 @@ Fig. 4: Assembled Board.
 </p>
 </div>
 
-
-
-
-### <a id="components"></a>**_2.-Components:_**
+<h3 id="a-idcomponentsa2-components"><a id="components"></a><strong><em>2.-Components:</em></strong></h3>
 <p>
 <br />
 </p>
 
-#### <a id="resistors"></a> **_2.1.- Resistors:_**
+<h4 id="a-idresistorsa-21--resistors"><a id="resistors"></a> <strong><em>2.1.- Resistors:</em></strong></h4>
 
 <p align="justify">
 Used to regulate the current in a circuit, their value is measured in Ohm (symbol Ω).
@@ -156,7 +151,6 @@ Used to regulate the current in a circuit, their value is measured in Ohm (symbo
 <p align="center" style="font-size:90%">
 Fig. 5: Resistors.
 </p>
-
 
 <p align="justify">
 Usual values range from units of Ohms to MΩ. In the kit you will find 4 different resistors, of values
@@ -181,9 +175,7 @@ Fig. 6: Resistor value tables (<a href="http://www.fluxmonkey.com/electronoize/f
 Use the table to identify the resistors in your kit, and find their correct location on the board.
 </p>
 
-
-#### <a id="trimpots"></a>**_2.2.- Trimpots:_**
-
+<h4 id="a-idtrimpotsa22--trimpots"><a id="trimpots"></a><strong><em>2.2.- Trimpots:</em></strong></h4>
 
 <p align="center">
 <div class="row" align="center">
@@ -222,7 +214,7 @@ external ones.
 It is not important in which direction you insert the trimpot, since we can then turn
 the control screw to correct the setting as needed.</p>
 
-#### <a id="capacitors"></a>**_2.3.- Capacitors:_**
+<h4 id="a-idcapacitorsa23--capacitors"><a id="capacitors"></a><strong><em>2.3.- Capacitors:</em></strong></h4>
 
 <p align="justify">
 Capacitors: these components are used to temporary store charge. There are many different types of
@@ -233,7 +225,7 @@ In the kit there are two different type of capacitors, electrolytic (relative la
 changing voltages/charge)  and ceramic capacitors (small capacity, used for fast changing
 charges/voltages).</p>
 
-#### **_Electrolytic Capacitors:_**
+<h4 id="electrolytic-capacitors"><strong><em>Electrolytic Capacitors:</em></strong></h4>
 
 <p align="center">
 
@@ -269,7 +261,7 @@ The kit should contain two capacitors of value
 10 μF and one of value 1 μF. Find their position –
 and correct orientation – on the board.</p>
 
-#### **_Ceramic capacitors:_**
+<h4 id="ceramic-capacitors"><strong><em>Ceramic capacitors:</em></strong></h4>
 
 <div style="text-align: center;">
 <img class="img-responsive" src="/images/EPKIT/image029.jpg" width="700" />
@@ -277,7 +269,6 @@ and correct orientation – on the board.</p>
 Fig. 9: Two ceramic capacitors of capacity 10nF and 560 pF.
 </p>
 </div>
-
 
 <p align="justify">
 Ceramics capacitors are much smaller than
@@ -290,12 +281,11 @@ Notice that ceramic capacitors are not polarized
 and (like resistors) can be reversed without
 problems.</p>
 
-#### <a id="ics"></a> **_2.4.- Integrated Circuits._**
+<h4 id="a-idicsa-24--integrated-circuits"><a id="ics"></a> <strong><em>2.4.- Integrated Circuits.</em></strong></h4>
 
 <p align="justify">
 Integrated circuits are complex miniaturized circuits that can
 perform many different functions and often look like little insects with many legs.</p>
-
 
 <p align="center">
 
@@ -326,7 +316,6 @@ perform many different functions and often look like little insects with many le
 <p align="center" style="font-size:90%">
 Fig. 10: Our two heroes, the AD623 and the TLC2272 ICs and a socket.
 </p>
-
 
 <p align="justify">
 These two ICs performs similar functions in the board (they both amplify the small electrical signals
@@ -420,7 +409,6 @@ Fig. 12: LED and male connectors, notice that the LED has also an orientation, t
 appropiate orientation for soldering the LED (flat part pointing outwards the board).
 </p>
 
-
 <p align="justify">
 There is also a number of connectors which should be soldered into the board for it to be connected
 to the microcontroller. Be very careful not to cut the long connectors, they are necessary for the board to
@@ -451,8 +439,7 @@ Fig. 13: Long connectors and signal jack.
 As illustrated in the figure of the completed version of the board there are two jacks which also need to be soldered to get the input and output signals in and out the board.
 </p>
 
-
-## <a id="corr"></a>**_Correction and a word of caution._**
+<h2 id="a-idcorracorrection-and-a-word-of-caution"><a id="corr"></a><strong><em>Correction and a word of caution.</em></strong></h2>
 
 <p align="justify">
 There is a little mistake on the PCB. Cut the trace at the two red signs and add a connection as
@@ -483,7 +470,6 @@ Fig. 14: Soldering face of the board and detailed illustration of the correction
 
 <p align="justify">
 Finally, please be very careful only to solder in the face with no printed symbols.
-</p>
 </p>
 ]]></content>
   </entry>
