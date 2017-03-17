@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Electronics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/electronics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T01:47:21+00:00</updated>
+  <updated>2017-03-17T01:54:38+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -80,7 +80,7 @@ Fig 3: Comparison of the boards. Top left: Arduino Uno board, Top right: Freedom
 
 <p align="justify">
  This board offers 2 16bits ADCs and 2 12bit DACs and is programmable in a very similar way to the Arduino board.
-The first deliverable PCB boards have been produced in a double-layer format (because this is the standard format available by professional PCB board fabrication companies) but a single layer version for DIY is also available - along with a &#8220;mini&#8221; version built on perfboard and suitable for use on a fast prototype board (standard 0.1&#8217; spacing) and a surface-mount single layer version. All the designs for the fabrication of these boards are available in DipTrace format (DipTrace is a professional schematics/PCB board software, but a <a href="http://diptrace.com/download-diptrace"> free version </a>  is available for personal use  - which is what we used for the development), Gerber files can be exported for fabrication of professional=quality boards.
+The first deliverable PCB boards have been produced in a double-layer format (because this is the standard format available by professional PCB board fabrication companies) but a single layer version for DIY is also available - along with a &#8220;mini&#8221; version built on perfboard and suitable for use on a fast prototype board (standard 0.1&#8217; spacing) and a surface-mount single layer version. All the designs for the fabrication of these boards are available in DipTrace format (DipTrace is a professional schematics/PCB board software, but a <a href="http://diptrace.com/download-diptrace"> free version </a>  is available for personal use  - which is what we used for the development), Gerber files can be exported for fabrication of professional quality boards.
 </p>
 
 <div style="text-align: center;">
