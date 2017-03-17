@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Statistical Physics | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/statistical-physics/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T00:52:31+00:00</updated>
+  <updated>2017-03-17T00:55:50+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -187,14 +187,16 @@ Fig. 7 shows one of the several iterations we built of the circuit for demonstra
 
   <div class="row" align="center">
   <p align="justify" style="font-size:90%">
-  Fig. 6: Circuit replacing the inductor by a sythetic gyrator circuit.  A detailed description of the circuit&#8217;s component values can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
+  Fig. 7-a: Circuit replacing the inductor by a sythetic gyrator circuit.  A detailed description of the circuit&#8217;s component values can be found in the great page: <a href="http://www.chuacircuits.com/">chuacircuits.com</a></p>
  </div>
 
 
   <div class="row" align="center">
+
       <div class="col-xs-6" style="text-align:center">
       <img align="center" class="img-responsive" src="/images/boxtest.jpg" width="300" />
       </div>
+
       <div class="col-xs-6" style="text-align:center">
       <img align="center" class="img-responsive" src="/images/atract.jpg" width="300" />
       </div>
@@ -202,7 +204,7 @@ Fig. 7 shows one of the several iterations we built of the circuit for demonstra
 
   <div class="row" align="center">
       <p align="justify" style="font-size:90%">
-      Fig. 6: The circuit in action! Plot of the time-series $V_1$ and $V_2$ across the capacitors and against each other in the attractor&#8217;s regime.</p>
+      Fig. 7-b: The circuit in action! Plot of the time-series $V_1$ and $V_2$ across the capacitors and against each other in the attractor&#8217;s regime.</p>
   </div>
 
 </div>
