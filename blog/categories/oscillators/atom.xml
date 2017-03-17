@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Oscillators | OpenPlant Electrophysiology]]></title>
   <link href="http://calugo.github.io//blog/categories/oscillators/atom.xml" rel="self"/>
   <link href="http://calugo.github.io//"/>
-  <updated>2017-03-17T00:31:54+00:00</updated>
+  <updated>2017-03-17T00:38:46+00:00</updated>
   <id>http://calugo.github.io//</id>
   <author>
     <name><![CDATA[Franken-Plant Team]]></name>
@@ -228,7 +228,7 @@ So that is it!, that is how one builds a Lorenz-like circuit!, What else then?  
 
 <p align="left" style="font-style:italic; color:#290066;">Excitable systems: cells, plants and mechanics.</p>
 
-<p align="justify">Integrate and fire systems are characterised by a set of features such as the existence of an intrinsic threshold in the oscillator against external perturbations, an &#8216;all or nothing&#8217; response to stimuli (unless a threshold is reached) and a refractory period over which the system is not able to be triggered again unless it has reached its rest configuration.</p>
+<p align="justify">Integrate and fire systems are characterised by a set of features such as the existence of an intrinsic threshold in the oscillator against external perturbations, an &#8216;all or nothing&#8217; response to stimuli (unless a threshold is reached) and a refractory period over which the system is not able to be triggered again unless it has reached its rest or basal configuration.</p>
 
 <p align="justify">
 Cells such as neurons or myocytes, circuits and some plants can be modelled to some extent by intergrate and fire dynamics as they  spike after a sustained external input. Which make the attempt to understand such dynamics locally and globally a beautiful endeavour.</p>
@@ -239,26 +239,27 @@ For the case of plants, Venus Flytraps and Mimosas to mention some, have driven 
 <p align="justify"> In our case we are interested in studying the resultant rhythms by coupling the plants with electonic circuits triggering electrical stimuli which then difusses to other plants or in a loop, by doing so we can  study synchronisation and its relation to the signalling network topolgy or circadian cycles.</p>
 
 <p align="justify">
-Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis, as exposed earlier, with the aid of mathematical modelling, operating in several levels such as genetical, regulatory, metabolic ()<a href="#Wagner">[1]</a>) or  environmental, and assist SynBio researchers in testing the robustness and evolvability of engineered phenotypes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.
-</p>
+Electrophysiology can also assist us to understand certain aspects of the innovation in the phenotype genesis, as exposed earlier, with the aid of mathematical modelling, operating in several levels such as genetical, regulatory, metabolic <a href="#Wagner">[1]</a>) or  environmental, and assist SynBio researchers in testing the robustness and evolvability of engineered phenotypes. The full description, results and implementation of our devices is or will be available somewhere else on this project page.</p>
 
+<p>
 Finally we strongly recommend to the interested reader with some mathematical literacy the series of articles about circuits [\[2\]](#chaosI) and [\[3\]](#chaosII) about linearity and non-linearity of circuits and the Chua system.
+</p>
 
 ## References.
 
-1. <a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a>
+<a id="Circuits"></a><a href="http://dx.doi.org/10.1063/1.455970">1. Nikola Samardzija, Larry D. Greller and E. Wasserman, J. Chem. Phys. 90, 2296 (1989)</a>
 
-2. <a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
+<a id="chaosI"></a><a href="http://www.ee.berkeley.edu/~chua/papers/Kennedy93.pdf">2. M. P. Kennedy Three steps to chaos. I. Evolution
 </a>
 
-3. <a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua&#8217;s circuit primer</a>
+<a id="chaosII"></a><a href="http://www.eecs.berkeley.edu/~chua/papers/Kennedy93b.pdf">3. M. P. Kennedy Three steps to chaos. II. A Chua&#8217;s circuit primer</a>
 
-4. <a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
+<a id="plants"></a><a href="http://dx.doi.org/10.1098/rsif.2015.0598">4. Q. Guo et al.J. R. Soc. Interface (2015)
 </a>
 
-5. <a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
+<a id="Wagner"></a><a href="http://www.ieu.uzh.ch/wagner/papers/Wagner_TIGS_2011.pdf">5. Andreas Wagner, TIGS, 08, 397-410 (2011)</a>
 
-6. <a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
+<a id="chuas"></a><a href="http://www.chuacircuits.com/">6. Valentin Sidersky&#8217;s Chua&#8217;s circuits page</a>
 </div>
 ]]></content>
   </entry>
