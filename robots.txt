@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://calugo.github.io//sitemap.xml 
+Sitemap: https://calugo.github.io//sitemap.xml 
